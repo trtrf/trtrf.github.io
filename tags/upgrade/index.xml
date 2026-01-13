@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Upgrade on faŋtrəntrəŋ-pages</title>
+    <link>http://localhost:1313/tags/upgrade/</link>
+    <description>Recent content in Upgrade on faŋtrəntrəŋ-pages</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/upgrade/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Upgrade to Docsy 0.12.0 from 0.11.0</title>
+      <link>http://localhost:1313/blog/2025/0.12.0/</link>
+      <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2025/0.12.0/</guid>
+      <description>&lt;p&gt;Since we didn&amp;rsquo;t publish a release announcement for 0.12.0, I&amp;rsquo;m using this&#xA;opportunity to walk through the upgrade process from &lt;a href=&#34;http://localhost:1313/site/changelog/#v0.11.0&#34;&gt;0.11.0&lt;/a&gt; to &lt;a href=&#34;http://localhost:1313/site/changelog/#v0.12.0&#34;&gt;0.12.0&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;TL;DR:&lt;/strong&gt; The main breaking changes in Docsy &lt;a href=&#34;http://localhost:1313/site/changelog/#v0.12.0&#34;&gt;0.12.0&lt;/a&gt; stem from Hugo&amp;rsquo;s &lt;a href=&#34;https://gohugo.io/templates/new-templatesystem-overview/&#34;&gt;new&#xA;template system&lt;/a&gt;, which causes &lt;code&gt;layouts&lt;/code&gt; subfolder and filename changes.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;In this post you&amp;rsquo;ll walk through the upgrade process for:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#update-docsy&#34;&gt;Docsy&lt;/a&gt;&lt;/strong&gt;: &lt;a href=&#34;http://localhost:1313/site/changelog/#v0.11.0&#34;&gt;0.11.0&lt;/a&gt; → &lt;a href=&#34;http://localhost:1313/site/changelog/#v0.12.0&#34;&gt;0.12.0&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#update-hugo&#34;&gt;Hugo&lt;/a&gt;&lt;/strong&gt;: 0.136.2 → 0.147.5 &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;#update-nodejs&#34;&gt;Node&lt;/a&gt;&lt;/strong&gt;: LTS 20 → LTS 22 &lt;sup id=&#34;fnref1:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;&lt;div class=&#34;h4 alert-heading&#34; role=&#34;heading&#34;&gt;Note&lt;/div&gt;&#xA;&lt;p&gt;This post covers the common upgrade steps you&amp;rsquo;re likely to encounter. Your&#xA;project may include customizations that require additional adjustments. We&#xA;recommend making these changes in a &lt;strong&gt;separate branch&lt;/strong&gt; and &lt;strong&gt;testing&#xA;thoroughly&lt;/strong&gt; before deploying to production.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tagging on faŋtrəntrəŋ-pages</title>
+    <link>http://localhost:1313/tags/tagging/</link>
+    <description>Recent content in Tagging on faŋtrəntrəŋ-pages</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/tagging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Taxonomy Support</title>
+      <link>http://localhost:1313/docs/content/taxonomy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/content/taxonomy/</guid>
+      <description>&lt;p&gt;Docsy supports Hugo &lt;a href=&#34;https://gohugo.io/content-management/taxonomies/&#34;&gt;taxonomies&lt;/a&gt; in its docs and blog section. You can see the&#xA;default layout and can test the behavior of the generated links on this page.&lt;/p&gt;&#xA;&lt;h2 id=&#34;terminology&#34;&gt;Terminology&lt;/h2&gt;&#xA;&lt;p&gt;To understand the usage of taxonomies you should understand the following&#xA;terminology:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Taxonomy&lt;/strong&gt;: a categorization that can be used to classify content - e.g.:&#xA;Tags, Categories, Projects, People&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Term&lt;/strong&gt;: a key within the taxonomy - e.g. within projects: Project A, Project&#xA;B&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Value&lt;/strong&gt;: a piece of content assigned to a term - e.g. a page of your site,&#xA;that belongs to a specific project&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

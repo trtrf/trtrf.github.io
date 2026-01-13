@@ -1,0 +1,794 @@
+<!doctype html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="en" class="no-js" data-theme-init>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)"  content="#000000">
+
+<style>
+  html { background: Canvas; color: CanvasText; }
+  @media (prefers-color-scheme: dark) {
+    html { background: #0b0d12; color: #e6e6e6; }
+  }
+  html[data-theme-init] * { transition: none !important; }
+</style>
+
+<script>
+  (function() {
+    const themeKey = 'td-color-theme';
+    const storedTheme = localStorage.getItem(themeKey);
+    let theme = storedTheme || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+
+    if (theme === 'auto') {
+      theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+
+    document.documentElement.setAttribute('data-bs-theme', theme);
+  })();
+</script>
+<meta name="robots" content="noindex, nofollow">
+
+
+<link rel="shortcut icon" href="/favicons/favicon.ico" >
+<link rel="apple-touch-icon" href="/favicons/apple-touch-icon-180x180.png" sizes="180x180">
+<link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicons/android-36x36.png" sizes="36x36">
+<link rel="icon" type="image/png" href="/favicons/android-48x48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="/favicons/android-72x72.png" sizes="72x72">
+<link rel="icon" type="image/png" href="/favicons/android-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
+<link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
+
+<title>Analytics, User Feedback, and SEO | faŋtrəntrəŋ-pages</title>
+<meta name="description" content="Add Google Analytics tracking to your site, collect user feedback and learn about the page description meta tag.">
+<meta property="og:url" content="http://localhost:1313/docs/content/feedback/">
+  <meta property="og:site_name" content="faŋtrəntrəŋ-pages">
+  <meta property="og:title" content="Analytics, User Feedback, and SEO">
+  <meta property="og:description" content="Add Google Analytics tracking to your site, collect user feedback and learn about the page description meta tag.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
+    <meta property="article:published_time" content="2019-06-05T00:00:00+00:00">
+    <meta property="article:modified_time" content="2019-06-05T00:00:00+00:00">
+
+  <meta itemprop="name" content="Analytics, User Feedback, and SEO">
+  <meta itemprop="description" content="Add Google Analytics tracking to your site, collect user feedback and learn about the page description meta tag.">
+  <meta itemprop="datePublished" content="2019-06-05T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2019-06-05T00:00:00+00:00">
+  <meta itemprop="wordCount" content="1108">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Analytics, User Feedback, and SEO">
+  <meta name="twitter:description" content="Add Google Analytics tracking to your site, collect user feedback and learn about the page description meta tag.">
+<link href="/scss/main.css" rel="stylesheet">
+<script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+  crossorigin="anonymous"></script>
+
+  </head>
+  <body class="td-page">
+    <header>
+      <nav class="td-navbar js-navbar-scroll" data-bs-theme="dark">
+<div class="td-navbar-container container-fluid flex-column flex-md-row">
+  <a class="navbar-brand" href="/"><span class="navbar-brand__logo navbar-logo"><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500" style="enable-background:new 0 0 500 500"><g><path style="fill:#fff" d="M116.8525 421.9722c-5.7041.0-10.3442-4.3127-10.3442-9.6129V88.183c0-5.3002 4.6401-9.6117 10.3442-9.6117H320.858c3.0347.0 9.3959.5498 11.7506 2.6302l.3545.3442 58.905 63.2912c2.3101 2.491 2.9202 8.4928 2.9202 11.3184v256.2039c0 5.3002-4.6407 9.6129-10.3436 9.6129H116.8525z"/><g><g><g><path style="fill:#767676" d="M384.4445 423.2066H116.852c-6.3839.0-11.5786-4.8658-11.5786-10.8474V88.1831c0-5.9804 5.1947-10.8461 11.5786-10.8461h204.0062c.377.0 9.2786.0329 12.568 2.9389l.3947.3833 58.9508 63.337c3.2135 3.4652 3.2514 11.7924 3.2514 12.1593v256.2036C396.0231 418.3408 390.8284 423.2066 384.4445 423.2066zM116.5079 411.9189c.0848.0278.1999.0531.3441.0531h267.5925c.1442.0.2581-.0253.3441-.0531V156.1556c-.0076-.9033-.3593-3.7347-.7034-5.0037l-57.6527-61.9416c-1.4651-.3176-4.4533-.6389-5.5742-.6389H116.852c-.143.0-.2594.024-.3441.0531V411.9189zm267.4533-261.149zM327.0321 89.371v.0013V89.371z"/></g></g></g><g><g><path style="fill:#5b7fc0" d="M189.0874 210.1754l.0012-.0012c7.7751.0012 15.0295 4.1862 18.932 10.9234 1.9177 3.3159 2.9305 7.1011 2.9293 10.9378.0 5.8394-2.2733 11.3304-6.4032 15.4604-4.1288 4.1288-9.6186 6.4032-15.458 6.4032s-11.328-2.2733-15.458-6.4032-6.4032-9.6186-6.4056-15.4628c.0012-6.025 2.454-11.4897 6.4116-15.4473C177.5953 212.627 183.0601 210.1742 189.0874 210.1754zm7.993 21.8576c.0012-1.4042-.3687-2.7868-1.063-3.9887-1.4293-2.4684-4.0833-3.9995-6.9299-4.0019-4.4077.0024-7.993 3.5877-7.993 7.993.0 2.1356.832 4.1431 2.3427 5.6539 1.5083 1.5083 3.5159 2.3403 5.6503 2.3415 2.1356.0 4.1443-.8308 5.6539-2.3403S197.0816 234.1722 197.0804 232.033z"/><path style="opacity:.3;fill:#fff" d="M189.0898 210.176c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3136 2.9377 7.0988 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8066-21.8612-21.8613.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 212.6276 183.0612 210.176 189.0898 210.176zm7.9941 21.8612c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 236.239 197.0839 234.2399 197.0839 232.0372z"/><g><defs><path id="SVGID_1_" d="M194.7376 237.6875c-1.4461 1.4461-3.4452 2.3439-5.6479 2.3439-4.4077-.0024-7.9918-3.5865-7.9942-7.9942.0024-4.4125 3.5937-7.999 7.9942-7.9942 2.8443.0 5.497 1.5323 6.924 3.9983.6991 1.2067 1.0702 2.5881 1.0702 3.9959C197.0839 234.2399 196.1861 236.239 194.7376 237.6875z"/></defs><clipPath id="SVGID_2_"><use xlink:href="#SVGID_1_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_2_);fill:#fff" d="M190.0704 225.0237c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9546.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.663-2.8588-6.116.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C193.7885 225.7247 191.9774 225.0237 190.0704 225.0237z"/><path style="opacity:.13;clip-path:url(#SVGID_2_);fill:#020202" d="M190.0704 225.0237c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9546.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.663-2.8588-6.116.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C193.7885 225.7247 191.9774 225.0237 190.0704 225.0237z"/></g><g><defs><path id="SVGID_3_" d="M189.0898 210.176c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3136 2.9377 7.0988 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8066-21.8612-21.8613.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 212.6276 183.0612 210.176 189.0898 210.176zm7.9941 21.8612c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 236.239 197.0839 234.2399 197.0839 232.0372z"/></defs><clipPath id="SVGID_4_"><use xlink:href="#SVGID_3_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_4_);fill:#5b7fc0" d="M172.6595 215.6045c-3.96 3.96-6.4116 9.4235-6.4116 15.452-.0024 12.0547 9.8066 21.8636 21.8613 21.8612 12.0547.0024 21.8636-9.797 21.8613-21.8612.0024-3.8475-1.0151-7.6326-2.9353-10.9462-3.8977-6.7324-11.1497-10.9151-18.926-10.9151C182.0806 209.1953 176.6171 211.647 172.6595 215.6045z"/></g></g><rect x="198.8952" y="225.1043" style="fill:#5b7fc0" width="122.6266" height="13.8671"/></g><g><path style="fill:#d95140" d="M189.0874 155.7611l.0012-.0012c7.7751.0012 15.0295 4.1862 18.932 10.9234 1.9177 3.3159 2.9305 7.1011 2.9293 10.9378.0 5.8394-2.2733 11.3304-6.4032 15.4604-4.1288 4.1288-9.6186 6.4032-15.458 6.4032s-11.328-2.2733-15.458-6.4032-6.4032-9.6186-6.4056-15.4628c.0012-6.0249 2.454-11.4897 6.4116-15.4473C177.5953 158.2128 183.0601 155.7599 189.0874 155.7611zm7.993 21.8577c.0012-1.4042-.3687-2.7868-1.063-3.9887-1.4293-2.4684-4.0833-3.9995-6.9299-4.0019-4.4077.0024-7.993 3.5877-7.993 7.993.0 2.1356.832 4.1431 2.3427 5.6539 1.5083 1.5083 3.5159 2.3403 5.6503 2.3415 2.1356.0 4.1443-.8308 5.6539-2.3403C196.2508 181.7667 197.0816 179.758 197.0804 177.6188z"/><path style="opacity:.3;fill:#fff" d="M189.0898 155.7617c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3135 2.9377 7.0987 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8066-21.8612-21.8613.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 158.2134 183.0612 155.7617 189.0898 155.7617zm7.9941 21.8613c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 181.8248 197.0839 179.8256 197.0839 177.623z"/><g><defs><path id="SVGID_5_" d="M194.7376 183.2733c-1.4461 1.4461-3.4452 2.3439-5.6479 2.3439-4.4077-.0024-7.9918-3.5865-7.9942-7.9942.0024-4.4125 3.5937-7.9989 7.9942-7.9942 2.8443.0 5.497 1.5323 6.924 3.9983.6991 1.2067 1.0702 2.5881 1.0702 3.9959C197.0839 179.8256 196.1861 181.8248 194.7376 183.2733z"/></defs><clipPath id="SVGID_6_"><use xlink:href="#SVGID_5_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_6_);fill:#fff" d="M190.0704 170.6095c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9546.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.663-2.8588-6.116.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C193.7885 171.3104 191.9774 170.6095 190.0704 170.6095z"/><path style="opacity:.13;clip-path:url(#SVGID_6_);fill:#020202" d="M190.0704 170.6095c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9546.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.663-2.8588-6.116.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C193.7885 171.3104 191.9774 170.6095 190.0704 170.6095z"/></g><g><defs><path id="SVGID_7_" d="M189.0898 155.7617c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3135 2.9377 7.0987 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8066-21.8612-21.8613.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 158.2134 183.0612 155.7617 189.0898 155.7617zm7.9941 21.8613c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 181.8248 197.0839 179.8256 197.0839 177.623z"/></defs><clipPath id="SVGID_8_"><use xlink:href="#SVGID_7_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_8_);fill:#d95140" d="M172.6595 161.1903c-3.96 3.96-6.4116 9.4235-6.4116 15.452-.0024 12.0547 9.8066 21.8636 21.8613 21.8613 12.0547.0024 21.8636-9.797 21.8613-21.8613.0024-3.8474-1.0151-7.6326-2.9353-10.9462-3.8977-6.7324-11.1497-10.9151-18.926-10.9151C182.0806 154.7811 176.6171 157.2327 172.6595 161.1903z"/></g><rect x="198.8952" y="170.69" style="fill:#d95140" width="122.6266" height="13.8671"/></g><g><g><path style="fill:#56a55c" d="M189.5379 264.6147l.0012-.0012c7.7751.0012 15.0294 4.1862 18.932 10.9235 1.9177 3.3159 2.9305 7.1011 2.9293 10.9378.0 5.8394-2.2733 11.3304-6.4032 15.4604-4.1288 4.1288-9.6186 6.4032-15.458 6.4032-5.8394.0-11.3281-2.2733-15.458-6.4032-4.13-4.13-6.4032-9.6186-6.4056-15.4628.0012-6.0249 2.454-11.4897 6.4116-15.4472C178.0458 267.0663 183.5105 264.6135 189.5379 264.6147zm7.993 21.8576c.0012-1.4042-.3687-2.7868-1.063-3.9887-1.4293-2.4684-4.0833-3.9995-6.9299-4.0019-4.4077.0024-7.993 3.5877-7.993 7.993.0 2.1356.832 4.1431 2.3427 5.6538 1.5083 1.5083 3.5159 2.3403 5.6503 2.3415 2.1356.0 4.1443-.8308 5.6539-2.3403C196.7013 290.6202 197.5321 288.6115 197.5309 286.4723z"/><path style="opacity:.3;fill:#fff" d="M189.5403 264.6153c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3135 2.9377 7.0987 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8065-21.8612-21.8613.0-6.0285 2.4516-11.492 6.4116-15.452C178.0482 267.0669 183.5117 264.6153 189.5403 264.6153zm7.9941 21.8612c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9941.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.6366 290.6783 197.5344 288.6792 197.5344 286.4765z"/><g><defs><path id="SVGID_9_" d="M195.1881 292.1268c-1.4461 1.4461-3.4452 2.3439-5.6479 2.3439-4.4077-.0024-7.9918-3.5865-7.9942-7.9942.0024-4.4125 3.5937-7.9989 7.9942-7.9941 2.8443.0 5.497 1.5323 6.924 3.9983.6991 1.2067 1.0702 2.5881 1.0702 3.9959C197.5344 288.6792 196.6366 290.6783 195.1881 292.1268z"/></defs><clipPath id="SVGID_10_"><use xlink:href="#SVGID_9_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_10_);fill:#fff" d="M190.5209 279.463c-4.4005-.0048-7.9918 3.5817-7.9942 7.9941.0011 1.9547.7088 3.7452 1.8782 5.1354-1.7446-1.4674-2.8575-3.6631-2.8588-6.1161.0024-4.4125 3.5936-7.999 7.9942-7.9941 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C194.239 280.164 192.4279 279.463 190.5209 279.463z"/><path style="opacity:.13;clip-path:url(#SVGID_10_);fill:#020202" d="M190.5209 279.463c-4.4005-.0048-7.9918 3.5817-7.9942 7.9941.0011 1.9547.7088 3.7452 1.8782 5.1354-1.7446-1.4674-2.8575-3.6631-2.8588-6.1161.0024-4.4125 3.5936-7.999 7.9942-7.9941 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C194.239 280.164 192.4279 279.463 190.5209 279.463z"/></g><g><defs><path id="SVGID_11_" d="M189.5403 264.6153c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3135 2.9377 7.0987 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8065-21.8612-21.8613.0-6.0285 2.4516-11.492 6.4116-15.452C178.0482 267.0669 183.5117 264.6153 189.5403 264.6153zm7.9941 21.8612c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9941.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.6366 290.6783 197.5344 288.6792 197.5344 286.4765z"/></defs><clipPath id="SVGID_12_"><use xlink:href="#SVGID_11_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_12_);fill:#56a55c" d="M173.11 270.0439c-3.96 3.96-6.4116 9.4235-6.4116 15.452-.0024 12.0547 9.8066 21.8636 21.8613 21.8613 12.0547.0024 21.8636-9.797 21.8613-21.8613.0024-3.8474-1.0151-7.6326-2.9353-10.9462-3.8977-6.7325-11.1497-10.9151-18.926-10.9151C182.5311 263.6346 177.0676 266.0863 173.11 270.0439z"/></g></g><rect x="199.3456" y="279.5436" style="fill:#56a55c" width="122.6266" height="13.8671"/></g><g><g><path style="fill:#f1bc42" d="M189.0874 318.7208l.0012-.0012c7.7751.0012 15.0295 4.1862 18.932 10.9234 1.9177 3.3159 2.9305 7.1011 2.9293 10.9378.0 5.8394-2.2733 11.3305-6.4032 15.4604-4.1288 4.1288-9.6186 6.4032-15.458 6.4032s-11.328-2.2733-15.458-6.4032-6.4032-9.6186-6.4056-15.4628c.0012-6.025 2.454-11.4897 6.4116-15.4472C177.5953 321.1724 183.0601 318.7196 189.0874 318.7208zm7.993 21.8576c.0012-1.4042-.3687-2.7868-1.063-3.9887-1.4293-2.4684-4.0833-3.9995-6.9299-4.0019-4.4077.0024-7.993 3.5877-7.993 7.993.0 2.1356.832 4.1431 2.3427 5.6539 1.5083 1.5083 3.5159 2.3403 5.6503 2.3415 2.1356.0 4.1443-.8308 5.6539-2.3403S197.0816 342.7176 197.0804 340.5784z"/><path style="opacity:.3;fill:#fff" d="M189.0898 318.7214c7.7763.0 15.0283 4.1826 18.926 10.915 1.9201 3.3136 2.9377 7.0988 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8612-12.0547.0024-21.8636-9.8065-21.8612-21.8612.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 321.173 183.0612 318.7214 189.0898 318.7214zm7.9941 21.8612c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 344.7844 197.0839 342.7853 197.0839 340.5826z"/><g><defs><path id="SVGID_13_" d="M194.7376 346.2329c-1.4461 1.4461-3.4452 2.3439-5.6479 2.3439-4.4077-.0024-7.9918-3.5865-7.9942-7.9942.0024-4.4125 3.5937-7.999 7.9942-7.9942 2.8443.0 5.497 1.5323 6.924 3.9983.6991 1.2067 1.0702 2.5881 1.0702 3.9959C197.0839 342.7853 196.1861 344.7844 194.7376 346.2329z"/></defs><clipPath id="SVGID_14_"><use xlink:href="#SVGID_13_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_14_);fill:#fff" d="M190.0704 333.5691c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9547.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.6631-2.8588-6.1161.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0834 6.1218 2.8788C193.7885 334.2701 191.9774 333.5691 190.0704 333.5691z"/><path style="opacity:.13;clip-path:url(#SVGID_14_);fill:#020202" d="M190.0704 333.5691c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9547.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.6631-2.8588-6.1161.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0834 6.1218 2.8788C193.7885 334.2701 191.9774 333.5691 190.0704 333.5691z"/></g><g><defs><path id="SVGID_15_" d="M189.0898 318.7214c7.7763.0 15.0283 4.1826 18.926 10.915 1.9201 3.3136 2.9377 7.0988 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8612-12.0547.0024-21.8636-9.8065-21.8612-21.8612.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 321.173 183.0612 318.7214 189.0898 318.7214zm7.9941 21.8612c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 344.7844 197.0839 342.7853 197.0839 340.5826z"/></defs><clipPath id="SVGID_16_"><use xlink:href="#SVGID_15_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_16_);fill:#f1bc42" d="M172.6595 324.15c-3.96 3.96-6.4116 9.4235-6.4116 15.452-.0024 12.0547 9.8066 21.8636 21.8613 21.8612 12.0547.0024 21.8636-9.797 21.8613-21.8612.0024-3.8474-1.0151-7.6327-2.9353-10.9462-3.8977-6.7324-11.1497-10.9151-18.926-10.9151C182.0806 317.7407 176.6171 320.1924 172.6595 324.15z"/></g></g><rect x="198.8952" y="333.6497" style="fill:#f1bc42" width="122.6266" height="13.8671"/></g></g></svg></span><span class="navbar-brand__name">faŋtrəntrəŋ-pages</span></a>
+  <div class="td-navbar-nav-scroll td-navbar-nav-scroll--indicator" id="main_navbar">
+    <div class="scroll-indicator scroll-left"></div>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="/about/"><span>About</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="/docs/"><span>Docs</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/blog/"><span>Blog</span></a>
+      </li>
+      <li class="nav-item td-navbar__light-dark-menu">
+        <div class="td-light-dark-menu dropdown"><svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="check2" viewBox="0 0 16 16">
+    <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+  </symbol>
+  <symbol id="circle-half" viewBox="0 0 16 16">
+    <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+  </symbol>
+  <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+    <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+    <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+  </symbol>
+  <symbol id="sun-fill" viewBox="0 0 16 16">
+    <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+  </symbol>
+</svg>
+<button class="btn btn-link nav-link dropdown-toggle d-flex align-items-center"
+        id="bd-theme"
+        type="button"
+        aria-expanded="false"
+        data-bs-toggle="dropdown"
+        aria-label="Toggle theme (auto)">
+  <svg class="bi my-1 theme-icon-active"><use href="#circle-half"></use></svg>
+</button>
+<ul class="dropdown-menu" aria-labelledby="bd-theme">
+  <li>
+    <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+      <svg class="bi me-2 opacity-50"><use href="#sun-fill"></use></svg>
+      Light
+      <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+    </button>
+  </li>
+  <li>
+    <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+      <svg class="bi me-2 opacity-50"><use href="#moon-stars-fill"></use></svg>
+      Dark
+      <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+    </button>
+  </li>
+  <li>
+    <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
+      <svg class="bi me-2 opacity-50"><use href="#circle-half"></use></svg>
+      Auto
+      <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+    </button>
+  </li>
+</ul>
+</div>
+
+      </li>
+      </ul>
+    <div class="scroll-indicator scroll-right"></div>
+  </div>
+  <div class="d-none d-lg-block td-navbar__search">
+    <div class="td-search">
+  <div class="td-search__icon"></div>
+  <input type="search" class="td-search__input form-control td-search-input" placeholder="Search this site…" aria-label="Search this site…" autocomplete="off">
+</div>
+  </div>
+</div>
+</nav>
+    </header>
+    <div class="container-fluid td-outer">
+      <div class="td-main" data-bs-spy="scroll" data-bs-target=".td-toc" data-bs-root-margin="0px 0px -10%">
+        <div class="row flex-xl-nowrap">
+          <aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
+            <div id="td-sidebar-menu" class="td-sidebar__inner">
+  <form class="td-sidebar__search d-flex align-items-center">
+    <div class="td-search">
+  <div class="td-search__icon"></div>
+  <input type="search" class="td-search__input form-control td-search-input" placeholder="Search this site…" aria-label="Search this site…" autocomplete="off">
+</div>
+    <button class="btn btn-link td-sidebar__toggle" type="button" data-bs-toggle="collapse" data-bs-target="#td-section-nav" aria-controls="td-section-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    </button>
+  </form>
+  <nav class="td-sidebar-nav collapse foldable-nav" id="td-section-nav" data-sidebar-root-id="/docs/content/">
+    <ul class="td-sidebar-nav__section pe-md-3 ul-0">
+      <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-docscontent-li">
+    <a href="/docs/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-docscontent"><span class=" td-sidebar-root-up-icon">Content and Customization</span></a>
+    <ul class="ul-1">
+      <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docscontentadding-content-li">
+    <input type="checkbox" id="m-docscontentadding-content-check"/>
+    <label for="m-docscontentadding-content-check"><a href="/docs/content/adding-content/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docscontentadding-content"><span class="">Adding Content</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docscontentlookandfeel-li">
+    <input type="checkbox" id="m-docscontentlookandfeel-check"/>
+    <label for="m-docscontentlookandfeel-check"><a href="/docs/content/lookandfeel/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docscontentlookandfeel"><span class="">Look and Feel</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docscontentnavigation-li">
+    <input type="checkbox" id="m-docscontentnavigation-check"/>
+    <label for="m-docscontentnavigation-check"><a href="/docs/content/navigation/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docscontentnavigation"><span class="">Navigation and Menus</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docscontentsearch-li">
+    <input type="checkbox" id="m-docscontentsearch-check"/>
+    <label for="m-docscontentsearch-check"><a href="/docs/content/search/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docscontentsearch"><span class="">Search</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docscontentversioning-li">
+    <input type="checkbox" id="m-docscontentversioning-check"/>
+    <label for="m-docscontentversioning-check"><a href="/docs/content/versioning/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docscontentversioning"><span class="">Doc Versioning</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docscontentshortcodes-li">
+    <input type="checkbox" id="m-docscontentshortcodes-check"/>
+    <label for="m-docscontentshortcodes-check"><a href="/docs/content/shortcodes/" title="Docsy Shortcodes" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docscontentshortcodes"><span class="">Shortcodes</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docscontenticonsimages-li">
+    <input type="checkbox" id="m-docscontenticonsimages-check"/>
+    <label for="m-docscontenticonsimages-check"><a href="/docs/content/iconsimages/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docscontenticonsimages"><span class="">Logos and Images</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docscontentprint-li">
+    <input type="checkbox" id="m-docscontentprint-check"/>
+    <label for="m-docscontentprint-check"><a href="/docs/content/print/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docscontentprint"><span class="">Print Support</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-docscontentfeedback-li">
+    <input type="checkbox" id="m-docscontentfeedback-check" checked/>
+    <label for="m-docscontentfeedback-check"><a href="/docs/content/feedback/" class="align-left ps-0  active td-sidebar-link td-sidebar-link__page" id="m-docscontentfeedback"><span class="td-sidebar-nav-active-item">Analytics, User Feedback, and SEO</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docscontentrepository-links-li">
+    <input type="checkbox" id="m-docscontentrepository-links-check"/>
+    <label for="m-docscontentrepository-links-check"><a href="/docs/content/repository-links/" title="Repository Links and other page information" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docscontentrepository-links"><span class="">Repo links and page info</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docscontenttaxonomy-li">
+    <input type="checkbox" id="m-docscontenttaxonomy-check"/>
+    <label for="m-docscontenttaxonomy-check"><a href="/docs/content/taxonomy/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docscontenttaxonomy"><span class="">Taxonomy Support</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docscontentdiagrams-and-formulae-li">
+    <input type="checkbox" id="m-docscontentdiagrams-and-formulae-check"/>
+    <label for="m-docscontentdiagrams-and-formulae-check"><a href="/docs/content/diagrams-and-formulae/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docscontentdiagrams-and-formulae"><span class="">Diagrams and Formulae</span></a></label>
+    
+  </li>
+    </ul>
+  </li>
+    </ul>
+  </nav>
+</div>
+          </aside>
+          <aside class="d-none d-xl-block col-xl-2 td-sidebar-toc d-print-none">
+            <div class="td-page-meta ms-2 pb-1 pt-2 mb-0">
+<a href="https://github.com/google/docsy/tree/main/docsy.dev/C:%5chugo%5ccloud%5ccontent%5cdocs%5ccontent%5cfeedback.md" class="td-page-meta--view td-page-meta__view" target="_blank" rel="noopener"><i class="fa-solid fa-file-lines fa-fw"></i> View page source</a>
+  <a href="https://github.com/google/docsy/edit/main/docsy.dev/C:%5chugo%5ccloud%5ccontent%5cdocs%5ccontent%5cfeedback.md" class="td-page-meta--edit td-page-meta__edit" target="_blank" rel="noopener"><i class="fa-solid fa-pen-to-square fa-fw"></i> Edit this page</a>
+  <a href="https://github.com/google/docsy/new/main/docsy.dev/C:/hugo/cloud/content/docs/content?filename=change-me.md&amp;value=---%0Atitle%3A&#43;%22Long&#43;Page&#43;Title%22%0AlinkTitle%3A&#43;%22Short&#43;Nav&#43;Title%22%0Aweight%3A&#43;100%0Adescription%3A&#43;%3E-%0A&#43;&#43;&#43;&#43;&#43;Page&#43;description&#43;for&#43;heading&#43;and&#43;indexes.%0A---%0A%0A%23%23&#43;Heading%0A%0AEdit&#43;this&#43;template&#43;to&#43;create&#43;your&#43;new&#43;page.%0A%0A%2A&#43;Give&#43;it&#43;a&#43;good&#43;name%2C&#43;ending&#43;in&#43;%60.md%60&#43;-&#43;e.g.&#43;%60getting-started.md%60%0A%2A&#43;Edit&#43;the&#43;%22front&#43;matter%22&#43;section&#43;at&#43;the&#43;top&#43;of&#43;the&#43;page&#43;%28weight&#43;controls&#43;how&#43;its&#43;ordered&#43;amongst&#43;other&#43;pages&#43;in&#43;the&#43;same&#43;directory%3B&#43;lowest&#43;number&#43;first%29.%0A%2A&#43;Add&#43;a&#43;good&#43;commit&#43;message&#43;at&#43;the&#43;bottom&#43;of&#43;the&#43;page&#43;%28%3C80&#43;characters%3B&#43;use&#43;the&#43;extended&#43;description&#43;field&#43;for&#43;more&#43;detail%29.%0A%2A&#43;Create&#43;a&#43;new&#43;branch&#43;so&#43;you&#43;can&#43;preview&#43;your&#43;new&#43;file&#43;and&#43;request&#43;a&#43;review&#43;via&#43;Pull&#43;Request.%0A" class="td-page-meta--child td-page-meta__child" target="_blank" rel="noopener"><i class="fa-solid fa-pen-to-square fa-fw"></i> Create child page</a>
+  <a href="https://github.com/google/docsy/issues/new?title=Analytics,%20User%20Feedback,%20and%20SEO" class="td-page-meta--issue td-page-meta__issue" target="_blank" rel="noopener"><i class="fa-solid fa-list-check fa-fw"></i> Create documentation issue</a>
+  <a href="https://github.com/google/docsy/issues/new" class="td-page-meta--project td-page-meta__project-issue" target="_blank" rel="noopener"><i class="fa-solid fa-list-check fa-fw"></i> Create project issue</a>
+  <a id="print" href="/_print/docs/content/"><i class="fa-solid fa-print fa-fw"></i> Print entire section</a>
+
+</div>
+
+            <div class="td-toc" data-proofer-ignore>
+<div class="td-toc-title">
+      <span class="td-toc-title__text">On this page</span>
+      <a class="td-toc-title__link" title="Top of page" href="#"></a>
+    </div>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#adding-analytics">Adding Analytics</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#setup">Setup</a></li>
+      </ul>
+    </li>
+    <li><a href="#user-feedback">User Feedback</a>
+      <ul>
+        <li><a href="#how-is-this-data-useful">How is this data useful?</a></li>
+        <li><a href="#setup-1">Setup</a></li>
+        <li><a href="#access-the-feedback-data">Access the feedback data</a></li>
+        <li><a href="#disable-feedback-on-a-single-page">Disable feedback on a single page</a></li>
+        <li><a href="#disable-feedback-on-all-pages">Disable feedback on all pages</a></li>
+      </ul>
+    </li>
+    <li><a href="#add-a-contact-form-with-fabform">Add a contact form with Fabform</a></li>
+    <li><a href="#search-engine-optimization-meta-tags">Search Engine Optimization meta tags</a></li>
+  </ul>
+</nav>
+  </div>
+
+            <div class="taxonomy taxonomy-terms-cloud taxo-categories">
+      <h5 class="taxonomy-title">Categories</h5>
+      <ul class="taxonomy-terms">
+        <li><a class="taxonomy-term" href="http://localhost:1313/categories/taxonomies/" data-taxonomy-term="taxonomies"><span class="taxonomy-label">Taxonomies</span><span class="taxonomy-count">1</span></a></li>
+        </ul>
+    </div>
+  <div class="taxonomy taxonomy-terms-cloud taxo-tags">
+      <h5 class="taxonomy-title">Tags</h5>
+      <ul class="taxonomy-terms">
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/labelling/" data-taxonomy-term="labelling"><span class="taxonomy-label">Labelling</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/release/" data-taxonomy-term="release"><span class="taxonomy-label">Release</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/structuring-content/" data-taxonomy-term="structuring-content"><span class="taxonomy-label">Structuring Content</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/tagging/" data-taxonomy-term="tagging"><span class="taxonomy-label">Tagging</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/upgrade/" data-taxonomy-term="upgrade"><span class="taxonomy-label">Upgrade</span><span class="taxonomy-count">1</span></a></li>
+        </ul>
+    </div>
+  
+
+          </aside>
+          <main class="col-12 col-md-9 col-xl-8 ps-md-5" role="main">
+            
+  
+
+            <nav aria-label="breadcrumb" class="td-breadcrumbs">
+  <ol class="breadcrumb">
+  <li class="breadcrumb-item">
+    <a href="/docs/">Docs</a></li>
+  <li class="breadcrumb-item">
+    <a href="/docs/content/">Content and Customization</a></li>
+  <li class="breadcrumb-item active" aria-current="page">
+    Analytics, User Feedback, and SEO</li>
+  </ol>
+</nav>
+<div class="td-content">
+	<h1>Analytics, User Feedback, and SEO</h1>
+	<div class="lead">Add Google Analytics tracking to your site, collect user feedback and learn about the page description meta tag.</div>
+	<header class="article-meta">
+		
+</header>
+	<h2 id="adding-analytics">Adding Analytics</h2>
+<p>The Docsy theme builds upon <a href="https://gohugo.io/templates/embedded/#google-analytics">Hugo&rsquo;s support for Google Analytics</a>,
+which Hugo provides through <a href="https://gohugo.io/templates/embedded/">embedded templates</a>. Once you set up analytics as
+described below, usage information for your site (such as page views) is sent to
+your <a href="https://analytics.google.com/analytics/web/">Google Analytics</a> account.</p>
+<h3 id="prerequisites">Prerequisites</h3>
+<p>You will need an <strong>analytics ID</strong> for your website before proceeding
+(technically it&rsquo;s called a measurement ID or property ID but we&rsquo;ll use the term
+&ldquo;analytics ID&rdquo; in this guide). If you don&rsquo;t have one, see the <strong>How to get
+started</strong> section of <a href="https://support.google.com/analytics/answer/1042508">Introducing Google Analytics 4 (GA4)</a>.</p>
+<div class="alert alert-primary" role="alert"><div class="h4 alert-heading" role="heading">Tip</div>
+<p>Your project&rsquo;s <strong>analytics ID</strong> is a string that starts with <code>G-</code> (a GA4
+measurement ID) or <code>UA-</code> (a universal analytics property ID).</p>
+</div>
+<h3 id="setup">Setup</h3>
+<p>Enable Google Analytics by adding your project&rsquo;s analytics ID to the site
+configuration file. For details, see <a href="https://gohugo.io/templates/embedded/#configure-google-analytics">Configure Google Analytics</a>.</p>
+<div class="alert alert-warning" role="alert"><div class="h4 alert-heading" role="heading">Deprecation note and warning</div>
+<!-- Remove this warning once the Hugo docs have been updated to include it. -->
+<p>While you can configure your project&rsquo;s analytics ID by setting either the
+top-level <code>googleAnalytics</code> config parameter or <code>services.googleAnalytics.id</code>,
+<strong><code>googleAnalytics</code> was <a href="https://github.com/gohugoio/hugo/releases/tag/v0.120.0">deprecated in Hugo 0.120.0</a></strong> and will be
+removed in a future release.</p>
+<p><strong>Do not define both parameters,</strong> otherwise this can result in <a href="https://github.com/google/docsy/issues/921">unexpected
+behavior</a>. For details, see <a href="https://discourse.gohugo.io/t/config-is-services-googleanalytics-id-an-alias-for-googleanalytics/39469">Is services.googleAnalytics.id an alias for
+googleAnalytics</a>.</p>
+</div>
+<div class="alert alert-primary" role="alert"><div class="h4 alert-heading" role="heading">Production-only feature!</div>
+<p>Analytics are enabled <em>only</em> for <strong>production</strong> builds (called &ldquo;environments&rdquo; in
+Hugo terminology). For information about Hugo environments and how to set them,
+see the following <a href="https://discourse.gohugo.io/t/what-does-setting-hugo-env-to-production-do/24669/2">discussion</a>.</p>
+</div>
+<h2 id="user-feedback">User Feedback</h2>
+<p>By default Docsy puts a &ldquo;was this page helpful?&rdquo; feedback widget at the bottom
+of every documentation page, as shown in Figure 1.</p>
+<figure>
+  <img src="/images/feedback.png"
+       alt="The user is presented with the text 'Was this page helpful?' followed
+            by 'Yes' and 'No' buttons."/>
+  <figcaption>Figure 1. The feedback widget, outlined in red</figcaption>
+</figure>
+<p>After clicking <strong>Yes</strong> the user should see a response like Figure 2. You can
+<a href="#setup-1">configure</a> the response text in your project&rsquo;s <a href="https://gohugo.io/getting-started/configuration/#configuration-file">configuration file</a>.</p>
+<figure>
+  <img src="/images/yes.png"
+       alt="After clicking 'Yes' the widget responds with 'Glad to hear it!
+            Please tell us how we can improve.' and the second sentence is a link which,
+            when clicked, opens GitHub and lets the user create an issue on the
+            documentation repository."/>
+  <figcaption>
+    Figure 2. An example <b>Yes</b> response
+  </figcaption>
+</figure>
+<h3 id="how-is-this-data-useful">How is this data useful?</h3>
+<p>When you have a lot of documentation, and not enough time to update it all, you
+can use the &ldquo;was this page helpful?&rdquo; feedback data to help you decide which
+pages to prioritize. In general, start with the pages with a lot of pageviews
+and low ratings. &ldquo;Low ratings&rdquo; in this context means the pages where users are
+clicking <strong>No</strong> &mdash; the page wasn&rsquo;t helpful &mdash; more often than <strong>Yes</strong> &mdash; the
+page was helpful. You can also study your highly-rated pages to develop
+hypotheses around why your users find them helpful.</p>
+<p>In general, you can develop more certainty around what patterns your users find
+helpful or unhelpful if you introduce isolated changes in your documentation
+whenever possible. For example, suppose that you find a tutorial that no longer
+matches the product. You update the instructions, check back in a month, and the
+score has improved. You now have a correlation between up-to-date instructions
+and higher ratings. Or, suppose you study your highly-rated pages and discover
+that they all start with code samples. You find 10 other pages with their code
+samples at the bottom, move the samples to the top, and discover that each
+page&rsquo;s score has improved. Since this was the only change you introduced on each
+page, it&rsquo;s more reasonable to believe that your users find code samples at the
+top of pages helpful. The scientific method, applied to technical writing, in
+other words!</p>
+<h3 id="setup-1">Setup</h3>
+<div class="alert alert-warning" role="alert"><div class="h4 alert-heading" role="heading">Version note</div>
+<p>As of Docsy version <a href="/site/changelog/#v0.8.0">0.8.0</a>, feedback will be enabled whether
+<code>site.Config.Services.GoogleAnalytics.ID</code> is set or not. This supports the use
+case where analytics is configured outside of Docsy.</p>
+</div>
+<!-- prettier-ignore-start -->
+<ol>
+<li>
+<p>Open your project&rsquo;s Hugo configuration file.</p>
+</li>
+<li>
+<p>Set the response text that users see after clicking <strong>Yes</strong> or <strong>No</strong>.</p>
+
+    
+
+   <ul class="nav nav-tabs" id="tabs-4" role="tablist">
+  <li class="nav-item">
+      <button class="nav-link disabled"
+          id="tabs-04-00-tab" data-bs-toggle="tab" data-bs-target="#tabs-04-00" role="tab"
+          aria-controls="tabs-04-00" aria-selected="false">
+        Configuration file:
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link active"
+          id="tabs-04-01-tab" data-bs-toggle="tab" data-bs-target="#tabs-04-01" role="tab"
+          data-td-tp-persist="toml" aria-controls="tabs-04-01" aria-selected="true">
+        hugo.toml
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link"
+          id="tabs-04-02-tab" data-bs-toggle="tab" data-bs-target="#tabs-04-02" role="tab"
+          data-td-tp-persist="yaml" aria-controls="tabs-04-02" aria-selected="false">
+        hugo.yaml
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link"
+          id="tabs-04-03-tab" data-bs-toggle="tab" data-bs-target="#tabs-04-03" role="tab"
+          data-td-tp-persist="json" aria-controls="tabs-04-03" aria-selected="false">
+        hugo.json
+      </button>
+    </li>
+</ul>
+
+<div class="tab-content" id="tabs-4-content">
+    <div class="tab-body tab-pane fade"
+        id="tabs-04-00" role="tabpanel" aria-labelled-by="tabs-04-00-tab" tabindex="4">
+        
+    </div>
+    <div class="tab-body tab-pane fade show active"
+        id="tabs-04-01" role="tabpanel" aria-labelled-by="tabs-04-01-tab" tabindex="4">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">ui</span><span class="p">.</span><span class="nx">feedback</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">enable</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl"><span class="nx">yes</span> <span class="p">=</span> <span class="s1">&#39;Glad to hear it! Please &lt;a href=&#34;https://github.com/USERNAME/REPOSITORY/issues/new&#34;&gt;tell us how we can improve&lt;/a&gt;.&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">no</span> <span class="p">=</span> <span class="s1">&#39;Sorry to hear that. Please &lt;a href=&#34;https://github.com/USERNAME/REPOSITORY/issues/new&#34;&gt;tell us how we can improve&lt;/a&gt;.&#39;</span>
+</span></span></code></pre></div>
+    </div>
+    <div class="tab-body tab-pane fade"
+        id="tabs-04-02" role="tabpanel" aria-labelled-by="tabs-04-02-tab" tabindex="4">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">params</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">ui</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">feedback</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">enable</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">&#39;yes&#39;</span><span class="p">:</span><span class="w"> </span><span class="p">&gt;-</span><span class="sd">
+</span></span></span><span class="line"><span class="cl"><span class="sd">        Glad to hear it! Please &lt;a
+</span></span></span><span class="line"><span class="cl"><span class="sd">        href=&#34;https://github.com/USERNAME/REPOSITORY/issues/new&#34;&gt; tell us how we
+</span></span></span><span class="line"><span class="cl"><span class="sd">        can improve&lt;/a&gt;.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">&#39;no&#39;</span><span class="p">:</span><span class="w"> </span><span class="p">&gt;-</span><span class="sd">
+</span></span></span><span class="line"><span class="cl"><span class="sd">        Sorry to hear that. Please &lt;a
+</span></span></span><span class="line"><span class="cl"><span class="sd">        href=&#34;https://github.com/USERNAME/REPOSITORY/issues/new&#34;&gt; tell us how we
+</span></span></span><span class="line"><span class="cl"><span class="sd">        can improve&lt;/a&gt;.</span><span class="w">
+</span></span></span></code></pre></div>
+    </div>
+    <div class="tab-body tab-pane fade"
+        id="tabs-04-03" role="tabpanel" aria-labelled-by="tabs-04-03-tab" tabindex="4">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;params&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;ui&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;feedback&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&#34;enable&#34;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&#34;yes&#34;</span><span class="p">:</span> <span class="s2">&#34;Glad to hear it! Please &lt;a href=\&#34;https://github.com/USERNAME/REPOSITORY/issues/new\&#34;&gt; tell us how we can improve&lt;/a&gt;.&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&#34;no&#34;</span><span class="p">:</span> <span class="s2">&#34;Sorry to hear that. Please &lt;a href=\&#34;https://github.com/USERNAME/REPOSITORY/issues/new\&#34;&gt; tell us how we can improve&lt;/a&gt;.&#34;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>
+    </div>
+</div>
+
+</li>
+<li>
+<p>Save the edits to your configuration file.</p>
+</li>
+</ol>
+<p>By default, Docsy emits an event value of 100 when a user clicks &ldquo;yes&rdquo;. You can
+change this value by setting <code>params.ui.feedback.max_value</code> to a positive
+integer. Docsy uses 0 for &ldquo;no&rdquo; events.</p>
+<h3 id="access-the-feedback-data">Access the feedback data</h3>
+<p>Page feedback is reported to Google Analytics through <a href="https://support.google.com/analytics/answer/9322688">events</a>.</p>
+<div class="alert alert-warning" role="alert"><div class="h4 alert-heading" role="heading">Version note</div>
+<p>As of Docsy version <a href="/site/changelog/#v0.8.0">0.8.0</a>, page feedback is reported as custom <code>page_helpful</code>
+events, rather than <code>click</code> events.</p>
+</div>
+<p>This section assumes basic familiarity with Google Analytics. For example, you
+should know how to check pageviews over a certain time range and navigate
+between accounts if you have access to multiple documentation sites.</p>
+<ol>
+<li>Open Google Analytics.</li>
+<li>Open <strong>Reports</strong> &gt; <strong>Engagement</strong> &gt; <strong>Events</strong>.</li>
+<li>Click <strong>page_helpful</strong> in the events table. If there is no <code>page_helpful</code>
+event, then none have been registered for the selected period. Adjust the
+period as necessary.</li>
+</ol>
+<p>Note that you might be required to create a custom report if you&rsquo;d like better
+visualize individual data points (per page) along with average values.</p>
+<h3 id="disable-feedback-on-a-single-page">Disable feedback on a single page</h3>
+<p>Add the parameter <code>hide_feedback</code> to the page&rsquo;s front matter and set it to
+<code>true</code>.</p>
+ 
+   <ul class="nav nav-tabs" id="tabs-6" role="tablist">
+  <li class="nav-item">
+      <button class="nav-link disabled"
+          id="tabs-06-00-tab" data-bs-toggle="tab" data-bs-target="#tabs-06-00" role="tab"
+          aria-controls="tabs-06-00" aria-selected="false">
+        Front matter:
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link active"
+          id="tabs-06-01-tab" data-bs-toggle="tab" data-bs-target="#tabs-06-01" role="tab"
+          data-td-tp-persist="toml" aria-controls="tabs-06-01" aria-selected="true">
+        toml
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link"
+          id="tabs-06-02-tab" data-bs-toggle="tab" data-bs-target="#tabs-06-02" role="tab"
+          data-td-tp-persist="yaml" aria-controls="tabs-06-02" aria-selected="false">
+        yaml
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link"
+          id="tabs-06-03-tab" data-bs-toggle="tab" data-bs-target="#tabs-06-03" role="tab"
+          data-td-tp-persist="json" aria-controls="tabs-06-03" aria-selected="false">
+        json
+      </button>
+    </li>
+</ul>
+
+<div class="tab-content" id="tabs-6-content">
+    <div class="tab-body tab-pane fade"
+        id="tabs-06-00" role="tabpanel" aria-labelled-by="tabs-06-00-tab" tabindex="6">
+        
+    </div>
+    <div class="tab-body tab-pane fade show active"
+        id="tabs-06-01" role="tabpanel" aria-labelled-by="tabs-06-01-tab" tabindex="6">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="err">+++</span>
+</span></span><span class="line"><span class="cl"><span class="nx">hide_feedback</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl"><span class="err">+++</span>
+</span></span></code></pre></div>
+    </div>
+    <div class="tab-body tab-pane fade"
+        id="tabs-06-02" role="tabpanel" aria-labelled-by="tabs-06-02-tab" tabindex="6">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nn">---</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">hide_feedback</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nn">---</span><span class="w">
+</span></span></span></code></pre></div>
+    </div>
+    <div class="tab-body tab-pane fade"
+        id="tabs-06-03" role="tabpanel" aria-labelled-by="tabs-06-03-tab" tabindex="6">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;hide_feedback&#34;</span><span class="p">:</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>
+    </div>
+</div>
+
+<h3 id="disable-feedback-on-all-pages">Disable feedback on all pages</h3>
+<p>Set <code>params.ui.feedback.enable</code> to <code>false</code> in
+<code>hugo.toml</code>/<code>hugo.yaml</code>/<code>hugo.json</code>:</p>
+
+
+   <ul class="nav nav-tabs" id="tabs-7" role="tablist">
+  <li class="nav-item">
+      <button class="nav-link disabled"
+          id="tabs-07-00-tab" data-bs-toggle="tab" data-bs-target="#tabs-07-00" role="tab"
+          aria-controls="tabs-07-00" aria-selected="false">
+        Configuration file:
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link active"
+          id="tabs-07-01-tab" data-bs-toggle="tab" data-bs-target="#tabs-07-01" role="tab"
+          data-td-tp-persist="toml" aria-controls="tabs-07-01" aria-selected="true">
+        hugo.toml
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link"
+          id="tabs-07-02-tab" data-bs-toggle="tab" data-bs-target="#tabs-07-02" role="tab"
+          data-td-tp-persist="yaml" aria-controls="tabs-07-02" aria-selected="false">
+        hugo.yaml
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link"
+          id="tabs-07-03-tab" data-bs-toggle="tab" data-bs-target="#tabs-07-03" role="tab"
+          data-td-tp-persist="json" aria-controls="tabs-07-03" aria-selected="false">
+        hugo.json
+      </button>
+    </li>
+</ul>
+
+<div class="tab-content" id="tabs-7-content">
+    <div class="tab-body tab-pane fade"
+        id="tabs-07-00" role="tabpanel" aria-labelled-by="tabs-07-00-tab" tabindex="7">
+        
+    </div>
+    <div class="tab-body tab-pane fade show active"
+        id="tabs-07-01" role="tabpanel" aria-labelled-by="tabs-07-01-tab" tabindex="7">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">ui</span><span class="p">.</span><span class="nx">feedback</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">enable</span> <span class="p">=</span> <span class="kc">false</span>
+</span></span></code></pre></div>
+    </div>
+    <div class="tab-body tab-pane fade"
+        id="tabs-07-02" role="tabpanel" aria-labelled-by="tabs-07-02-tab" tabindex="7">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">params</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">ui</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">feedback</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">enable</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
+</span></span></span></code></pre></div>
+    </div>
+    <div class="tab-body tab-pane fade"
+        id="tabs-07-03" role="tabpanel" aria-labelled-by="tabs-07-03-tab" tabindex="7">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;params&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;ui&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;feedback&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&#34;enable&#34;</span><span class="p">:</span> <span class="kc">false</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>
+    </div>
+</div>
+
+<h2 id="add-a-contact-form-with-fabform">Add a contact form with Fabform</h2>
+<p>You can create a contact form for your site and collect your form submissions at
+<a href="https://fabform.io">fabform.io</a>. To use this feature, you first need to sign up
+for an account with Fabform. The following example shows how to add a simple
+form that collects the user&rsquo;s email address to your site source:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">form</span> <span class="na">action</span><span class="o">=</span><span class="s">&#34;https://fabform.io/f/{form-id}&#34;</span> <span class="na">method</span><span class="o">=</span><span class="s">&#34;post&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">label</span> <span class="na">for</span><span class="o">=</span><span class="s">&#34;email&#34;</span><span class="p">&gt;</span>Your Email<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">input</span> <span class="na">name</span><span class="o">=</span><span class="s">&#34;email&#34;</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;email&#34;</span> <span class="p">/&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">button</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;submit&#34;</span><span class="p">&gt;</span>Submit<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">form</span><span class="p">&gt;</span>
+</span></span></code></pre></div><h2 id="search-engine-optimization-meta-tags">Search Engine Optimization meta tags</h2>
+<p>To learn how to optimize your site for SEO see,
+<a href="https://developers.google.com/search/docs/beginner/seo-starter-guide">Search Engine Optimization (SEO) Starter Guide</a>.</p>
+<p>Google
+<a href="https://developers.google.com/search/docs/beginner/seo-starter-guide?hl=en%2F#descriptionmeta">recommends</a>
+using the <code>description</code> meta tag to tell search engines what your page is about.
+For each generated page, Docsy will set the content of the meta <code>description</code> by
+using the first of the following that is defined:</p>
+<ul>
+<li>The page <code>description</code>
+<a href="/docs/content/adding-content/#page-frontmatter">frontmatter field</a></li>
+<li>For non-index pages, the page <a href="https://gohugo.io/content-management/summaries/">summary</a>, as computed by Hugo</li>
+<li>The site description taken from the <a href="https://gohugo.io/variables/site/#the-siteparams-variable">site <code>params</code></a></li>
+</ul>
+<p>For the code used to perform this computation, see <a href="https://github.com/google/docsy/blob/main/layouts/_partials/page-description.html">page-description.html</a>.</p>
+<p>Add more meta tags as needed to your project&rsquo;s copy of the <code>head-end.html</code>
+partial. For details, see
+<a href="lookandfeel/#customizing-templates">Customizing templates</a>.</p>
+
+	<style>
+  .feedback--answer {
+    display: inline-block;
+  }
+  .feedback--answer-no {
+    margin-left: 1em;
+  }
+  .feedback--response {
+    display: none;
+    margin-top: 1em;
+  }
+  .feedback--response__visible {
+    display: block;
+  }
+</style>
+<div class="d-print-none">
+<h2 class="feedback--title">Feedback</h2>
+<p class="feedback--question">Was this page helpful?</p>
+<button class="btn btn-primary mb-4 feedback--answer feedback--answer-yes">Yes</button>
+<button class="btn btn-primary mb-4 feedback--answer feedback--answer-no">No</button>
+<p class="feedback--response feedback--response-yes">
+  Glad to hear it! Please <a href="https://github.com/google/docsy/issues/new">tell us how we can improve</a>.
+</p>
+<p class="feedback--response feedback--response-no">
+  Sorry to hear that. Please <a href="https://github.com/google/docsy/issues/new">tell us how we can improve</a>.
+</p>
+</div>
+<script>
+  const yesButton = document.querySelector('.feedback--answer-yes');
+  const noButton = document.querySelector('.feedback--answer-no');
+  const yesResponse = document.querySelector('.feedback--response-yes');
+  const noResponse = document.querySelector('.feedback--response-no');
+  const disableButtons = () => {
+    yesButton.disabled = true;
+    noButton.disabled = true;
+  };
+  const sendFeedback = (value) => {
+    if (typeof gtag !== 'function') return;
+    gtag('event', 'page_helpful', {
+      'event_category': 'Helpful',
+      'event_label': window.location.pathname,
+      'value': value
+    });
+  };
+  yesButton.addEventListener('click', () => {
+    yesResponse.classList.add('feedback--response__visible');
+    disableButtons();
+    sendFeedback( 100 );
+  });
+  noButton.addEventListener('click', () => {
+    noResponse.classList.add('feedback--response__visible');
+    disableButtons();
+    sendFeedback(0);
+  });
+</script>
+<br />
+
+</div>
+
+
+          </main>
+        </div>
+      </div>
+      <footer class="td-footer row d-print-none">
+  <div class="container-fluid">
+    <div class="row mx-md-2">
+      <div class="td-footer__left col-6 col-sm-4 order-sm-1">
+        <ul class="td-footer__links-list">
+  
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="GitHub Discussions" aria-label="GitHub Discussions">
+    <a target="_blank" rel="noopener" href="https://github.com/google/docsy/discussions" aria-label="GitHub Discussions">
+      <i class="fa-brands fa-github"></i>
+    </a>
+  </li>
+  
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="User mailing list" aria-label="User mailing list">
+    <a target="_blank" rel="noopener" href="https://groups.google.com/g/docsy-users" aria-label="User mailing list">
+      <i class="fa-solid fa-envelope"></i>
+    </a>
+  </li>
+  
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="Twitter" aria-label="Twitter">
+    <a target="_blank" rel="noopener" href="https://twitter.com/docsydocs" aria-label="Twitter">
+      <i class="fa-brands fa-x-twitter"></i>
+    </a>
+  </li>
+  
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="Stack Overflow" aria-label="Stack Overflow">
+    <a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/tagged/docsy" aria-label="Stack Overflow">
+      <i class="fa-brands fa-stack-overflow"></i>
+    </a>
+  </li>
+  
+</ul>
+
+      </div><div class="td-footer__right col-6 col-sm-4 order-sm-3">
+        <ul class="td-footer__links-list">
+  
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="Project docs and site info" aria-label="Project docs and site info">
+    <a target="_blank" rel="noopener" href="/site/" aria-label="Project docs and site info">
+      <i class="fa fa-book"></i>
+    </a>
+  </li>
+  
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="GitHub" aria-label="GitHub">
+    <a target="_blank" rel="noopener" href="https://github.com/google/docsy" aria-label="GitHub">
+      <i class="fa-brands fa-github"></i>
+    </a>
+  </li>
+  
+</ul>
+
+      </div><div class="td-footer__center col-12 col-sm-4 py-2 order-sm-2">
+        <span class="td-footer__copyright">&copy;
+    2018&ndash;present
+    <span class="td-footer__authors">Docsy Authors | <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a> |</span></span><span class="td-footer__all_rights_reserved">All Rights Reserved</span><span class="ms-2"><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a></span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <style>
+.markmap > svg {
+  width: 100%;
+  height: 300px;
+}
+</style>
+<script>
+window.markmap = {
+  autoLoader: {
+      manual: true,
+      onReady() {
+        const { autoLoader, builtInPlugins } = window.markmap;
+        autoLoader.transformPlugins = builtInPlugins.filter(plugin => plugin.name !== 'prism');
+      },
+  },
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/markmap-autoloader"></script>
+<script src='/js/deflate.js'></script>
+<script src="/js/main.js"></script>
+<script defer src="/js/click-to-copy.js" crossorigin="anonymous"></script>
+<script src='/js/tabpane-persist.js'></script>
+
+  </body>
+</html>

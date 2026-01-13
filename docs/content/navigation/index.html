@@ -1,0 +1,1326 @@
+<!doctype html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="en" class="no-js" data-theme-init>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)"  content="#000000">
+
+<style>
+  html { background: Canvas; color: CanvasText; }
+  @media (prefers-color-scheme: dark) {
+    html { background: #0b0d12; color: #e6e6e6; }
+  }
+  html[data-theme-init] * { transition: none !important; }
+</style>
+
+<script>
+  (function() {
+    const themeKey = 'td-color-theme';
+    const storedTheme = localStorage.getItem(themeKey);
+    let theme = storedTheme || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+
+    if (theme === 'auto') {
+      theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+
+    document.documentElement.setAttribute('data-bs-theme', theme);
+  })();
+</script>
+<meta name="robots" content="noindex, nofollow">
+
+
+<link rel="shortcut icon" href="/favicons/favicon.ico" >
+<link rel="apple-touch-icon" href="/favicons/apple-touch-icon-180x180.png" sizes="180x180">
+<link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicons/android-36x36.png" sizes="36x36">
+<link rel="icon" type="image/png" href="/favicons/android-48x48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="/favicons/android-72x72.png" sizes="72x72">
+<link rel="icon" type="image/png" href="/favicons/android-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
+<link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
+
+<title>Navigation and Menus | faŋtrəntrəŋ-pages</title>
+<meta name="description" content="Customize site navigation for your Docsy site.">
+<meta property="og:url" content="http://localhost:1313/docs/content/navigation/">
+  <meta property="og:site_name" content="faŋtrəntrəŋ-pages">
+  <meta property="og:title" content="Navigation and Menus">
+  <meta property="og:description" content="Customize site navigation for your Docsy site.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
+    <meta property="article:published_time" content="2017-01-05T00:00:00+00:00">
+    <meta property="article:modified_time" content="2017-01-05T00:00:00+00:00">
+
+  <meta itemprop="name" content="Navigation and Menus">
+  <meta itemprop="description" content="Customize site navigation for your Docsy site.">
+  <meta itemprop="datePublished" content="2017-01-05T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2017-01-05T00:00:00+00:00">
+  <meta itemprop="wordCount" content="2674">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Navigation and Menus">
+  <meta name="twitter:description" content="Customize site navigation for your Docsy site.">
+<link href="/scss/main.css" rel="stylesheet">
+<script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+  crossorigin="anonymous"></script>
+
+  </head>
+  <body class="td-page">
+    <header>
+      <nav class="td-navbar js-navbar-scroll" data-bs-theme="dark">
+<div class="td-navbar-container container-fluid flex-column flex-md-row">
+  <a class="navbar-brand" href="/"><span class="navbar-brand__logo navbar-logo"><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500" style="enable-background:new 0 0 500 500"><g><path style="fill:#fff" d="M116.8525 421.9722c-5.7041.0-10.3442-4.3127-10.3442-9.6129V88.183c0-5.3002 4.6401-9.6117 10.3442-9.6117H320.858c3.0347.0 9.3959.5498 11.7506 2.6302l.3545.3442 58.905 63.2912c2.3101 2.491 2.9202 8.4928 2.9202 11.3184v256.2039c0 5.3002-4.6407 9.6129-10.3436 9.6129H116.8525z"/><g><g><g><path style="fill:#767676" d="M384.4445 423.2066H116.852c-6.3839.0-11.5786-4.8658-11.5786-10.8474V88.1831c0-5.9804 5.1947-10.8461 11.5786-10.8461h204.0062c.377.0 9.2786.0329 12.568 2.9389l.3947.3833 58.9508 63.337c3.2135 3.4652 3.2514 11.7924 3.2514 12.1593v256.2036C396.0231 418.3408 390.8284 423.2066 384.4445 423.2066zM116.5079 411.9189c.0848.0278.1999.0531.3441.0531h267.5925c.1442.0.2581-.0253.3441-.0531V156.1556c-.0076-.9033-.3593-3.7347-.7034-5.0037l-57.6527-61.9416c-1.4651-.3176-4.4533-.6389-5.5742-.6389H116.852c-.143.0-.2594.024-.3441.0531V411.9189zm267.4533-261.149zM327.0321 89.371v.0013V89.371z"/></g></g></g><g><g><path style="fill:#5b7fc0" d="M189.0874 210.1754l.0012-.0012c7.7751.0012 15.0295 4.1862 18.932 10.9234 1.9177 3.3159 2.9305 7.1011 2.9293 10.9378.0 5.8394-2.2733 11.3304-6.4032 15.4604-4.1288 4.1288-9.6186 6.4032-15.458 6.4032s-11.328-2.2733-15.458-6.4032-6.4032-9.6186-6.4056-15.4628c.0012-6.025 2.454-11.4897 6.4116-15.4473C177.5953 212.627 183.0601 210.1742 189.0874 210.1754zm7.993 21.8576c.0012-1.4042-.3687-2.7868-1.063-3.9887-1.4293-2.4684-4.0833-3.9995-6.9299-4.0019-4.4077.0024-7.993 3.5877-7.993 7.993.0 2.1356.832 4.1431 2.3427 5.6539 1.5083 1.5083 3.5159 2.3403 5.6503 2.3415 2.1356.0 4.1443-.8308 5.6539-2.3403S197.0816 234.1722 197.0804 232.033z"/><path style="opacity:.3;fill:#fff" d="M189.0898 210.176c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3136 2.9377 7.0988 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8066-21.8612-21.8613.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 212.6276 183.0612 210.176 189.0898 210.176zm7.9941 21.8612c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 236.239 197.0839 234.2399 197.0839 232.0372z"/><g><defs><path id="SVGID_1_" d="M194.7376 237.6875c-1.4461 1.4461-3.4452 2.3439-5.6479 2.3439-4.4077-.0024-7.9918-3.5865-7.9942-7.9942.0024-4.4125 3.5937-7.999 7.9942-7.9942 2.8443.0 5.497 1.5323 6.924 3.9983.6991 1.2067 1.0702 2.5881 1.0702 3.9959C197.0839 234.2399 196.1861 236.239 194.7376 237.6875z"/></defs><clipPath id="SVGID_2_"><use xlink:href="#SVGID_1_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_2_);fill:#fff" d="M190.0704 225.0237c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9546.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.663-2.8588-6.116.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C193.7885 225.7247 191.9774 225.0237 190.0704 225.0237z"/><path style="opacity:.13;clip-path:url(#SVGID_2_);fill:#020202" d="M190.0704 225.0237c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9546.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.663-2.8588-6.116.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C193.7885 225.7247 191.9774 225.0237 190.0704 225.0237z"/></g><g><defs><path id="SVGID_3_" d="M189.0898 210.176c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3136 2.9377 7.0988 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8066-21.8612-21.8613.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 212.6276 183.0612 210.176 189.0898 210.176zm7.9941 21.8612c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 236.239 197.0839 234.2399 197.0839 232.0372z"/></defs><clipPath id="SVGID_4_"><use xlink:href="#SVGID_3_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_4_);fill:#5b7fc0" d="M172.6595 215.6045c-3.96 3.96-6.4116 9.4235-6.4116 15.452-.0024 12.0547 9.8066 21.8636 21.8613 21.8612 12.0547.0024 21.8636-9.797 21.8613-21.8612.0024-3.8475-1.0151-7.6326-2.9353-10.9462-3.8977-6.7324-11.1497-10.9151-18.926-10.9151C182.0806 209.1953 176.6171 211.647 172.6595 215.6045z"/></g></g><rect x="198.8952" y="225.1043" style="fill:#5b7fc0" width="122.6266" height="13.8671"/></g><g><path style="fill:#d95140" d="M189.0874 155.7611l.0012-.0012c7.7751.0012 15.0295 4.1862 18.932 10.9234 1.9177 3.3159 2.9305 7.1011 2.9293 10.9378.0 5.8394-2.2733 11.3304-6.4032 15.4604-4.1288 4.1288-9.6186 6.4032-15.458 6.4032s-11.328-2.2733-15.458-6.4032-6.4032-9.6186-6.4056-15.4628c.0012-6.0249 2.454-11.4897 6.4116-15.4473C177.5953 158.2128 183.0601 155.7599 189.0874 155.7611zm7.993 21.8577c.0012-1.4042-.3687-2.7868-1.063-3.9887-1.4293-2.4684-4.0833-3.9995-6.9299-4.0019-4.4077.0024-7.993 3.5877-7.993 7.993.0 2.1356.832 4.1431 2.3427 5.6539 1.5083 1.5083 3.5159 2.3403 5.6503 2.3415 2.1356.0 4.1443-.8308 5.6539-2.3403C196.2508 181.7667 197.0816 179.758 197.0804 177.6188z"/><path style="opacity:.3;fill:#fff" d="M189.0898 155.7617c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3135 2.9377 7.0987 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8066-21.8612-21.8613.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 158.2134 183.0612 155.7617 189.0898 155.7617zm7.9941 21.8613c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 181.8248 197.0839 179.8256 197.0839 177.623z"/><g><defs><path id="SVGID_5_" d="M194.7376 183.2733c-1.4461 1.4461-3.4452 2.3439-5.6479 2.3439-4.4077-.0024-7.9918-3.5865-7.9942-7.9942.0024-4.4125 3.5937-7.9989 7.9942-7.9942 2.8443.0 5.497 1.5323 6.924 3.9983.6991 1.2067 1.0702 2.5881 1.0702 3.9959C197.0839 179.8256 196.1861 181.8248 194.7376 183.2733z"/></defs><clipPath id="SVGID_6_"><use xlink:href="#SVGID_5_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_6_);fill:#fff" d="M190.0704 170.6095c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9546.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.663-2.8588-6.116.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C193.7885 171.3104 191.9774 170.6095 190.0704 170.6095z"/><path style="opacity:.13;clip-path:url(#SVGID_6_);fill:#020202" d="M190.0704 170.6095c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9546.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.663-2.8588-6.116.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C193.7885 171.3104 191.9774 170.6095 190.0704 170.6095z"/></g><g><defs><path id="SVGID_7_" d="M189.0898 155.7617c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3135 2.9377 7.0987 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8066-21.8612-21.8613.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 158.2134 183.0612 155.7617 189.0898 155.7617zm7.9941 21.8613c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 181.8248 197.0839 179.8256 197.0839 177.623z"/></defs><clipPath id="SVGID_8_"><use xlink:href="#SVGID_7_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_8_);fill:#d95140" d="M172.6595 161.1903c-3.96 3.96-6.4116 9.4235-6.4116 15.452-.0024 12.0547 9.8066 21.8636 21.8613 21.8613 12.0547.0024 21.8636-9.797 21.8613-21.8613.0024-3.8474-1.0151-7.6326-2.9353-10.9462-3.8977-6.7324-11.1497-10.9151-18.926-10.9151C182.0806 154.7811 176.6171 157.2327 172.6595 161.1903z"/></g><rect x="198.8952" y="170.69" style="fill:#d95140" width="122.6266" height="13.8671"/></g><g><g><path style="fill:#56a55c" d="M189.5379 264.6147l.0012-.0012c7.7751.0012 15.0294 4.1862 18.932 10.9235 1.9177 3.3159 2.9305 7.1011 2.9293 10.9378.0 5.8394-2.2733 11.3304-6.4032 15.4604-4.1288 4.1288-9.6186 6.4032-15.458 6.4032-5.8394.0-11.3281-2.2733-15.458-6.4032-4.13-4.13-6.4032-9.6186-6.4056-15.4628.0012-6.0249 2.454-11.4897 6.4116-15.4472C178.0458 267.0663 183.5105 264.6135 189.5379 264.6147zm7.993 21.8576c.0012-1.4042-.3687-2.7868-1.063-3.9887-1.4293-2.4684-4.0833-3.9995-6.9299-4.0019-4.4077.0024-7.993 3.5877-7.993 7.993.0 2.1356.832 4.1431 2.3427 5.6538 1.5083 1.5083 3.5159 2.3403 5.6503 2.3415 2.1356.0 4.1443-.8308 5.6539-2.3403C196.7013 290.6202 197.5321 288.6115 197.5309 286.4723z"/><path style="opacity:.3;fill:#fff" d="M189.5403 264.6153c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3135 2.9377 7.0987 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8065-21.8612-21.8613.0-6.0285 2.4516-11.492 6.4116-15.452C178.0482 267.0669 183.5117 264.6153 189.5403 264.6153zm7.9941 21.8612c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9941.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.6366 290.6783 197.5344 288.6792 197.5344 286.4765z"/><g><defs><path id="SVGID_9_" d="M195.1881 292.1268c-1.4461 1.4461-3.4452 2.3439-5.6479 2.3439-4.4077-.0024-7.9918-3.5865-7.9942-7.9942.0024-4.4125 3.5937-7.9989 7.9942-7.9941 2.8443.0 5.497 1.5323 6.924 3.9983.6991 1.2067 1.0702 2.5881 1.0702 3.9959C197.5344 288.6792 196.6366 290.6783 195.1881 292.1268z"/></defs><clipPath id="SVGID_10_"><use xlink:href="#SVGID_9_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_10_);fill:#fff" d="M190.5209 279.463c-4.4005-.0048-7.9918 3.5817-7.9942 7.9941.0011 1.9547.7088 3.7452 1.8782 5.1354-1.7446-1.4674-2.8575-3.6631-2.8588-6.1161.0024-4.4125 3.5936-7.999 7.9942-7.9941 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C194.239 280.164 192.4279 279.463 190.5209 279.463z"/><path style="opacity:.13;clip-path:url(#SVGID_10_);fill:#020202" d="M190.5209 279.463c-4.4005-.0048-7.9918 3.5817-7.9942 7.9941.0011 1.9547.7088 3.7452 1.8782 5.1354-1.7446-1.4674-2.8575-3.6631-2.8588-6.1161.0024-4.4125 3.5936-7.999 7.9942-7.9941 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C194.239 280.164 192.4279 279.463 190.5209 279.463z"/></g><g><defs><path id="SVGID_11_" d="M189.5403 264.6153c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3135 2.9377 7.0987 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8065-21.8612-21.8613.0-6.0285 2.4516-11.492 6.4116-15.452C178.0482 267.0669 183.5117 264.6153 189.5403 264.6153zm7.9941 21.8612c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9941.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.6366 290.6783 197.5344 288.6792 197.5344 286.4765z"/></defs><clipPath id="SVGID_12_"><use xlink:href="#SVGID_11_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_12_);fill:#56a55c" d="M173.11 270.0439c-3.96 3.96-6.4116 9.4235-6.4116 15.452-.0024 12.0547 9.8066 21.8636 21.8613 21.8613 12.0547.0024 21.8636-9.797 21.8613-21.8613.0024-3.8474-1.0151-7.6326-2.9353-10.9462-3.8977-6.7325-11.1497-10.9151-18.926-10.9151C182.5311 263.6346 177.0676 266.0863 173.11 270.0439z"/></g></g><rect x="199.3456" y="279.5436" style="fill:#56a55c" width="122.6266" height="13.8671"/></g><g><g><path style="fill:#f1bc42" d="M189.0874 318.7208l.0012-.0012c7.7751.0012 15.0295 4.1862 18.932 10.9234 1.9177 3.3159 2.9305 7.1011 2.9293 10.9378.0 5.8394-2.2733 11.3305-6.4032 15.4604-4.1288 4.1288-9.6186 6.4032-15.458 6.4032s-11.328-2.2733-15.458-6.4032-6.4032-9.6186-6.4056-15.4628c.0012-6.025 2.454-11.4897 6.4116-15.4472C177.5953 321.1724 183.0601 318.7196 189.0874 318.7208zm7.993 21.8576c.0012-1.4042-.3687-2.7868-1.063-3.9887-1.4293-2.4684-4.0833-3.9995-6.9299-4.0019-4.4077.0024-7.993 3.5877-7.993 7.993.0 2.1356.832 4.1431 2.3427 5.6539 1.5083 1.5083 3.5159 2.3403 5.6503 2.3415 2.1356.0 4.1443-.8308 5.6539-2.3403S197.0816 342.7176 197.0804 340.5784z"/><path style="opacity:.3;fill:#fff" d="M189.0898 318.7214c7.7763.0 15.0283 4.1826 18.926 10.915 1.9201 3.3136 2.9377 7.0988 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8612-12.0547.0024-21.8636-9.8065-21.8612-21.8612.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 321.173 183.0612 318.7214 189.0898 318.7214zm7.9941 21.8612c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 344.7844 197.0839 342.7853 197.0839 340.5826z"/><g><defs><path id="SVGID_13_" d="M194.7376 346.2329c-1.4461 1.4461-3.4452 2.3439-5.6479 2.3439-4.4077-.0024-7.9918-3.5865-7.9942-7.9942.0024-4.4125 3.5937-7.999 7.9942-7.9942 2.8443.0 5.497 1.5323 6.924 3.9983.6991 1.2067 1.0702 2.5881 1.0702 3.9959C197.0839 342.7853 196.1861 344.7844 194.7376 346.2329z"/></defs><clipPath id="SVGID_14_"><use xlink:href="#SVGID_13_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_14_);fill:#fff" d="M190.0704 333.5691c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9547.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.6631-2.8588-6.1161.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0834 6.1218 2.8788C193.7885 334.2701 191.9774 333.5691 190.0704 333.5691z"/><path style="opacity:.13;clip-path:url(#SVGID_14_);fill:#020202" d="M190.0704 333.5691c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9547.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.6631-2.8588-6.1161.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0834 6.1218 2.8788C193.7885 334.2701 191.9774 333.5691 190.0704 333.5691z"/></g><g><defs><path id="SVGID_15_" d="M189.0898 318.7214c7.7763.0 15.0283 4.1826 18.926 10.915 1.9201 3.3136 2.9377 7.0988 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8612-12.0547.0024-21.8636-9.8065-21.8612-21.8612.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 321.173 183.0612 318.7214 189.0898 318.7214zm7.9941 21.8612c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 344.7844 197.0839 342.7853 197.0839 340.5826z"/></defs><clipPath id="SVGID_16_"><use xlink:href="#SVGID_15_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_16_);fill:#f1bc42" d="M172.6595 324.15c-3.96 3.96-6.4116 9.4235-6.4116 15.452-.0024 12.0547 9.8066 21.8636 21.8613 21.8612 12.0547.0024 21.8636-9.797 21.8613-21.8612.0024-3.8474-1.0151-7.6327-2.9353-10.9462-3.8977-6.7324-11.1497-10.9151-18.926-10.9151C182.0806 317.7407 176.6171 320.1924 172.6595 324.15z"/></g></g><rect x="198.8952" y="333.6497" style="fill:#f1bc42" width="122.6266" height="13.8671"/></g></g></svg></span><span class="navbar-brand__name">faŋtrəntrəŋ-pages</span></a>
+  <div class="td-navbar-nav-scroll td-navbar-nav-scroll--indicator" id="main_navbar">
+    <div class="scroll-indicator scroll-left"></div>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="/about/"><span>About</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="/docs/"><span>Docs</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/blog/"><span>Blog</span></a>
+      </li>
+      <li class="nav-item td-navbar__light-dark-menu">
+        <div class="td-light-dark-menu dropdown"><svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="check2" viewBox="0 0 16 16">
+    <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+  </symbol>
+  <symbol id="circle-half" viewBox="0 0 16 16">
+    <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+  </symbol>
+  <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+    <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+    <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+  </symbol>
+  <symbol id="sun-fill" viewBox="0 0 16 16">
+    <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+  </symbol>
+</svg>
+<button class="btn btn-link nav-link dropdown-toggle d-flex align-items-center"
+        id="bd-theme"
+        type="button"
+        aria-expanded="false"
+        data-bs-toggle="dropdown"
+        aria-label="Toggle theme (auto)">
+  <svg class="bi my-1 theme-icon-active"><use href="#circle-half"></use></svg>
+</button>
+<ul class="dropdown-menu" aria-labelledby="bd-theme">
+  <li>
+    <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+      <svg class="bi me-2 opacity-50"><use href="#sun-fill"></use></svg>
+      Light
+      <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+    </button>
+  </li>
+  <li>
+    <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+      <svg class="bi me-2 opacity-50"><use href="#moon-stars-fill"></use></svg>
+      Dark
+      <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+    </button>
+  </li>
+  <li>
+    <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
+      <svg class="bi me-2 opacity-50"><use href="#circle-half"></use></svg>
+      Auto
+      <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+    </button>
+  </li>
+</ul>
+</div>
+
+      </li>
+      </ul>
+    <div class="scroll-indicator scroll-right"></div>
+  </div>
+  <div class="d-none d-lg-block td-navbar__search">
+    <div class="td-search">
+  <div class="td-search__icon"></div>
+  <input type="search" class="td-search__input form-control td-search-input" placeholder="Search this site…" aria-label="Search this site…" autocomplete="off">
+</div>
+  </div>
+</div>
+</nav>
+    </header>
+    <div class="container-fluid td-outer">
+      <div class="td-main" data-bs-spy="scroll" data-bs-target=".td-toc" data-bs-root-margin="0px 0px -10%">
+        <div class="row flex-xl-nowrap">
+          <aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
+            <div id="td-sidebar-menu" class="td-sidebar__inner">
+  <form class="td-sidebar__search d-flex align-items-center">
+    <div class="td-search">
+  <div class="td-search__icon"></div>
+  <input type="search" class="td-search__input form-control td-search-input" placeholder="Search this site…" aria-label="Search this site…" autocomplete="off">
+</div>
+    <button class="btn btn-link td-sidebar__toggle" type="button" data-bs-toggle="collapse" data-bs-target="#td-section-nav" aria-controls="td-section-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    </button>
+  </form>
+  <nav class="td-sidebar-nav collapse foldable-nav" id="td-section-nav" data-sidebar-root-id="/docs/content/">
+    <ul class="td-sidebar-nav__section pe-md-3 ul-0">
+      <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-docscontent-li">
+    <a href="/docs/" class="align-left ps-0 td-sidebar-link td-sidebar-link__section tree-root" id="m-docscontent"><span class=" td-sidebar-root-up-icon">Content and Customization</span></a>
+    <ul class="ul-1">
+      <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docscontentadding-content-li">
+    <input type="checkbox" id="m-docscontentadding-content-check"/>
+    <label for="m-docscontentadding-content-check"><a href="/docs/content/adding-content/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docscontentadding-content"><span class="">Adding Content</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docscontentlookandfeel-li">
+    <input type="checkbox" id="m-docscontentlookandfeel-check"/>
+    <label for="m-docscontentlookandfeel-check"><a href="/docs/content/lookandfeel/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docscontentlookandfeel"><span class="">Look and Feel</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-docscontentnavigation-li">
+    <input type="checkbox" id="m-docscontentnavigation-check" checked/>
+    <label for="m-docscontentnavigation-check"><a href="/docs/content/navigation/" class="align-left ps-0  active td-sidebar-link td-sidebar-link__page" id="m-docscontentnavigation"><span class="td-sidebar-nav-active-item">Navigation and Menus</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docscontentsearch-li">
+    <input type="checkbox" id="m-docscontentsearch-check"/>
+    <label for="m-docscontentsearch-check"><a href="/docs/content/search/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docscontentsearch"><span class="">Search</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docscontentversioning-li">
+    <input type="checkbox" id="m-docscontentversioning-check"/>
+    <label for="m-docscontentversioning-check"><a href="/docs/content/versioning/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docscontentversioning"><span class="">Doc Versioning</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docscontentshortcodes-li">
+    <input type="checkbox" id="m-docscontentshortcodes-check"/>
+    <label for="m-docscontentshortcodes-check"><a href="/docs/content/shortcodes/" title="Docsy Shortcodes" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docscontentshortcodes"><span class="">Shortcodes</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docscontenticonsimages-li">
+    <input type="checkbox" id="m-docscontenticonsimages-check"/>
+    <label for="m-docscontenticonsimages-check"><a href="/docs/content/iconsimages/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docscontenticonsimages"><span class="">Logos and Images</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docscontentprint-li">
+    <input type="checkbox" id="m-docscontentprint-check"/>
+    <label for="m-docscontentprint-check"><a href="/docs/content/print/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docscontentprint"><span class="">Print Support</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docscontentfeedback-li">
+    <input type="checkbox" id="m-docscontentfeedback-check"/>
+    <label for="m-docscontentfeedback-check"><a href="/docs/content/feedback/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docscontentfeedback"><span class="">Analytics, User Feedback, and SEO</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docscontentrepository-links-li">
+    <input type="checkbox" id="m-docscontentrepository-links-check"/>
+    <label for="m-docscontentrepository-links-check"><a href="/docs/content/repository-links/" title="Repository Links and other page information" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docscontentrepository-links"><span class="">Repo links and page info</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docscontenttaxonomy-li">
+    <input type="checkbox" id="m-docscontenttaxonomy-check"/>
+    <label for="m-docscontenttaxonomy-check"><a href="/docs/content/taxonomy/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docscontenttaxonomy"><span class="">Taxonomy Support</span></a></label>
+    
+  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docscontentdiagrams-and-formulae-li">
+    <input type="checkbox" id="m-docscontentdiagrams-and-formulae-check"/>
+    <label for="m-docscontentdiagrams-and-formulae-check"><a href="/docs/content/diagrams-and-formulae/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docscontentdiagrams-and-formulae"><span class="">Diagrams and Formulae</span></a></label>
+    
+  </li>
+    </ul>
+  </li>
+    </ul>
+  </nav>
+</div>
+          </aside>
+          <aside class="d-none d-xl-block col-xl-2 td-sidebar-toc d-print-none">
+            <div class="td-page-meta ms-2 pb-1 pt-2 mb-0">
+<a href="https://github.com/google/docsy/tree/main/docsy.dev/C:%5chugo%5ccloud%5ccontent%5cdocs%5ccontent%5cnavigation.md" class="td-page-meta--view td-page-meta__view" target="_blank" rel="noopener"><i class="fa-solid fa-file-lines fa-fw"></i> View page source</a>
+  <a href="https://github.com/google/docsy/edit/main/docsy.dev/C:%5chugo%5ccloud%5ccontent%5cdocs%5ccontent%5cnavigation.md" class="td-page-meta--edit td-page-meta__edit" target="_blank" rel="noopener"><i class="fa-solid fa-pen-to-square fa-fw"></i> Edit this page</a>
+  <a href="https://github.com/google/docsy/new/main/docsy.dev/C:/hugo/cloud/content/docs/content?filename=change-me.md&amp;value=---%0Atitle%3A&#43;%22Long&#43;Page&#43;Title%22%0AlinkTitle%3A&#43;%22Short&#43;Nav&#43;Title%22%0Aweight%3A&#43;100%0Adescription%3A&#43;%3E-%0A&#43;&#43;&#43;&#43;&#43;Page&#43;description&#43;for&#43;heading&#43;and&#43;indexes.%0A---%0A%0A%23%23&#43;Heading%0A%0AEdit&#43;this&#43;template&#43;to&#43;create&#43;your&#43;new&#43;page.%0A%0A%2A&#43;Give&#43;it&#43;a&#43;good&#43;name%2C&#43;ending&#43;in&#43;%60.md%60&#43;-&#43;e.g.&#43;%60getting-started.md%60%0A%2A&#43;Edit&#43;the&#43;%22front&#43;matter%22&#43;section&#43;at&#43;the&#43;top&#43;of&#43;the&#43;page&#43;%28weight&#43;controls&#43;how&#43;its&#43;ordered&#43;amongst&#43;other&#43;pages&#43;in&#43;the&#43;same&#43;directory%3B&#43;lowest&#43;number&#43;first%29.%0A%2A&#43;Add&#43;a&#43;good&#43;commit&#43;message&#43;at&#43;the&#43;bottom&#43;of&#43;the&#43;page&#43;%28%3C80&#43;characters%3B&#43;use&#43;the&#43;extended&#43;description&#43;field&#43;for&#43;more&#43;detail%29.%0A%2A&#43;Create&#43;a&#43;new&#43;branch&#43;so&#43;you&#43;can&#43;preview&#43;your&#43;new&#43;file&#43;and&#43;request&#43;a&#43;review&#43;via&#43;Pull&#43;Request.%0A" class="td-page-meta--child td-page-meta__child" target="_blank" rel="noopener"><i class="fa-solid fa-pen-to-square fa-fw"></i> Create child page</a>
+  <a href="https://github.com/google/docsy/issues/new?title=Navigation%20and%20Menus" class="td-page-meta--issue td-page-meta__issue" target="_blank" rel="noopener"><i class="fa-solid fa-list-check fa-fw"></i> Create documentation issue</a>
+  <a href="https://github.com/google/docsy/issues/new" class="td-page-meta--project td-page-meta__project-issue" target="_blank" rel="noopener"><i class="fa-solid fa-list-check fa-fw"></i> Create project issue</a>
+  <a id="print" href="/_print/docs/content/"><i class="fa-solid fa-print fa-fw"></i> Print entire section</a>
+
+</div>
+
+            <div class="td-toc" data-proofer-ignore>
+<div class="td-toc-title">
+      <span class="td-toc-title__text">On this page</span>
+      <a class="td-toc-title__link" title="Top of page" href="#"></a>
+    </div>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#site-navbar">Site navbar</a>
+      <ul>
+        <li><a href="#adding-main-menu-entries">Adding <code>main</code> menu entries</a></li>
+        <li><a href="#version-menu">Version menu</a></li>
+        <li><a href="#language-menu">Language menu</a></li>
+        <li><a href="#lightdark-theme-menu">Light/dark theme menu</a></li>
+        <li><a href="#search-box">Search box</a></li>
+        <li><a href="#adding-icons-to-the-navbar">Adding icons to the navbar</a></li>
+      </ul>
+    </li>
+    <li><a href="#side-nav">Side navigation</a>
+      <ul>
+        <li><a href="#side-nav-options">Side-nav options</a></li>
+        <li><a href="#adding-icons-to-the-side-nav">Adding icons to the side nav</a></li>
+        <li><a href="#adding-manual-links-to-the-side-nav">Adding manual links to the side nav</a></li>
+        <li><a href="#sidebar-root">Section as sidebar root (EXPERIMENTAL)</a></li>
+      </ul>
+    </li>
+    <li><a href="#table-of-contents">Table of contents (TOC)</a>
+      <ul>
+        <li><a href="#toc-customization">TOC customization</a></li>
+        <li><a href="#toc-entry-tracking">Active TOC entry tracking with ScrollSpy</a>
+          <ul>
+            <li><a href="#advanced-scrollspy-customization">Advanced ScrollSpy customization</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#breadcrumb-navigation">Breadcrumb navigation</a></li>
+    <li><a href="#heading-self-links">Heading self links</a></li>
+  </ul>
+</nav>
+  </div>
+
+            <div class="taxonomy taxonomy-terms-cloud taxo-categories">
+      <h5 class="taxonomy-title">Categories</h5>
+      <ul class="taxonomy-terms">
+        <li><a class="taxonomy-term" href="http://localhost:1313/categories/taxonomies/" data-taxonomy-term="taxonomies"><span class="taxonomy-label">Taxonomies</span><span class="taxonomy-count">1</span></a></li>
+        </ul>
+    </div>
+  <div class="taxonomy taxonomy-terms-cloud taxo-tags">
+      <h5 class="taxonomy-title">Tags</h5>
+      <ul class="taxonomy-terms">
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/labelling/" data-taxonomy-term="labelling"><span class="taxonomy-label">Labelling</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/release/" data-taxonomy-term="release"><span class="taxonomy-label">Release</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/structuring-content/" data-taxonomy-term="structuring-content"><span class="taxonomy-label">Structuring Content</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/tagging/" data-taxonomy-term="tagging"><span class="taxonomy-label">Tagging</span><span class="taxonomy-count">1</span></a></li>
+        <li><a class="taxonomy-term" href="http://localhost:1313/tags/upgrade/" data-taxonomy-term="upgrade"><span class="taxonomy-label">Upgrade</span><span class="taxonomy-count">1</span></a></li>
+        </ul>
+    </div>
+  
+
+          </aside>
+          <main class="col-12 col-md-9 col-xl-8 ps-md-5" role="main">
+            
+  
+
+            <nav aria-label="breadcrumb" class="td-breadcrumbs">
+  <ol class="breadcrumb">
+  <li class="breadcrumb-item">
+    <a href="/docs/">Docs</a></li>
+  <li class="breadcrumb-item">
+    <a href="/docs/content/">Content and Customization</a></li>
+  <li class="breadcrumb-item active" aria-current="page">
+    Navigation and Menus</li>
+  </ol>
+</nav>
+<div class="td-content">
+	<h1>Navigation and Menus</h1>
+	<div class="lead">Customize site navigation for your Docsy site.</div>
+	<header class="article-meta">
+		
+</header>
+	<p>Docsy provides multiple built-in navigation features for your sites, including
+site menus, side navs, and page table of contents (TOC). This page shows you how
+they work and how to configure and customize them to meet your needs.</p>
+<h2 id="site-navbar">Site navbar</h2>
+<p>A site navbar appears at the top of every site page. It is built from Hugo
+<a href="https://gohugo.io/content-management/menus/">menus</a> and Docsy-generated elements. Hugo <a href="https://gohugo.io/content-management/menus/">menus</a> consist of an array of menu
+entries, accessible via the <code>.Site.Menus</code> site variable.</p>
+<p>The <code>main</code> menu is build from:</p>
+<ul>
+<li><a href="https://gohugo.io/content-management/menus/">Menu</a> entries defined over the <code>main</code> menu.</li>
+<li>Docsy-generated menus (depending on your site configuration):
+<ul>
+<li><a href="#version-menu">Doc-version menu</a></li>
+<li><a href="#language-menu">Language menu</a></li>
+<li><a href="#lightdark-theme-menu">Light/dark theme menu</a></li>
+</ul>
+</li>
+<li>Docsy-generated <a href="#search-box">search box</a></li>
+</ul>
+<h3 id="adding-main-menu-entries">Adding <code>main</code> menu entries</h3>
+<p>Define <a href="https://gohugo.io/content-management/menus/">menu</a> entries in your site&rsquo;s configuration file or via page front
+matter. For example, here&rsquo;s how you can add a Documentation section to the
+top-level navbar:</p>
+ 
+   <ul class="nav nav-tabs" id="tabs-0" role="tablist">
+  <li class="nav-item">
+      <button class="nav-link disabled"
+          id="tabs-00-00-tab" data-bs-toggle="tab" data-bs-target="#tabs-00-00" role="tab"
+          aria-controls="tabs-00-00" aria-selected="false">
+        Front matter:
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link active"
+          id="tabs-00-01-tab" data-bs-toggle="tab" data-bs-target="#tabs-00-01" role="tab"
+          data-td-tp-persist="toml" aria-controls="tabs-00-01" aria-selected="true">
+        toml
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link"
+          id="tabs-00-02-tab" data-bs-toggle="tab" data-bs-target="#tabs-00-02" role="tab"
+          data-td-tp-persist="yaml" aria-controls="tabs-00-02" aria-selected="false">
+        yaml
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link"
+          id="tabs-00-03-tab" data-bs-toggle="tab" data-bs-target="#tabs-00-03" role="tab"
+          data-td-tp-persist="json" aria-controls="tabs-00-03" aria-selected="false">
+        json
+      </button>
+    </li>
+</ul>
+
+<div class="tab-content" id="tabs-0-content">
+    <div class="tab-body tab-pane fade"
+        id="tabs-00-00" role="tabpanel" aria-labelled-by="tabs-00-00-tab" tabindex="0">
+        
+    </div>
+    <div class="tab-body tab-pane fade show active"
+        id="tabs-00-01" role="tabpanel" aria-labelled-by="tabs-00-01-tab" tabindex="0">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="nx">title</span> <span class="p">=</span> <span class="s2">&#34;Welcome to Docsy&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">linkTitle</span> <span class="p">=</span> <span class="s2">&#34;Documentation&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">weight</span> <span class="p">=</span> <span class="mi">20</span>
+</span></span><span class="line"><span class="cl"><span class="nx">pre</span> <span class="p">=</span> <span class="s2">&#34;&lt;i class=&#39;fa-solid fa-book&#39;&gt;&lt;/i&gt;&#34;</span>
+</span></span></code></pre></div>
+    </div>
+    <div class="tab-body tab-pane fade"
+        id="tabs-00-02" role="tabpanel" aria-labelled-by="tabs-00-02-tab" tabindex="0">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="l">Documentation</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">linkTitle</span><span class="p">:</span><span class="w"> </span><span class="l">Docs</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">menu</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">main</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">weight</span><span class="p">:</span><span class="w"> </span><span class="m">20</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">pre</span><span class="p">:</span><span class="w"> </span><span class="l">&lt;i class=&#39;fa-solid fa-book&#39;&gt;&lt;/i&gt;</span><span class="w">
+</span></span></span></code></pre></div>
+    </div>
+    <div class="tab-body tab-pane fade"
+        id="tabs-00-03" role="tabpanel" aria-labelled-by="tabs-00-03-tab" tabindex="0">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;title&#34;</span><span class="p">:</span> <span class="s2">&#34;Documentation&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;linkTitle&#34;</span><span class="p">:</span> <span class="s2">&#34;Docs&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;menu&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;main&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;weight&#34;</span><span class="p">:</span> <span class="mi">20</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;pre&#34;</span><span class="p">:</span> <span class="s2">&#34;&lt;i class=&#39;fa-solid fa-book&#39;&gt;&lt;/i&gt;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>
+    </div>
+</div>
+
+<p>Navbar entries are ordered from left to right by <code>weight</code>. So, for example, a
+section index or page with <code>weight: 30</code> would appear after the Documentation
+section in the menu, while one with <code>weight: 10</code> would appear before it.</p>
+<p>If you want to add a link to an external site to this menu, add it to your site
+configuration:[^add-external-link-via]</p>
+
+
+   <ul class="nav nav-tabs" id="tabs-1" role="tablist">
+  <li class="nav-item">
+      <button class="nav-link disabled"
+          id="tabs-01-00-tab" data-bs-toggle="tab" data-bs-target="#tabs-01-00" role="tab"
+          aria-controls="tabs-01-00" aria-selected="false">
+        Configuration file:
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link active"
+          id="tabs-01-01-tab" data-bs-toggle="tab" data-bs-target="#tabs-01-01" role="tab"
+          data-td-tp-persist="toml" aria-controls="tabs-01-01" aria-selected="true">
+        hugo.toml
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link"
+          id="tabs-01-02-tab" data-bs-toggle="tab" data-bs-target="#tabs-01-02" role="tab"
+          data-td-tp-persist="yaml" aria-controls="tabs-01-02" aria-selected="false">
+        hugo.yaml
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link"
+          id="tabs-01-03-tab" data-bs-toggle="tab" data-bs-target="#tabs-01-03" role="tab"
+          data-td-tp-persist="json" aria-controls="tabs-01-03" aria-selected="false">
+        hugo.json
+      </button>
+    </li>
+</ul>
+
+<div class="tab-content" id="tabs-1-content">
+    <div class="tab-body tab-pane fade"
+        id="tabs-01-00" role="tabpanel" aria-labelled-by="tabs-01-00-tab" tabindex="1">
+        
+    </div>
+    <div class="tab-body tab-pane fade show active"
+        id="tabs-01-01" role="tabpanel" aria-labelled-by="tabs-01-01-tab" tabindex="1">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Example Site&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">weight</span> <span class="p">=</span> <span class="mi">40</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;https://example.docsy.dev&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">post</span> <span class="p">=</span> <span class="s2">&#34;&lt;sup&gt;&lt;i class=&#39;fa-solid fa-up-right-from-square fa-xs&#39; aria-hidden=&#39;true&#39;&gt;&lt;/i&gt;&lt;/sup&gt;&#34;</span>
+</span></span></code></pre></div>
+    </div>
+    <div class="tab-body tab-pane fade"
+        id="tabs-01-02" role="tabpanel" aria-labelled-by="tabs-01-02-tab" tabindex="1">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">menu</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">main</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Example Site</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">weight</span><span class="p">:</span><span class="w"> </span><span class="m">40</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l">https://example.docsy.dev</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">post</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="l">&lt;sup&gt;&lt;i class=&#34;ps-1 fa-solid fa-up-right-from-square fa-xs&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="l">aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/sup&gt;</span><span class="w">
+</span></span></span></code></pre></div>
+    </div>
+    <div class="tab-body tab-pane fade"
+        id="tabs-01-03" role="tabpanel" aria-labelled-by="tabs-01-03-tab" tabindex="1">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;menu&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;main&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;Example Site&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&#34;weight&#34;</span><span class="p">:</span> <span class="mi">40</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&#34;url&#34;</span><span class="p">:</span> <span class="s2">&#34;https://example.docsy.dev&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&#34;post&#34;</span><span class="p">:</span> <span class="s2">&#34;&lt;sup&gt;&lt;i class=&#39;fa-solid fa-up-right-from-square fa-xs&#39; aria-hidden=&#39;true&#39;&gt;&lt;/i&gt;&lt;/sup&gt;&#34;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">]</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>
+    </div>
+</div>
+
+<h3 id="version-menu">Version menu</h3>
+<p>Docsy adds a version selector menu to the top-level navbar if you have doc
+versions configured as explained in <a href="/docs/content/versioning/">Doc versioning</a>.</p>
+<p>To style the version menu, apply your custom CSS to <code>.td-navbar__version-menu</code>.</p>
+<h3 id="language-menu">Language menu</h3>
+<p>Docsy adds a language selector menu to the top-level navbar if you have a
+<a href="https://gohugo.io/content-management/multilingual/">multilingual</a> site configured as explained in <a href="/docs/language/">Multi-language support</a>.
+Selecting a language takes the user to the translated version of the current
+page, or the home page for the given language.</p>
+<p>The menu is visible in the navbar for all screen sizes. By default, the current
+site language name is shown. On narrow displays, this is replaced by the
+language code.</p>
+<div class="alert alert-info" role="alert"><div class="h4 alert-heading" role="heading">Legacy UX</div>
+<p>Prior to Docsy 0.13.0, the language selector menu could also be visible from the
+left sidebar, and its visibility in the navbar depended on the screen size. For
+details, including ways to restore the legacy behavior, see <a href="/blog/2025/0.13.0/#language-menu-visibility">Language menu
+visibility</a>.</p>
+</div>
+<p>To style the language menu, apply your custom CSS to <code>.td-navbar__lang-menu</code>.</p>
+<h3 id="lightdark-theme-menu">Light/dark theme menu</h3>
+<p>Docsy adds a light/dark theme selector menu to the top-level navbar if you have
+it configured as explained in <a href="/docs/content/lookandfeel/#lightdark-mode-menu">Light/dark mode menu</a>.</p>
+<p>To style the light/dark mode menu, apply your custom CSS to
+<code>.td-navbar__light-dark-menu</code>.</p>
+<h3 id="search-box">Search box</h3>
+<p>To configure site search, see <a href="/docs/content/search/">Search</a>. When configured,
+the search box appears as the last item in the top-level navbar, as well as the
+sidebar on mobile.</p>
+<p>To style the search menu, apply your custom CSS to <code>.td-navbar__search</code>.</p>
+<h3 id="adding-icons-to-the-navbar">Adding icons to the navbar</h3>
+<p>As described in the
+<a href="https://gohugo.io/content-management/menus/#add-non-content-entries-to-a-menu">Hugo docs</a>,
+you can add icons to the navbar by using the pre and/or post parameter for main
+menu items defined in your site&rsquo;s <code>hugo.toml</code>/<code>hugo.yaml</code>/<code>hugo.json</code> or via
+page front matter. For example, the following configuration adds the GitHub icon
+to the GitHub menu item, and a <strong>New!</strong> alert to indicate that this is a new
+addition to the menu.</p>
+
+
+   <ul class="nav nav-tabs" id="tabs-3" role="tablist">
+  <li class="nav-item">
+      <button class="nav-link disabled"
+          id="tabs-03-00-tab" data-bs-toggle="tab" data-bs-target="#tabs-03-00" role="tab"
+          aria-controls="tabs-03-00" aria-selected="false">
+        Configuration file:
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link active"
+          id="tabs-03-01-tab" data-bs-toggle="tab" data-bs-target="#tabs-03-01" role="tab"
+          data-td-tp-persist="toml" aria-controls="tabs-03-01" aria-selected="true">
+        hugo.toml
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link"
+          id="tabs-03-02-tab" data-bs-toggle="tab" data-bs-target="#tabs-03-02" role="tab"
+          data-td-tp-persist="yaml" aria-controls="tabs-03-02" aria-selected="false">
+        hugo.yaml
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link"
+          id="tabs-03-03-tab" data-bs-toggle="tab" data-bs-target="#tabs-03-03" role="tab"
+          data-td-tp-persist="json" aria-controls="tabs-03-03" aria-selected="false">
+        hugo.json
+      </button>
+    </li>
+</ul>
+
+<div class="tab-content" id="tabs-3-content">
+    <div class="tab-body tab-pane fade"
+        id="tabs-03-00" role="tabpanel" aria-labelled-by="tabs-03-00-tab" tabindex="3">
+        
+    </div>
+    <div class="tab-body tab-pane fade show active"
+        id="tabs-03-01" role="tabpanel" aria-labelled-by="tabs-03-01-tab" tabindex="3">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;GitHub&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">weight</span> <span class="p">=</span> <span class="mi">50</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;https://github.com/google/docsy/&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">pre</span> <span class="p">=</span> <span class="s2">&#34;&lt;i class=&#39;fa-brands fa-github&#39;&gt;&lt;/i&gt;&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">post</span> <span class="p">=</span> <span class="s2">&#34;&lt;span class=&#39;alert&#39;&gt;New!&lt;/span&gt;&#34;</span>
+</span></span></code></pre></div>
+    </div>
+    <div class="tab-body tab-pane fade"
+        id="tabs-03-02" role="tabpanel" aria-labelled-by="tabs-03-02-tab" tabindex="3">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">menu</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">main</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">GitHub</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">weight</span><span class="p">:</span><span class="w"> </span><span class="m">50</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;https://github.com/google/docsy/&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">pre</span><span class="p">:</span><span class="w"> </span><span class="l">&lt;i class=&#39;fa-brands fa-github&#39;&gt;&lt;/i&gt;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">post</span><span class="p">:</span><span class="w"> </span><span class="l">&lt;span class=&#39;alert&#39;&gt;New!&lt;/span&gt;</span><span class="w">
+</span></span></span></code></pre></div>
+    </div>
+    <div class="tab-body tab-pane fade"
+        id="tabs-03-03" role="tabpanel" aria-labelled-by="tabs-03-03-tab" tabindex="3">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;menu&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;main&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;GitHub&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&#34;weight&#34;</span><span class="p">:</span> <span class="mi">50</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&#34;url&#34;</span><span class="p">:</span> <span class="s2">&#34;https://github.com/google/docsy/&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&#34;pre&#34;</span><span class="p">:</span> <span class="s2">&#34;&lt;i class=&#39;fa-brands fa-github&#39;&gt;&lt;/i&gt;&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&#34;post&#34;</span><span class="p">:</span> <span class="s2">&#34;&lt;span class=&#39;alert&#39;&gt;New!&lt;/span&gt;&#34;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">]</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>
+    </div>
+</div>
+
+<p>You can find a complete list of icons to use in the
+<a href="https://fontawesome.com/icons?d=gallery&amp;p=2">FontAwesome documentation</a>. Docsy
+includes the free FontAwesome icons by default.</p>
+<h2 id="side-nav">Side navigation</h2>
+<p>A side nav<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> for section navigation is shown in the left
+panel of the <code>docs</code> and <code>blog</code> pages. It is automatically built from the
+<code>content</code> tree. Like the navbar, it is ordered by page or section index <code>weight</code>
+(or by page creation <code>date</code> if <code>weight</code> is not set), with the page or index&rsquo;s
+<code>Title</code>, or <code>linkTitle</code> if different, as its link title in the menu. If a
+section subfolder has pages other than <code>_index.md</code> or <code>_index.html</code>, those pages
+will appear as a submenu, again ordered by <code>weight</code>. For example, here&rsquo;s the
+metadata for this page showing its <code>weight</code> and <code>title</code>:</p>
+ 
+   <ul class="nav nav-tabs" id="tabs-4" role="tablist">
+  <li class="nav-item">
+      <button class="nav-link disabled"
+          id="tabs-04-00-tab" data-bs-toggle="tab" data-bs-target="#tabs-04-00" role="tab"
+          aria-controls="tabs-04-00" aria-selected="false">
+        Front matter:
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link active"
+          id="tabs-04-01-tab" data-bs-toggle="tab" data-bs-target="#tabs-04-01" role="tab"
+          data-td-tp-persist="toml" aria-controls="tabs-04-01" aria-selected="true">
+        toml
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link"
+          id="tabs-04-02-tab" data-bs-toggle="tab" data-bs-target="#tabs-04-02" role="tab"
+          data-td-tp-persist="yaml" aria-controls="tabs-04-02" aria-selected="false">
+        yaml
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link"
+          id="tabs-04-03-tab" data-bs-toggle="tab" data-bs-target="#tabs-04-03" role="tab"
+          data-td-tp-persist="json" aria-controls="tabs-04-03" aria-selected="false">
+        json
+      </button>
+    </li>
+</ul>
+
+<div class="tab-content" id="tabs-4-content">
+    <div class="tab-body tab-pane fade"
+        id="tabs-04-00" role="tabpanel" aria-labelled-by="tabs-04-00-tab" tabindex="4">
+        
+    </div>
+    <div class="tab-body tab-pane fade show active"
+        id="tabs-04-01" role="tabpanel" aria-labelled-by="tabs-04-01-tab" tabindex="4">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="nx">title</span> <span class="p">=</span> <span class="s2">&#34;Navigation and Search&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">linkTitle</span> <span class="p">=</span> <span class="s2">&#34;Navigation and Search&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">date</span> <span class="p">=</span> <span class="mi">2017-01-05</span><span class="nx">T00</span><span class="err">:</span><span class="mi">00</span><span class="err">:</span><span class="mf">00.000</span><span class="nx">Z</span>
+</span></span><span class="line"><span class="cl"><span class="nx">weight</span> <span class="p">=</span> <span class="mi">3</span>
+</span></span><span class="line"><span class="cl"><span class="nx">description</span> <span class="p">=</span> <span class="s1">&#39;&#39;&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s1">Customize site navigation and search for your Docsy site.
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;&#39;&#39;</span>
+</span></span></code></pre></div>
+    </div>
+    <div class="tab-body tab-pane fade"
+        id="tabs-04-02" role="tabpanel" aria-labelled-by="tabs-04-02-tab" tabindex="4">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;Navigation and Search&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">linkTitle</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;Navigation and Search&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">date</span><span class="p">:</span><span class="w"> </span><span class="ld">2017-01-05</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">weight</span><span class="p">:</span><span class="w"> </span><span class="m">3</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="p">&gt;</span><span class="sd">
+</span></span></span><span class="line"><span class="cl"><span class="sd">  Customize site navigation and search for your Docsy site.</span><span class="w">
+</span></span></span></code></pre></div>
+    </div>
+    <div class="tab-body tab-pane fade"
+        id="tabs-04-03" role="tabpanel" aria-labelled-by="tabs-04-03-tab" tabindex="4">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;title&#34;</span><span class="p">:</span> <span class="s2">&#34;Navigation and Search&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;linkTitle&#34;</span><span class="p">:</span> <span class="s2">&#34;Navigation and Search&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;date&#34;</span><span class="p">:</span> <span class="s2">&#34;2017-01-05T00:00:00.000Z&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;weight&#34;</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;description&#34;</span><span class="p">:</span> <span class="s2">&#34;Customize site navigation and search for your Docsy site.\n&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>
+    </div>
+</div>
+
+<p>To hide a page or section from the left navigation menu, set <code>toc_hide: true</code> in
+the front matter.</p>
+<p>To hide a page from the section summary on a <a href="http://localhost:1313/docs/content/#docs-section-landing-pages">docs section landing
+page</a>, set
+<code>hide_summary: true</code> in the front matter. If you want to hide a page from both
+the TOC menu and the section summary list, you need to set both <code>toc_hide</code> and
+<code>hide_summary</code> to <code>true</code> in the front matter.</p>
+ 
+   <ul class="nav nav-tabs" id="tabs-6" role="tablist">
+  <li class="nav-item">
+      <button class="nav-link disabled"
+          id="tabs-06-00-tab" data-bs-toggle="tab" data-bs-target="#tabs-06-00" role="tab"
+          aria-controls="tabs-06-00" aria-selected="false">
+        Front matter:
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link active"
+          id="tabs-06-01-tab" data-bs-toggle="tab" data-bs-target="#tabs-06-01" role="tab"
+          data-td-tp-persist="toml" aria-controls="tabs-06-01" aria-selected="true">
+        toml
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link"
+          id="tabs-06-02-tab" data-bs-toggle="tab" data-bs-target="#tabs-06-02" role="tab"
+          data-td-tp-persist="yaml" aria-controls="tabs-06-02" aria-selected="false">
+        yaml
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link"
+          id="tabs-06-03-tab" data-bs-toggle="tab" data-bs-target="#tabs-06-03" role="tab"
+          data-td-tp-persist="json" aria-controls="tabs-06-03" aria-selected="false">
+        json
+      </button>
+    </li>
+</ul>
+
+<div class="tab-content" id="tabs-6-content">
+    <div class="tab-body tab-pane fade"
+        id="tabs-06-00" role="tabpanel" aria-labelled-by="tabs-06-00-tab" tabindex="6">
+        
+    </div>
+    <div class="tab-body tab-pane fade show active"
+        id="tabs-06-01" role="tabpanel" aria-labelled-by="tabs-06-01-tab" tabindex="6">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="nx">title</span> <span class="p">=</span> <span class="s2">&#34;My Hidden Page&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">weight</span> <span class="p">=</span> <span class="mi">99</span>
+</span></span><span class="line"><span class="cl"><span class="nx">toc_hide</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl"><span class="nx">hide_summary</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl"><span class="nx">description</span> <span class="p">=</span> <span class="s1">&#39;&#39;&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s1">Page hidden from both the TOC menu and the section summary list.
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;&#39;&#39;</span>
+</span></span></code></pre></div>
+    </div>
+    <div class="tab-body tab-pane fade"
+        id="tabs-06-02" role="tabpanel" aria-labelled-by="tabs-06-02-tab" tabindex="6">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;My Hidden Page&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">weight</span><span class="p">:</span><span class="w"> </span><span class="m">99</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">toc_hide</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">hide_summary</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="p">&gt;</span><span class="sd">
+</span></span></span><span class="line"><span class="cl"><span class="sd">  Page hidden from both the TOC menu and the section summary list.</span><span class="w">
+</span></span></span></code></pre></div>
+    </div>
+    <div class="tab-body tab-pane fade"
+        id="tabs-06-03" role="tabpanel" aria-labelled-by="tabs-06-03-tab" tabindex="6">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;title&#34;</span><span class="p">:</span> <span class="s2">&#34;My Hidden Page&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;weight&#34;</span><span class="p">:</span> <span class="mi">99</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;toc_hide&#34;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;hide_summary&#34;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;description&#34;</span><span class="p">:</span> <span class="s2">&#34;Page hidden from both the TOC menu and the section summary list.\n&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>
+    </div>
+</div>
+
+<h3 id="side-nav-options">Side-nav options</h3>
+<p>By default, the side nav shows the current section fully expanded all the way
+down. This may make the left nav too long and difficult to scan for bigger
+sites. Try setting site parameter <code>ui.sidebar_menu_compact = true</code> in
+<code>hugo.toml</code>.</p>
+<p>With the compact menu (<code>.ui.sidebar_menu_compact = true</code>), only the current
+page&rsquo;s ancestors, siblings and direct descendants are shown. You can use the
+optional parameter <code>.ui.ul_show</code> to set a desired menu depth to always be
+visible. For example, with <code>.ui.ul_show = 1</code> the first menu level is always
+displayed.</p>
+<p>The number of sidebar entries shown per section can be configured using the
+<code>.ui.sidebar_menu_truncate</code> parameter (default: 100).</p>
+<p>As well as the completely expanded and compact menu options, you can also create
+a foldable menu by setting the site parameter <code>ui.sidebar_menu_foldable = true</code>
+in <code>hugo.toml</code>. The foldable menu lets users expand and collapse menu sections
+by toggling arrow icons beside the section parents in the menu.</p>
+<p>On large sites (default: &gt; 2000 pages) the side nav is not generated for each
+page, but cached for the whole section. The HTML classes for marking the active
+menu item (and menu path) are then set using JS. You can adjust the limit for
+activating the cached side nav with the optional parameter
+<code>.ui.sidebar_cache_limit</code>.</p>
+<p>The tabbed pane below lists the menu section options you can define in your
+project <a href="https://gohugo.io/getting-started/configuration/#configuration-file">configuration file</a>.</p>
+
+
+   <ul class="nav nav-tabs" id="tabs-7" role="tablist">
+  <li class="nav-item">
+      <button class="nav-link disabled"
+          id="tabs-07-00-tab" data-bs-toggle="tab" data-bs-target="#tabs-07-00" role="tab"
+          aria-controls="tabs-07-00" aria-selected="false">
+        Configuration file:
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link active"
+          id="tabs-07-01-tab" data-bs-toggle="tab" data-bs-target="#tabs-07-01" role="tab"
+          data-td-tp-persist="toml" aria-controls="tabs-07-01" aria-selected="true">
+        hugo.toml
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link"
+          id="tabs-07-02-tab" data-bs-toggle="tab" data-bs-target="#tabs-07-02" role="tab"
+          data-td-tp-persist="yaml" aria-controls="tabs-07-02" aria-selected="false">
+        hugo.yaml
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link"
+          id="tabs-07-03-tab" data-bs-toggle="tab" data-bs-target="#tabs-07-03" role="tab"
+          data-td-tp-persist="json" aria-controls="tabs-07-03" aria-selected="false">
+        hugo.json
+      </button>
+    </li>
+</ul>
+
+<div class="tab-content" id="tabs-7-content">
+    <div class="tab-body tab-pane fade"
+        id="tabs-07-00" role="tabpanel" aria-labelled-by="tabs-07-00-tab" tabindex="7">
+        
+    </div>
+    <div class="tab-body tab-pane fade show active"
+        id="tabs-07-01" role="tabpanel" aria-labelled-by="tabs-07-01-tab" tabindex="7">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">ui</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">sidebar_menu_compact</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl"><span class="nx">ul_show</span> <span class="p">=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl"><span class="nx">sidebar_menu_foldable</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl"><span class="nx">sidebar_cache_limit</span> <span class="p">=</span> <span class="mi">1000</span>
+</span></span></code></pre></div>
+    </div>
+    <div class="tab-body tab-pane fade"
+        id="tabs-07-02" role="tabpanel" aria-labelled-by="tabs-07-02-tab" tabindex="7">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">params</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">ui</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">sidebar_menu_compact</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">ul_show</span><span class="p">:</span><span class="w"> </span><span class="m">1</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">sidebar_menu_foldable</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">sidebar_cache_limit</span><span class="p">:</span><span class="w"> </span><span class="m">1000</span><span class="w">
+</span></span></span></code></pre></div>
+    </div>
+    <div class="tab-body tab-pane fade"
+        id="tabs-07-03" role="tabpanel" aria-labelled-by="tabs-07-03-tab" tabindex="7">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;params&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;ui&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;sidebar_menu_compact&#34;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;ul_show&#34;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;sidebar_menu_foldable&#34;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;sidebar_cache_limit&#34;</span><span class="p">:</span> <span class="mi">1000</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>
+    </div>
+</div>
+
+<h3 id="adding-icons-to-the-side-nav">Adding icons to the side nav</h3>
+<p>You can add icons to the side nav in the sidebar by setting the <code>icon</code> parameter
+in the page front matter (e.g. <code>icon: fa-solid fa-screwdriver-wrench</code>).</p>
+<p>You can find a complete list of icons to use in the
+<a href="https://fontawesome.com/icons?d=gallery&amp;p=2">FontAwesome documentation</a>. Docsy
+includes the free FontAwesome icons by default.</p>
+<p>Out of the box, if you want to use icons, you should define icons for all items
+on the same menu level in order to ensure an appropriate look. If the icons are
+used in a different way, individual CSS adjustments are likely necessary.</p>
+<h3 id="adding-manual-links-to-the-side-nav">Adding manual links to the side nav</h3>
+<p>By default the side nav is entirely generated from your section&rsquo;s pages. If you
+want to add a manual link to this menu, such as a link to an external site or a
+page in a different section of your site, you can do this by creating a
+<em>placeholder page file</em> in the doc hierarchy with the appropriate weight and
+some special parameters in its metadata (frontmatter) to specify the link
+details.</p>
+<p>To create a placeholder page, create a page file as usual in the directory where
+you want the link to show up in the menu, and add a <code>manualLink</code> parameter to
+its metadata. If a page has <code>manualLink</code> in its metadata, Docsy generates a link
+for it in the side nav for this page and in the section index (the list of the
+child pages of a section on a landing page - see
+<a href="/docs/content/adding-content/#docs-section-landing-pages">description in the Docsy docs</a>),
+but the link destination is replaced by the value of <code>manualLink</code>. The link text
+is the <code>title</code> (or <code>linkTitle</code> if set) of your placeholder page. You can
+optionally also set the <code>title</code> attribute of the link with the parameter
+<code>manualLinkTitle</code> and a link target with <code>manualLinkTarget</code> - for example if you
+want an external link to open in a new tab you can set the link target to
+<code>_blank</code>. Docsy automatically adds <code>rel=noopener</code> to links that open new tabs as
+a security best practice.</p>
+<p>You can also use <code>manualLink</code> to add an additional cross reference to another
+existing page of your site. For internal links you can choose to use the
+parameter <code>manualLinkRelref</code> instead of <code>manualLink</code> to use the built-in Hugo
+function
+<a href="https://gohugo.io/functions/relref/" title="External link to official Hugo Docs">relref</a>.
+If <code>relref</code> can&rsquo;t find a unique page in your site, Hugo throws a error message.</p>
+<div class="alert alert-primary" role="alert"><div class="h4 alert-heading" role="heading">Note</div>
+<p>Although all generated menu and landing page links
+based on your placeholder file are set according to the parameters <code>manualLink</code>
+or <code>manualLinkRelref</code>, Hugo still generates a regular HTML site page for the
+file, albeit one with no generated links to it. To avoid confusion if users
+accidentally land on a generated placeholder page, we recommend specifying the
+URL for the external link in the normal content and / or page description of the
+page. </div></p>
+<h3 id="sidebar-root">Section as sidebar root (EXPERIMENTAL)</h3>
+<p>To help readers stay focused within a section, you can “root” a section in the
+sidebar navigation. This is particularly useful when there is deeply nested
+pages.</p>
+<p>Enable the feature in your site configuration:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">params</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">ui</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">sidebar_root_enabled</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span></code></pre></div><p>Then add <code>sidebar_root_for</code> to a section’s <code>_index.md</code>. Available options are:</p>
+<ul>
+<li><code>self</code> applies the rooted sidebar to the index page as well as descendants.</li>
+<li><code>children</code> keeps the section’s index page in the global docs menu, but limits
+descendant pages to the rooted sidebar.</li>
+</ul>
+<p>Example:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nn">---</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="l">API Reference v2.0</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">linkTitle</span><span class="p">:</span><span class="w"> </span><span class="l">v2.0</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">sidebar_root_for</span><span class="p">:</span><span class="w"> </span><span class="l">self</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nn">---</span><span class="w">
+</span></span></span></code></pre></div><p>Examples:</p>
+<table>
+  <thead>
+      <tr>
+          <th><code>sidebar_root_for</code></th>
+          <th>Example</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>self</code></td>
+          <td><a href="/docs/content/">Content and customization</a></td>
+      </tr>
+      <tr>
+          <td><code>children</code></td>
+          <td><a href="/docs/best-practices/">Best practices</a></td>
+      </tr>
+  </tbody>
+</table>
+<p>To navigate out of a rooted section, click the “up” icon in the sidebar next to
+the section title.</p>
+<p>Feature notes:</p>
+<ul>
+<li>You can nest rooted sections.</li>
+<li>Docsy will warn you if you set <code>sidebar_root_for</code> to <code>self</code> on a section root
+page, since it is redundant.</li>
+<li>Docsy will generally ignore <code>sidebar_root_for</code> for non &ldquo;docs&rdquo; pages and
+non-section index pages.</li>
+</ul>
+<h2 id="table-of-contents">Table of contents (TOC)</h2>
+<p>Docsy provides a table of contents (TOC) for each <a href="/docs/content/adding-content/#content-sections-and-templates"><code>docs</code> page</a>. The TOC is
+generated using Hugo&rsquo;s <a href="https://gohugo.io/methods/page/tableofcontents/">TableOfContents</a> function from the Markdown headings
+in the page content. The TOC is displayed in the right-hand sidebar of the
+page&rsquo;s main content area by default.</p>
+<div class="alert alert-info" role="alert"><div class="h4 alert-heading" role="heading">Will shortcode headings appear in the TOC?</div>
+<p>The headings contained in <a href="/docs/content/shortcodes/#shortcode-delimiters">Markdown shortcodes</a> <code>{{% ... %}}</code> get included
+in the TOC, while those in standard shortcodes <code>{{&lt; ... &gt;}}</code> will not. For
+details, see Hugo forum discussions <a href="https://discourse.gohugo.io/t/tableofcontents-doesnt-render-headings-correctly-that-contains-shortcode/55399">#55399</a> and <a href="https://discourse.gohugo.io/t/can-hugo-include-shortcode-headings-in-toc/51940">#51940</a>.</p>
+</div>
+<h3 id="toc-customization">TOC customization</h3>
+<p>To <strong>hide</strong> the TOC for a specific page, set the following parameters in that
+page&rsquo;s front matter:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">notoc</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span></code></pre></div><p>You can use the following CSS classes to <strong>style</strong> TOC elements:</p>
+<ul>
+<li><code>.td-toc</code> for the TOC container</li>
+<li><code>.td-toc-title</code> for the TOC title element (which includes the &ldquo;On this page&rdquo;
+text and the top-of-page link)</li>
+<li><code>.td-toc-title__text</code> for the TOC title text</li>
+<li><code>.td-toc-title__link</code> for the TOC title link</li>
+</ul>
+<p>The TOC labels &ldquo;On this page&rdquo; and &ldquo;Top of page&rdquo; can be <strong>localized</strong>, for
+example:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="c"># i18n/fr.toml</span>
+</span></span><span class="line"><span class="cl"><span class="nx">toc_on_this_page</span> <span class="p">=</span> <span class="s2">&#34;Sur cette page&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">toc_top_of_page</span> <span class="p">=</span> <span class="s2">&#34;Haut de la page&#34;</span>
+</span></span></code></pre></div><p>For details, see <a href="/docs/language/#internationalization-bundles">Internationalization bundles</a>.</p>
+<h3 id="toc-entry-tracking">Active TOC entry tracking with ScrollSpy</h3>
+<p>Docsy highlights the active heading in the TOC sidebar using Bootstrap
+<a href="https://getbootstrap.com/docs/5.3/components/scrollspy/">ScrollSpy</a>. ScrollSpy uses <code>.td-toc</code> (mentioned in the previous section) as
+<code>data-bs-target</code> selector to target the TOC container when tracking active
+headings.</p>
+<p>By default, headings become active when they reach 10% from the top of the
+viewport (configured via <code>rootMargin</code>).</p>
+<ul>
+<li>
+<p>To disable ScrollSpy for a specific page, set <code>ui.scrollSpy.disable: true</code> in
+that page&rsquo;s front matter. To disable for all pages in a section, <a href="https://gohugo.io/content-management/front-matter/#cascade-1">cascade</a> the
+setting in the front matter of the section&rsquo;s index page.</p>
+</li>
+<li>
+<p>To globally adjust when headings become active, set <code>ui.scrollSpy.rootMargin</code>
+in your site configuration. The default is <code>0px 0px -10%</code>. Use a larger
+negative percentage (e.g., <code>-20%</code>) to activate headings earlier, or a smaller
+one (e.g., <code>-5%</code>) to activate them later.</p>
+
+  
+     <ul class="nav nav-tabs" id="tabs-11" role="tablist">
+  <li class="nav-item">
+      <button class="nav-link disabled"
+          id="tabs-11-00-tab" data-bs-toggle="tab" data-bs-target="#tabs-11-00" role="tab"
+          aria-controls="tabs-11-00" aria-selected="false">
+        Configuration file:
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link active"
+          id="tabs-11-01-tab" data-bs-toggle="tab" data-bs-target="#tabs-11-01" role="tab"
+          data-td-tp-persist="toml" aria-controls="tabs-11-01" aria-selected="true">
+        hugo.toml
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link"
+          id="tabs-11-02-tab" data-bs-toggle="tab" data-bs-target="#tabs-11-02" role="tab"
+          data-td-tp-persist="yaml" aria-controls="tabs-11-02" aria-selected="false">
+        hugo.yaml
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link"
+          id="tabs-11-03-tab" data-bs-toggle="tab" data-bs-target="#tabs-11-03" role="tab"
+          data-td-tp-persist="json" aria-controls="tabs-11-03" aria-selected="false">
+        hugo.json
+      </button>
+    </li>
+</ul>
+
+<div class="tab-content" id="tabs-11-content">
+    <div class="tab-body tab-pane fade"
+        id="tabs-11-00" role="tabpanel" aria-labelled-by="tabs-11-00-tab" tabindex="11">
+        
+    </div>
+    <div class="tab-body tab-pane fade show active"
+        id="tabs-11-01" role="tabpanel" aria-labelled-by="tabs-11-01-tab" tabindex="11">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">ui</span><span class="p">.</span><span class="nx">scrollSpy</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">rootMargin</span> <span class="p">=</span> <span class="s2">&#34;0px 0px -15%&#34;</span>
+</span></span></code></pre></div>
+    </div>
+    <div class="tab-body tab-pane fade"
+        id="tabs-11-02" role="tabpanel" aria-labelled-by="tabs-11-02-tab" tabindex="11">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">params</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">ui</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">scrollSpy</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">rootMargin</span><span class="p">:</span><span class="w"> </span><span class="l">0px 0px -15%</span><span class="w">
+</span></span></span></code></pre></div>
+    </div>
+    <div class="tab-body tab-pane fade"
+        id="tabs-11-03" role="tabpanel" aria-labelled-by="tabs-11-03-tab" tabindex="11">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;params&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;ui&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;scrollSpy&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&#34;rootMargin&#34;</span><span class="p">:</span> <span class="s2">&#34;0px 0px -15%&#34;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>
+    </div>
+</div>
+
+<div class="alert alert-info" role="alert"><div class="h4 alert-heading" role="heading">Smooth scrolling issue</div>
+<p>We previously enabled ScrollSpy&rsquo;s smooth scrolling, but it interfered with
+hash updates in the browser URL and in-page navigation, so it is disabled by
+default. For details see PR <a href="https://github.com/google/docsy/pull/2291">#2291</a>.</p>
+</div>
+</li>
+</ul>
+<h4 id="advanced-scrollspy-customization">Advanced ScrollSpy customization</h4>
+<p>For advanced customization, such as adjusting <code>threshold</code>, override
+<a href="https://github.com/google/docsy/blob/main/layouts/_partials/td/scrollspy-attr.txt">layouts/_partials/td/scrollspy-attr.txt</a>. For ScrollSpy configuration details,
+see <a href="https://getbootstrap.com/docs/5.3/components/scrollspy/">ScrollSpy</a>.</p>
+<div class="alert alert-primary" role="alert"><div class="h4 alert-heading" role="heading">Note</div>
+<p>ScrollSpy determines the active TOC entry using the browser&rsquo;s
+<a href="https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver">IntersectionObserver API</a>, including its configurable <a href="https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver/rootMargin">rootMargin</a>. Because
+of how these thresholds work, there can be brief moments while a user is
+scrolling when <strong>no</strong> heading is highlighted, especially when headings are close
+together or when the active region is small. For more details, see <a href="https://getbootstrap.com/docs/5.3/components/scrollspy/#options">ScrollSpy
+options</a> and the discussion in <a href="https://github.com/twbs/bootstrap/issues/34958">Bootstrap issue #34958</a>.</p>
+</div>
+<h2 id="breadcrumb-navigation">Breadcrumb navigation</h2>
+<p><a href="https://en.wikipedia.org/wiki/Breadcrumb_navigation">Breadcrumb navigation</a> appears at the top of each non-index page be default. To
+also display single-element breadcrumb lists in index pages, add the following
+<a href="/docs/content/lookandfeel/#project-style-files">style override</a> to your project:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="nc">.td-breadcrumbs__single</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="na">display</span><span class="o">:</span> <span class="ni">inline</span> <span class="k">!important</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Breadcrumb navigation is also shown for each item in the taxonomy results page
+— that is, when you click one of the taxonomy labels such as <em>Categories</em>
+or <em>Tags</em>.</p>
+<p>As illustrated next, you can disable (non-taxonomy) breadcrumb navigation for an
+entire project, by setting <code>ui.breadcrumb_disable</code> to true in your project
+<a href="https://gohugo.io/getting-started/configuration/#configuration-file">configuration file</a>. Similarly, you can disabled taxonomy breadcrumbs by
+setting <code>ui.taxonomy_breadcrumb_disable</code> to true:</p>
+
+
+   <ul class="nav nav-tabs" id="tabs-14" role="tablist">
+  <li class="nav-item">
+      <button class="nav-link disabled"
+          id="tabs-14-00-tab" data-bs-toggle="tab" data-bs-target="#tabs-14-00" role="tab"
+          aria-controls="tabs-14-00" aria-selected="false">
+        Configuration file:
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link active"
+          id="tabs-14-01-tab" data-bs-toggle="tab" data-bs-target="#tabs-14-01" role="tab"
+          data-td-tp-persist="toml" aria-controls="tabs-14-01" aria-selected="true">
+        hugo.toml
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link"
+          id="tabs-14-02-tab" data-bs-toggle="tab" data-bs-target="#tabs-14-02" role="tab"
+          data-td-tp-persist="yaml" aria-controls="tabs-14-02" aria-selected="false">
+        hugo.yaml
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link"
+          id="tabs-14-03-tab" data-bs-toggle="tab" data-bs-target="#tabs-14-03" role="tab"
+          data-td-tp-persist="json" aria-controls="tabs-14-03" aria-selected="false">
+        hugo.json
+      </button>
+    </li>
+</ul>
+
+<div class="tab-content" id="tabs-14-content">
+    <div class="tab-body tab-pane fade"
+        id="tabs-14-00" role="tabpanel" aria-labelled-by="tabs-14-00-tab" tabindex="14">
+        
+    </div>
+    <div class="tab-body tab-pane fade show active"
+        id="tabs-14-01" role="tabpanel" aria-labelled-by="tabs-14-01-tab" tabindex="14">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">ui</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">breadcrumb_disable</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl"><span class="nx">taxonomy_breadcrumb_disable</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span></code></pre></div>
+    </div>
+    <div class="tab-body tab-pane fade"
+        id="tabs-14-02" role="tabpanel" aria-labelled-by="tabs-14-02-tab" tabindex="14">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">params</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">ui</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">breadcrumb_disable</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">taxonomy_breadcrumb_disable</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span></code></pre></div>
+    </div>
+    <div class="tab-body tab-pane fade"
+        id="tabs-14-03" role="tabpanel" aria-labelled-by="tabs-14-03-tab" tabindex="14">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;params&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;ui&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;breadcrumb_disable&#34;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;taxonomy_breadcrumb_disable&#34;</span><span class="p">:</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>
+    </div>
+</div>
+
+<p>To disable breadcrumbs in a specific page or section set <code>ui.breadcrumb_disable</code>
+to true in the page or section-index front matter. Here is an example of the
+latter:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">cascade</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">params</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">ui</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">breadcrumb_disable</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span></code></pre></div><h2 id="heading-self-links">Heading self links</h2>
+<p>Docsy supports build-time generation of heading self links using Hugo&rsquo;s
+<code>render-heading.html</code> <a href="https://gohugo.io/templates/render-hooks/">hook</a>.</p>
+<p>To enable this feature in your project, define
+<code>layouts/_markup/render-heading.html</code> as:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go-html-template" data-lang="go-html-template"><span class="line"><span class="cl"><span class="cp">{{</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;td/render-heading.html&#34;</span><span class="w"> </span><span class="na">.</span><span class="w"> </span><span class="cp">}}</span>
+</span></span></code></pre></div><p>The heading self-link anchor class is <code>.td-heading-self-link</code>, which you can
+customize for your project. By default, the heading self-link style has these
+defaults:</p>
+<ul>
+<li>The self-link symbol is <code>#</code>.</li>
+<li>The symbol is always visible on mobile and touch devices, otherwise it is only
+visible on hover or focus.</li>
+</ul>
+<p>Your projects can also reuse (in your own custom heading render hook) or
+override the heading self-link partial <code>td/heading-self-link.html</code>, which is
+defined in <a href="https://github.com/google/docsy/tree/main/layouts/_partials/td/render-heading.html">layouts/_partials/td/render-heading.html</a>.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Formerly named the &ldquo;section menu&rdquo;.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+	<style>
+  .feedback--answer {
+    display: inline-block;
+  }
+  .feedback--answer-no {
+    margin-left: 1em;
+  }
+  .feedback--response {
+    display: none;
+    margin-top: 1em;
+  }
+  .feedback--response__visible {
+    display: block;
+  }
+</style>
+<div class="d-print-none">
+<h2 class="feedback--title">Feedback</h2>
+<p class="feedback--question">Was this page helpful?</p>
+<button class="btn btn-primary mb-4 feedback--answer feedback--answer-yes">Yes</button>
+<button class="btn btn-primary mb-4 feedback--answer feedback--answer-no">No</button>
+<p class="feedback--response feedback--response-yes">
+  Glad to hear it! Please <a href="https://github.com/google/docsy/issues/new">tell us how we can improve</a>.
+</p>
+<p class="feedback--response feedback--response-no">
+  Sorry to hear that. Please <a href="https://github.com/google/docsy/issues/new">tell us how we can improve</a>.
+</p>
+</div>
+<script>
+  const yesButton = document.querySelector('.feedback--answer-yes');
+  const noButton = document.querySelector('.feedback--answer-no');
+  const yesResponse = document.querySelector('.feedback--response-yes');
+  const noResponse = document.querySelector('.feedback--response-no');
+  const disableButtons = () => {
+    yesButton.disabled = true;
+    noButton.disabled = true;
+  };
+  const sendFeedback = (value) => {
+    if (typeof gtag !== 'function') return;
+    gtag('event', 'page_helpful', {
+      'event_category': 'Helpful',
+      'event_label': window.location.pathname,
+      'value': value
+    });
+  };
+  yesButton.addEventListener('click', () => {
+    yesResponse.classList.add('feedback--response__visible');
+    disableButtons();
+    sendFeedback( 100 );
+  });
+  noButton.addEventListener('click', () => {
+    noResponse.classList.add('feedback--response__visible');
+    disableButtons();
+    sendFeedback(0);
+  });
+</script>
+<br />
+
+</div>
+
+
+          </main>
+        </div>
+      </div>
+      <footer class="td-footer row d-print-none">
+  <div class="container-fluid">
+    <div class="row mx-md-2">
+      <div class="td-footer__left col-6 col-sm-4 order-sm-1">
+        <ul class="td-footer__links-list">
+  
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="GitHub Discussions" aria-label="GitHub Discussions">
+    <a target="_blank" rel="noopener" href="https://github.com/google/docsy/discussions" aria-label="GitHub Discussions">
+      <i class="fa-brands fa-github"></i>
+    </a>
+  </li>
+  
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="User mailing list" aria-label="User mailing list">
+    <a target="_blank" rel="noopener" href="https://groups.google.com/g/docsy-users" aria-label="User mailing list">
+      <i class="fa-solid fa-envelope"></i>
+    </a>
+  </li>
+  
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="Twitter" aria-label="Twitter">
+    <a target="_blank" rel="noopener" href="https://twitter.com/docsydocs" aria-label="Twitter">
+      <i class="fa-brands fa-x-twitter"></i>
+    </a>
+  </li>
+  
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="Stack Overflow" aria-label="Stack Overflow">
+    <a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/tagged/docsy" aria-label="Stack Overflow">
+      <i class="fa-brands fa-stack-overflow"></i>
+    </a>
+  </li>
+  
+</ul>
+
+      </div><div class="td-footer__right col-6 col-sm-4 order-sm-3">
+        <ul class="td-footer__links-list">
+  
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="Project docs and site info" aria-label="Project docs and site info">
+    <a target="_blank" rel="noopener" href="/site/" aria-label="Project docs and site info">
+      <i class="fa fa-book"></i>
+    </a>
+  </li>
+  
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="GitHub" aria-label="GitHub">
+    <a target="_blank" rel="noopener" href="https://github.com/google/docsy" aria-label="GitHub">
+      <i class="fa-brands fa-github"></i>
+    </a>
+  </li>
+  
+</ul>
+
+      </div><div class="td-footer__center col-12 col-sm-4 py-2 order-sm-2">
+        <span class="td-footer__copyright">&copy;
+    2018&ndash;present
+    <span class="td-footer__authors">Docsy Authors | <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a> |</span></span><span class="td-footer__all_rights_reserved">All Rights Reserved</span><span class="ms-2"><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a></span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <style>
+.markmap > svg {
+  width: 100%;
+  height: 300px;
+}
+</style>
+<script>
+window.markmap = {
+  autoLoader: {
+      manual: true,
+      onReady() {
+        const { autoLoader, builtInPlugins } = window.markmap;
+        autoLoader.transformPlugins = builtInPlugins.filter(plugin => plugin.name !== 'prism');
+      },
+  },
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/markmap-autoloader"></script>
+<script src='/js/deflate.js'></script>
+<script src="/js/main.js"></script>
+<script defer src="/js/click-to-copy.js" crossorigin="anonymous"></script>
+<script src='/js/tabpane-persist.js'></script>
+
+  </body>
+</html>
