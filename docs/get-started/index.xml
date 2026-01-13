@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Get started on faŋtrəntrəŋ-pages</title>
-    <link>http://localhost:1313/docs/get-started/</link>
+    <link>https://trtrf.github.io/docs/get-started/</link>
     <description>Recent content in Get started on faŋtrəntrəŋ-pages</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 08 Dec 2021 09:22:27 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/docs/get-started/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://trtrf.github.io/docs/get-started/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Other setup options</title>
-      <link>http://localhost:1313/docs/get-started/other-options/</link>
+      <link>https://trtrf.github.io/docs/get-started/other-options/</link>
       <pubDate>Wed, 08 Dec 2021 09:22:27 +0100</pubDate>
-      <guid>http://localhost:1313/docs/get-started/other-options/</guid>
-      <description>&lt;p&gt;If you don&amp;rsquo;t want to use&#xA;&lt;a href=&#34;http://localhost:1313/docs/get-started/docsy-as-module/&#34;&gt;Docsy as a Hugo Module&lt;/a&gt; (for example if you&#xA;do not want to install Go) but still don&amp;rsquo;t want to copy the theme files into&#xA;your own repo, you can &lt;strong&gt;use Docsy as a&#xA;&lt;a href=&#34;https://git-scm.com/book/en/v2/Git-Tools-Submodules&#34;&gt;Git submodule&lt;/a&gt;&lt;/strong&gt;. Using&#xA;submodules also lets Hugo use the theme files from Docsy repo, though is more&#xA;complicated to maintain than the Hugo Modules approach. This is the approach&#xA;used in older versions of the Docsy example site, and is still supported. If you&#xA;are using Docsy as a submodule but would like to migrate to Hugo Modules, see&#xA;our &lt;a href=&#34;http://localhost:1313/docs/updating/convert-site-to-module/&#34;&gt;migration guide&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid>https://trtrf.github.io/docs/get-started/other-options/</guid>
+      <description>&lt;p&gt;If you don&amp;rsquo;t want to use&#xA;&lt;a href=&#34;https://trtrf.github.io/docs/get-started/docsy-as-module/&#34;&gt;Docsy as a Hugo Module&lt;/a&gt; (for example if you&#xA;do not want to install Go) but still don&amp;rsquo;t want to copy the theme files into&#xA;your own repo, you can &lt;strong&gt;use Docsy as a&#xA;&lt;a href=&#34;https://git-scm.com/book/en/v2/Git-Tools-Submodules&#34;&gt;Git submodule&lt;/a&gt;&lt;/strong&gt;. Using&#xA;submodules also lets Hugo use the theme files from Docsy repo, though is more&#xA;complicated to maintain than the Hugo Modules approach. This is the approach&#xA;used in older versions of the Docsy example site, and is still supported. If you&#xA;are using Docsy as a submodule but would like to migrate to Hugo Modules, see&#xA;our &lt;a href=&#34;https://trtrf.github.io/docs/updating/convert-site-to-module/&#34;&gt;migration guide&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Deploy Docsy inside a Docker container</title>
-      <link>http://localhost:1313/docs/get-started/quickstart-docker/</link>
+      <link>https://trtrf.github.io/docs/get-started/quickstart-docker/</link>
       <pubDate>Mon, 30 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/get-started/quickstart-docker/</guid>
+      <guid>https://trtrf.github.io/docs/get-started/quickstart-docker/</guid>
       <description>&lt;p&gt;We provide a Docker image that you can use to run and test your Docsy site&#xA;locally, without having to install all Docsy&amp;rsquo;s dependencies.&lt;/p&gt;&#xA;&lt;h2 id=&#34;install-the-prerequisites&#34;&gt;Install the prerequisites&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;On Mac and Windows, download and install &lt;a href=&#34;https://www.docker.com/get-started&#34;&gt;Docker&#xA;Desktop&lt;/a&gt;.  On Linux, install &lt;a href=&#34;https://docs.docker.com/engine/install/&#34;&gt;Docker&#xA;engine&lt;/a&gt; and &lt;a href=&#34;https://docs.docker.com/compose/install/&#34;&gt;Docker&#xA;compose&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The installation may require you to reboot your computer for the changes to&#xA;take effect.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/git-guides/install-git&#34;&gt;Install git&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;create-your-repository-from-the-docsy-example-template&#34;&gt;Create your repository from the docsy-example template&lt;/h2&gt;&#xA;&lt;p&gt;The docsy-example repository provides a basic site structure that you can use&#xA;as starting point to create your own documentation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Basic site configuration</title>
-      <link>http://localhost:1313/docs/get-started/basic-configuration/</link>
+      <link>https://trtrf.github.io/docs/get-started/basic-configuration/</link>
       <pubDate>Wed, 08 Dec 2021 09:22:27 +0100</pubDate>
-      <guid>http://localhost:1313/docs/get-started/basic-configuration/</guid>
+      <guid>https://trtrf.github.io/docs/get-started/basic-configuration/</guid>
       <description>&lt;p&gt;Site-wide configuration details and parameters are defined in your project&amp;rsquo;s &lt;a href=&#34;https://gohugo.io/getting-started/configuration/#configuration-file&#34;&gt;configuration file&lt;/a&gt; (&lt;code&gt;hugo.toml&lt;/code&gt; or &lt;code&gt;config.toml&lt;/code&gt;). These include your chosen Hugo theme (Docsy, of course!), project name, community links, Google Analytics configuration, and Markdown parser parameters. See the examples with comments in &lt;a href=&#34;https://github.com/google/docsy-example/blob/main/hugo.yaml&#34;&gt;&lt;code&gt;hugo.yaml&lt;/code&gt; in the example project&lt;/a&gt; for how to add this information. &lt;strong&gt;We recommend copying this hugo.yaml and editing it even if you’re just using the theme and not copying the entire Docsy example site&lt;/strong&gt;, as it includes default values for many parameters that you need to set for your site to build correctly.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Known issues</title>
-      <link>http://localhost:1313/docs/get-started/known_issues/</link>
+      <link>https://trtrf.github.io/docs/get-started/known_issues/</link>
       <pubDate>Wed, 08 Dec 2021 09:22:27 +0100</pubDate>
-      <guid>http://localhost:1313/docs/get-started/known_issues/</guid>
+      <guid>https://trtrf.github.io/docs/get-started/known_issues/</guid>
       <description>&lt;p&gt;The following issues are know on &lt;a href=&#34;#macos&#34;&gt;MacOS&lt;/a&gt; and on &lt;a href=&#34;#windows-subsystem-for-linux-wsl&#34;&gt;Windows Subsystem for Linux&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;h3 id=&#34;macos&#34;&gt;MacOS&lt;/h3&gt;&#xA;&lt;h4 id=&#34;errors-too-many-open-files-or-fatal-error-pipe-failed&#34;&gt;Errors: &lt;code&gt;too many open files&lt;/code&gt; or &lt;code&gt;fatal error: pipe failed&lt;/code&gt;&lt;/h4&gt;&#xA;&lt;p&gt;By default, MacOS permits a small number of open File Descriptors. For larger sites, or when you&amp;rsquo;re simultaneously running multiple applications,&#xA;you might receive one of the following errors when you run &lt;a href=&#34;https://gohugo.io/commands/hugo_server/&#34;&gt;&lt;code&gt;hugo server&lt;/code&gt;&lt;/a&gt; to preview your site locally:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;POSTCSS v7 and earlier:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ERROR 2020/04/14 12:37:16 Error: listen tcp 127.0.0.1:1313: socket: too many open files&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;POSTCSS v8 and later:&lt;/p&gt;</description>
     </item>
   </channel>

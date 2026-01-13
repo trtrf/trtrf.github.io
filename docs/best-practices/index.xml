@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Best Practices on faŋtrəntrəŋ-pages</title>
-    <link>http://localhost:1313/docs/best-practices/</link>
+    <link>https://trtrf.github.io/docs/best-practices/</link>
     <description>Recent content in Best Practices on faŋtrəntrəŋ-pages</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/docs/best-practices/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://trtrf.github.io/docs/best-practices/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo Content Tips</title>
-      <link>http://localhost:1313/docs/best-practices/site-guidance/</link>
+      <link>https://trtrf.github.io/docs/best-practices/site-guidance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/best-practices/site-guidance/</guid>
+      <guid>https://trtrf.github.io/docs/best-practices/site-guidance/</guid>
       <description>&lt;p&gt;Docsy is a theme for the &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; static site generator. If&#xA;you&amp;rsquo;re not already familiar with Hugo this page provides some useful tips and&#xA;potential gotchas for adding and editing content for your site. Feel free to add&#xA;your own!&lt;/p&gt;&#xA;&lt;h2 id=&#34;linking&#34;&gt;Linking&lt;/h2&gt;&#xA;&lt;p&gt;By default, regular relative URLs in links are left unchanged by Hugo (they&amp;rsquo;re&#xA;still relative links in your site&amp;rsquo;s generated HTML), hence some hardcoded&#xA;relative links like &lt;code&gt;[relative cross-link](../../peer-folder/sub-file.md)&lt;/code&gt; might&#xA;behave unexpectedly compared to how they work on your local file system. You may&#xA;find it helpful to use some of Hugo&amp;rsquo;s built-in link shortcodes like&#xA;&lt;a href=&#34;https://gohugo.io/shortcodes/relref/&#34;&gt;relref&lt;/a&gt; to avoid broken links in your&#xA;generated site. For example a &lt;code&gt;{{&amp;lt; ref &amp;quot;filename.md&amp;quot; &amp;gt;}}&lt;/code&gt; link in Hugo will&#xA;actually find and automatically link to your file named &lt;code&gt;filename.md&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Organizing Your Content</title>
-      <link>http://localhost:1313/docs/best-practices/organizing-content/</link>
+      <link>https://trtrf.github.io/docs/best-practices/organizing-content/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/best-practices/organizing-content/</guid>
+      <guid>https://trtrf.github.io/docs/best-practices/organizing-content/</guid>
       <description>&lt;p&gt;If you have a look at our &lt;a href=&#34;https://example.docsy.dev/about/&#34;&gt;Example Site&lt;/a&gt;, you&amp;rsquo;ll see that we&amp;rsquo;ve organized&#xA;the Documentation section into a number of subsections, each with some recommendations about what you might put&#xA;in that section.&lt;/p&gt;&#xA;&lt;h2 id=&#34;do-i-need-to-use-this-structure&#34;&gt;Do I need to use this structure?&lt;/h2&gt;&#xA;&lt;p&gt;Absolutely not! The site structure in the Example Site was created to meet the needs of large docsets for large&#xA;products with lots of features, potential tasks, and reference elements. For a simpler docset (like this one!),&#xA;it&amp;rsquo;s fine to just structure your docs around specific features that your users need to know about.  Even for larger&#xA;documentation sets, you may find that the structure isn&amp;rsquo;t useful &amp;ldquo;as is&amp;rdquo;, or that you don&amp;rsquo;t need to use all the&#xA;section types.&lt;/p&gt;</description>
     </item>
   </channel>

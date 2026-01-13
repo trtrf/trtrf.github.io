@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Use Docsy as a Hugo Module on faŋtrəntrəŋ-pages</title>
-    <link>http://localhost:1313/docs/get-started/docsy-as-module/</link>
+    <link>https://trtrf.github.io/docs/get-started/docsy-as-module/</link>
     <description>Recent content in Use Docsy as a Hugo Module on faŋtrəntrəŋ-pages</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 08 Dec 2021 11:12:59 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/docs/get-started/docsy-as-module/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://trtrf.github.io/docs/get-started/docsy-as-module/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Before you begin</title>
-      <link>http://localhost:1313/docs/get-started/docsy-as-module/installation-prerequisites/</link>
+      <link>https://trtrf.github.io/docs/get-started/docsy-as-module/installation-prerequisites/</link>
       <pubDate>Wed, 08 Dec 2021 11:12:59 +0100</pubDate>
-      <guid>http://localhost:1313/docs/get-started/docsy-as-module/installation-prerequisites/</guid>
+      <guid>https://trtrf.github.io/docs/get-started/docsy-as-module/installation-prerequisites/</guid>
       <description>&lt;p&gt;This page describes the prerequisites for building a site that uses Docsy as a Hugo Module.&lt;/p&gt;&#xA;&lt;h2 id=&#34;install-hugo&#34;&gt;Install Hugo&lt;/h2&gt;&#xA;&lt;p&gt;You need a &lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34;&gt;recent &lt;strong&gt;extended&lt;/strong&gt; version&lt;/a&gt; (version 0.146.0 or later) of &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; to do local builds and previews of sites (like this one) that use Docsy. If you install from the release page, make sure to get the &lt;code&gt;extended&lt;/code&gt; Hugo version, which supports &lt;a href=&#34;https://sass-lang.com/documentation/file.SCSS_FOR_SASS_USERS.html&#34;&gt;SCSS&lt;/a&gt;; you may need to scroll down the list of releases to see it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Create a new site: start with a prepopulated site</title>
-      <link>http://localhost:1313/docs/get-started/docsy-as-module/example-site-as-template/</link>
+      <link>https://trtrf.github.io/docs/get-started/docsy-as-module/example-site-as-template/</link>
       <pubDate>Wed, 08 Dec 2021 09:21:54 +0100</pubDate>
-      <guid>http://localhost:1313/docs/get-started/docsy-as-module/example-site-as-template/</guid>
-      <description>&lt;p&gt;The simplest way to create a new Docsy site is to use the source of the &lt;a href=&#34;https://github.com/google/docsy-example&#34;&gt;Docsy example site&lt;/a&gt; as starting point. This approach gives you a skeleton structure for your site, with top-level and documentation sections and templates that you can modify as necessary. The example site automatically pulls in the Docsy theme as a &lt;a href=&#34;https://gohugo.io/hugo-modules/&#34;&gt;Hugo Module&lt;/a&gt;, so it&amp;rsquo;s easy to &lt;a href=&#34;http://localhost:1313/docs/updating/updating-hugo-module/&#34;&gt;keep up to date&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;If you prefer to create a site from scratch, follow the instructions in Start a site from scratch.&lt;/p&gt;</description>
+      <guid>https://trtrf.github.io/docs/get-started/docsy-as-module/example-site-as-template/</guid>
+      <description>&lt;p&gt;The simplest way to create a new Docsy site is to use the source of the &lt;a href=&#34;https://github.com/google/docsy-example&#34;&gt;Docsy example site&lt;/a&gt; as starting point. This approach gives you a skeleton structure for your site, with top-level and documentation sections and templates that you can modify as necessary. The example site automatically pulls in the Docsy theme as a &lt;a href=&#34;https://gohugo.io/hugo-modules/&#34;&gt;Hugo Module&lt;/a&gt;, so it&amp;rsquo;s easy to &lt;a href=&#34;https://trtrf.github.io/docs/updating/updating-hugo-module/&#34;&gt;keep up to date&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;If you prefer to create a site from scratch, follow the instructions in Start a site from scratch.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Create a new site: Start a new site from scratch</title>
-      <link>http://localhost:1313/docs/get-started/docsy-as-module/start-from-scratch/</link>
+      <link>https://trtrf.github.io/docs/get-started/docsy-as-module/start-from-scratch/</link>
       <pubDate>Wed, 08 Dec 2021 09:21:54 +0100</pubDate>
-      <guid>http://localhost:1313/docs/get-started/docsy-as-module/start-from-scratch/</guid>
-      <description>&lt;p&gt;The simplest approach to creating a Docsy site is &lt;a href=&#34;http://localhost:1313/docs/get-started/docsy-as-module/example-site-as-template/&#34;&gt;copying our example site&lt;/a&gt;. However, if you&amp;rsquo;re an experienced Hugo user or the site structure of our example site doesn&amp;rsquo;t meet your needs, you may prefer to create a new site from scratch. With this option, you&amp;rsquo;ll get Docsy look and feel, navigation, and other features, but you&amp;rsquo;ll need to specify your own site structure.&lt;/p&gt;&#xA;&lt;p&gt;These instructions give you a minimum file structure for your site project only, so that you build and extend your actual site step by step. The first step is adding the Docsy theme as a &lt;a href=&#34;https://gohugo.io/hugo-modules/&#34;&gt;Hugo Module&lt;/a&gt; to your site. If needed, you can easily &lt;a href=&#34;http://localhost:1313/docs/updating/&#34;&gt;update&lt;/a&gt; the module to the latest revision from the Docsy GitHub repo.&lt;/p&gt;</description>
+      <guid>https://trtrf.github.io/docs/get-started/docsy-as-module/start-from-scratch/</guid>
+      <description>&lt;p&gt;The simplest approach to creating a Docsy site is &lt;a href=&#34;https://trtrf.github.io/docs/get-started/docsy-as-module/example-site-as-template/&#34;&gt;copying our example site&lt;/a&gt;. However, if you&amp;rsquo;re an experienced Hugo user or the site structure of our example site doesn&amp;rsquo;t meet your needs, you may prefer to create a new site from scratch. With this option, you&amp;rsquo;ll get Docsy look and feel, navigation, and other features, but you&amp;rsquo;ll need to specify your own site structure.&lt;/p&gt;&#xA;&lt;p&gt;These instructions give you a minimum file structure for your site project only, so that you build and extend your actual site step by step. The first step is adding the Docsy theme as a &lt;a href=&#34;https://gohugo.io/hugo-modules/&#34;&gt;Hugo Module&lt;/a&gt; to your site. If needed, you can easily &lt;a href=&#34;https://trtrf.github.io/docs/updating/&#34;&gt;update&lt;/a&gt; the module to the latest revision from the Docsy GitHub repo.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Multi-language Support on faŋtrəntrəŋ-pages</title>
-    <link>http://localhost:1313/docs/language/</link>
+    <link>https://trtrf.github.io/docs/language/</link>
     <description>Recent content in Multi-language Support on faŋtrəntrəŋ-pages</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/docs/language/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://trtrf.github.io/docs/language/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
