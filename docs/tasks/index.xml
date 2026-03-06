@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blue on faŋtrəntrəŋ-pages</title>
+    <link>https://trtrf.github.io/docs/tasks/</link>
+    <description>Recent content in blue on faŋtrəntrəŋ-pages</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://trtrf.github.io/docs/tasks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>politics政治</title>
+      <link>https://trtrf.github.io/docs/tasks/politics%E6%94%BF%E6%B2%BB/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://trtrf.github.io/docs/tasks/politics%E6%94%BF%E6%B2%BB/</guid>
+      <description>&lt;p&gt;事物的普遍联系。&lt;/p&gt;&#xA;&lt;p&gt;直接联系与间接联系、内部联系与外部联系、必然联系与偶然联系&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>chemistry化学</title>
+      <link>https://trtrf.github.io/docs/tasks/chemistry%E5%8C%96%E5%AD%A6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://trtrf.github.io/docs/tasks/chemistry%E5%8C%96%E5%AD%A6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>history历史</title>
+      <link>https://trtrf.github.io/docs/tasks/history%E5%8E%86%E5%8F%B2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://trtrf.github.io/docs/tasks/history%E5%8E%86%E5%8F%B2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>physics物理</title>
+      <link>https://trtrf.github.io/docs/tasks/physics%E7%89%A9%E7%90%86/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://trtrf.github.io/docs/tasks/physics%E7%89%A9%E7%90%86/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>geography地理</title>
+      <link>https://trtrf.github.io/docs/tasks/geography%E5%9C%B0%E7%90%86/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://trtrf.github.io/docs/tasks/geography%E5%9C%B0%E7%90%86/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>biology生物</title>
+      <link>https://trtrf.github.io/docs/tasks/biology%E7%94%9F%E7%89%A9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://trtrf.github.io/docs/tasks/biology%E7%94%9F%E7%89%A9/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>math数学</title>
+      <link>https://trtrf.github.io/docs/tasks/math%E6%95%B0%E5%AD%A6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://trtrf.github.io/docs/tasks/math%E6%95%B0%E5%AD%A6/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
