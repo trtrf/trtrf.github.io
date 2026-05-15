@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>grammar on faŋtrəntrəŋ-pages</title>
+    <link>https://trtrf.github.io/grammar/</link>
+    <description>Recent content in grammar on faŋtrəntrəŋ-pages</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://trtrf.github.io/grammar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>part of sentence</title>
+      <link>https://trtrf.github.io/grammar/rules_part-of-sentence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://trtrf.github.io/grammar/rules_part-of-sentence/</guid>
+      <description>&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;english&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;explain&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;subject                                主语&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;the person or thing that performs the action of a verb, or is joined to a description by a verb&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;object                                  宾语&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;a noun or noun phrase that is affected by the action of a verb or that follows a preposition&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;apposition                   同位语&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;in grammar, a situation in which two nouns or noun phrases are used to refer to the same person or thing 同一位置名词或名词短语的另一种解释&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;attributive                    定语&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;of an adjective, noun, pronoun, or phrase placed before the noun&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;predicate                          谓语&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;in grammar, the part of a sentence that contains the verb and gives information about the subject 主语相关信息&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;predicative                  表语&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;(in grammar, especially of adjectives or phrases) following a verb&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;adverbial                      状语&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;a word or phrase that operates as an adverb in a sentence&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;complement:   a part of a clause that usually follows the verb in English and adds more information about the subject or object补语&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>part of speech</title>
+      <link>https://trtrf.github.io/grammar/rules_part-of-speech/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://trtrf.github.io/grammar/rules_part-of-speech/</guid>
+      <description>&lt;p&gt;词性介绍&lt;/p&gt;&#xA;&lt;h1 id=&#34;adjadjective&#34;&gt;adj:adjective&lt;/h1&gt;&#xA;&lt;p&gt;a word that describes a noun or pronoun 描述名词或代词&lt;/p&gt;&#xA;&lt;h1 id=&#34;conjconjunction&#34;&gt;conj:conjunction&lt;/h1&gt;&#xA;&lt;p&gt;a word such as &amp;lsquo;and&amp;rsquo;, &amp;lsquo;but&amp;rsquo;, &amp;lsquo;while&amp;rsquo;, or &amp;lsquo;although&amp;rsquo; that connects words, phrases, and clauses in a sentence&lt;/p&gt;&#xA;&lt;p&gt;and;both and&lt;/p&gt;&#xA;&lt;p&gt;but;or;nor;for&lt;/p&gt;&#xA;&lt;p&gt;连词&lt;/p&gt;&#xA;&lt;h1 id=&#34;interjinterjection&#34;&gt;interj:interjection&lt;/h1&gt;&#xA;&lt;p&gt;a word or phrase that is used as a short, sudden expression of emotion.&lt;/p&gt;&#xA;&lt;p&gt;感叹词&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;nnoun&#34;&gt;n:noun&lt;/h1&gt;&#xA;&lt;p&gt;a word that refers to a person, place, thing, event, substance, or quality.&lt;/p&gt;&#xA;&lt;h1 id=&#34;pronpronoun&#34;&gt;pron:pronoun&lt;/h1&gt;&#xA;&lt;p&gt;a word that is used instead of a noun or a noun phrase.替代名词或名词短语&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
