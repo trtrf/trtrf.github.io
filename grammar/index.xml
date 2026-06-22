@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>grammar on faŋtrəntrəŋ-pages</title>
+    <link>https://trtrf.github.io/grammar/</link>
+    <description>Recent content in grammar on faŋtrəntrəŋ-pages</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://trtrf.github.io/grammar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>functional sentence</title>
+      <link>https://trtrf.github.io/grammar/functional-sentence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://trtrf.github.io/grammar/functional-sentence/</guid>
+      <description>&lt;h1 id=&#34;inverted-sentence&#34;&gt;Inverted sentence&lt;/h1&gt;&#xA;&lt;h1 id=&#34;question-sentence&#34;&gt;Question Sentence&lt;/h1&gt;&#xA;&lt;p&gt;a sentence or phrase used to find out information疑问句&lt;/p&gt;&#xA;&lt;p&gt;aux verb提前&lt;/p&gt;&#xA;&lt;p&gt;who,whose,how&lt;/p&gt;&#xA;&lt;h1 id=&#34;imperative-sentence&#34;&gt;Imperative Sentence&lt;/h1&gt;&#xA;&lt;p&gt;祈使句;紧急的;命令的;&lt;/p&gt;&#xA;&lt;p&gt;used to describe the form of a verb that is usually used for giving orders&lt;/p&gt;&#xA;&lt;h1 id=&#34;exclamatory-sentence&#34;&gt;Exclamatory Sentence&lt;/h1&gt;&#xA;&lt;p&gt;感叹句&lt;/p&gt;&#xA;&lt;p&gt;how + adj/adv + S + V&lt;/p&gt;&#xA;&lt;p&gt;what + a/an + adj + N + S + LV&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>simple sentence</title>
+      <link>https://trtrf.github.io/grammar/simple-sentence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://trtrf.github.io/grammar/simple-sentence/</guid>
+      <description>&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;english&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;explain&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;S(subject)                                主语&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;the person or thing that performs the action of a verb, or is joined to a description by a verb&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;O(object)                                  宾语&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;a noun or noun phrase that is affected by the action of a verb or that follows a preposition&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;IO(Indirect Object)&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;间接宾语&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;DO(Direct Object)&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;直接宾语&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;V(predicate)                        谓语&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;in grammar, the part of a sentence that contains the verb and gives information about the subject&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;C(complement)                补语&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;a part of a clause that usually follows the verb in English and adds more information about the subject or object.adj&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;P(predicative)                 表语&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;(in grammar, especially of adjectives or phrases) following a verb&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;phrase:   a group of words that is part of, rather than the whole of, a sentence 短语&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>complex sentence - clause</title>
+      <link>https://trtrf.github.io/grammar/complex-sentence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://trtrf.github.io/grammar/complex-sentence/</guid>
+      <description>&lt;p&gt;clause:   a group of words containing a subject and a verb, that is usually only part of a sentence.句子;从句&lt;/p&gt;&#xA;&lt;pre class=&#34;mermaid&#34;&gt;graph TD&#xA;    A[clause]&#xA;    B[noun]&#xA;    C[adjective]&#xA;    D[adverb] &#xA;    E[subject]&#xA;    F[object]&#xA;    G[apposition]&#xA;    H[predicative]&#xA;    I[attributive]&#xA;    J[adverbial]&#xA;    A --&amp;gt; B&#xA;    A --&amp;gt; C &#xA;    A --&amp;gt; D&#xA;    B --&amp;gt; E&#xA;    B --&amp;gt; F&#xA;    B --&amp;gt; G&#xA;    B --&amp;gt; H&#xA;    C --&amp;gt; I&#xA;    D --&amp;gt; J&lt;/pre&gt;&#xA;&lt;h1 id=&#34;noun-clause&#34;&gt;noun clause&lt;/h1&gt;&#xA;&lt;p&gt;subject&lt;/p&gt;&#xA;&lt;p&gt;主语从句whether, where,when,how,that&lt;/p&gt;&#xA;&lt;p&gt;what who:The introductory word functions as a component in the subordinate clause引导词在从句中作成分&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>compound sentence</title>
+      <link>https://trtrf.github.io/grammar/compound-sentence-/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://trtrf.github.io/grammar/compound-sentence-/</guid>
+      <description>&lt;p&gt;Imperative sentence&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>base - part of speech</title>
+      <link>https://trtrf.github.io/grammar/base-part-of-speech/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://trtrf.github.io/grammar/base-part-of-speech/</guid>
+      <description>&lt;p&gt;词性介绍&lt;/p&gt;&#xA;&lt;h1 id=&#34;numnumber&#34;&gt;num:number&lt;/h1&gt;&#xA;&lt;h1 id=&#34;interjinterjection&#34;&gt;interj:interjection&lt;/h1&gt;&#xA;&lt;p&gt;a word or phrase that is used as a short, sudden expression of emotion.&lt;/p&gt;&#xA;&lt;p&gt;感叹词&lt;/p&gt;&#xA;&lt;h1 id=&#34;verb&#34;&gt;verb&lt;/h1&gt;&#xA;&lt;p&gt;a word or phrase that describes an action, condition, or experience&lt;/p&gt;&#xA;&lt;p&gt;3种一般动词(实意)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;系动词(联系):am,is,are,was,were&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;使唤动词(让别人做):make;have;get;let&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;aux:auxiliary助动词(表达时态,语态,否定)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;基本do;be;have;&lt;/p&gt;&#xA;&lt;p&gt;model情态动词(建议,能力,可能性):can and could;may and might;must and should;will and would&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;aarticle&#34;&gt;a:article&lt;/h1&gt;&#xA;&lt;p&gt;a;&lt;/p&gt;&#xA;&lt;p&gt;an;元音音素发音开始的词之前.(n起到连读作用)&lt;/p&gt;&#xA;&lt;p&gt;the;具体的&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;adjadjective&#34;&gt;adj:adjective&lt;/h1&gt;&#xA;&lt;p&gt;a word that describes a noun or pronoun 描述名词或代词&lt;/p&gt;&#xA;&lt;h1 id=&#34;nnoun&#34;&gt;n:noun&lt;/h1&gt;&#xA;&lt;p&gt;a word that refers to a person, place, thing, event, substance, or quality.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
