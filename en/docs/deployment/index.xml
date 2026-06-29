@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deployment and previews on faŋtrəntrəŋ-pages</title>
+    <link>http://localhost:1313/en/docs/deployment/</link>
+    <description>Recent content in Deployment and previews on faŋtrəntrəŋ-pages</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/en/docs/deployment/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deployment with Amazon S3 and CloudFront</title>
+      <link>http://localhost:1313/en/docs/deployment/amazon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/deployment/amazon/</guid>
+      <description>&lt;p&gt;There are several options for publishing your web site using&#xA;&lt;a href=&#34;https://aws.amazon.com&#34;&gt;Amazon Web Services&lt;/a&gt;. This section describes the most&#xA;basic option, deploying your site using an S3 bucket and activating the&#xA;CloudFront CDN (content delivery network) to speed up the delivery of your&#xA;deployed contents.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;After your&#xA;&lt;a href=&#34;https://portal.aws.amazon.com/billing/signup#/start&#34;&gt;registration&lt;/a&gt; at AWS,&#xA;create your S3 bucket, connect it with your domain, and add it to the&#xA;CloudFront CDN. This&#xA;&lt;a href=&#34;https://www.noorix.com.au/blog/how-to/hosting-static-website-with-aws-s3-cloudfront/&#34;&gt;blog post&lt;/a&gt;&#xA;has all the details and provides easy to follow step-by-step instructions for&#xA;the whole procedure.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deployment on GitHub Pages</title>
+      <link>http://localhost:1313/en/docs/deployment/github-pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/deployment/github-pages/</guid>
+      <description>&lt;p&gt;If your repo is hosted on &lt;a href=&#34;https://github.com&#34;&gt;GitHub&lt;/a&gt;, a simple option is to&#xA;serve your site with &lt;a href=&#34;https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages&#34;&gt;GitHub Pages&lt;/a&gt;. GitHub Pages lets you create project,&#xA;user, and organization sites; for a project site, your site URL will be&#xA;&lt;code&gt;http(s)://&amp;lt;username&amp;gt;.github.io/&amp;lt;repository_name&amp;gt;&lt;/code&gt;, custom domains are also&#xA;supported. GitHub Pages come with &lt;a href=&#34;https://docs.github.com/en/actions/deployment/about-deployments/about-continuous-deployment&#34;&gt;continuous deployment&lt;/a&gt; using GitHub&#xA;actions, while the &lt;a href=&#34;https://github.com/marketplace?no-link-check&amp;amp;type=actions&#34;&gt;marketplace for actions&lt;/a&gt; has useful tools for spell and&#xA;link checking, deploy previews, and more. Using your existing GitHub account,&#xA;you can start by using the free plan for publicly available repositories, with&#xA;premium tiers available for business use cases.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Serving your site locally</title>
+      <link>http://localhost:1313/en/docs/deployment/local/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/deployment/local/</guid>
+      <description>&lt;p&gt;Depending on your deployment choice you may want to serve your site locally&#xA;during development to preview content changes. To serve your site locally:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Ensure you have an up to date local copy of your site files cloned from your&#xA;repo.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Ensure you have the tools described in &lt;a href=&#34;http://localhost:1313/docs/get-started/docsy-as-module/installation-prerequisites&#34;&gt;Prerequisites and&#xA;installation&lt;/a&gt; installed on your local machine, including&#xA;&lt;code&gt;postcss-cli&lt;/code&gt; (you&amp;rsquo;ll need it to generate the site resources the first time&#xA;you run the server).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deployment on Netlify</title>
+      <link>http://localhost:1313/en/docs/deployment/netlify/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/deployment/netlify/</guid>
+      <description>&lt;p&gt;We recommend using &lt;a href=&#34;https://www.netlify.com/&#34;&gt;Netlify&lt;/a&gt; as a particularly simple&#xA;way to serve your site from your Git provider (GitHub, GitLab, or BitBucket),&#xA;with &lt;a href=&#34;https://www.netlify.com/docs/continuous-deployment/&#34;&gt;continuous deployment&lt;/a&gt;, previews of the generated site when you or&#xA;your users create pull requests against the doc repo, and more. Netlify is free&#xA;to use for Open Source projects, with premium tiers if you require greater&#xA;support.&lt;/p&gt;&#xA;&lt;p&gt;Before deploying with Netlify, make sure that you&amp;rsquo;ve pushed your site source to&#xA;your chosen GitHub (or other provider) repo, following any setup instructions in&#xA;&lt;a href=&#34;http://localhost:1313/docs/get-started/docsy-as-module&#34;&gt;Using the theme&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

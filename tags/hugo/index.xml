@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on faŋtrəntrəŋ-pages</title>
+    <link>http://localhost:1313/tags/hugo/</link>
+    <description>Recent content in Hugo on faŋtrəntrəŋ-pages</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo 0.152.0-0.155.x upgrade guide</title>
+      <link>http://localhost:1313/en/blog/2026/hugo-0.152.0&#43;/</link>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/blog/2026/hugo-0.152.0&#43;/</guid>
+      <description>&lt;p&gt;This post summarizes the breaking and notable changes in Hugo 0.152.0 to&#xA;0.155.3. It is a companion post to the Docsy &lt;a href=&#34;0.14.0/&#34;&gt;0.14.0&lt;/a&gt; and&#xA;&lt;a href=&#34;../2025/0.13.0/&#34;&gt;0.13.0&lt;/a&gt; release and upgrade guides.&lt;/p&gt;&#xA;&lt;h2 id=&#34;upgrade-summary&#34;&gt;Upgrade summary&lt;/h2&gt;&#xA;&lt;p&gt;This guide highlights breaking changes in Hugo 0.152.0–0.155.x and the actions&#xA;you may need to take.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Review  changes:&#xA;&lt;a id=&#34;breaking-changes&#34;&gt;&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;i class=&#34;fa-solid fa-triangle-exclamation fa-lg text-warning px-1&#34;&gt;&lt;/i&gt; &lt;a href=&#34;#yaml-yes-no-etc&#34;&gt;YAML yes/no tokens are strings&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;i class=&#34;fa-solid fa-triangle-exclamation fa-lg text-warning px-1&#34;&gt;&lt;/i&gt;&#xA;&lt;a href=&#34;#build-order&#34;&gt;Build order changes for multidimensional sites&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Review &lt;strong&gt;deprecations&lt;/strong&gt; (non-breaking, but recommended):&#xA;&lt;a id=&#34;deprecations&#34;&gt;&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#lang-mount-deprecation&#34;&gt;&lt;code&gt;lang&lt;/code&gt; mount option deprecated&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#use-files&#34;&gt;&lt;code&gt;includeFiles&lt;/code&gt;/&lt;code&gt;excludeFiles&lt;/code&gt; deprecated&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Optionally skim:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#known-issues&#34;&gt;Known issues and fixes&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#notable-changes&#34;&gt;Notable changes&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Jump to &lt;a href=&#34;#upgrade&#34;&gt;Upgrade to Hugo 0.155.x&lt;/a&gt;&#xA;once you&amp;rsquo;re ready&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;yaml-yes-no-etc&#34;&gt;&lt;i class=&#34;fa-solid fa-triangle-exclamation fa-lg text-warning px-1&#34;&gt;&lt;/i&gt; YAML yes/no tokens are strings (0.152.0) &lt;a id=&#34;0.152.0&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Release &lt;a href=&#34;https://github.com/gohugoio/hugo/releases/tag/v0.152.0&#34;&gt;0.152.0&lt;/a&gt; (2025-10-21) upgrades to a more modern YAML library, which&#xA;introduces a breaking change to the way that YAML interprets certain tokens&#xA;across configuration files and page front matter.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

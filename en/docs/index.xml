@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome to Docsy on faŋtrəntrəŋ-pages</title>
+    <link>http://localhost:1313/en/docs/</link>
+    <description>Recent content in Welcome to Docsy on faŋtrəntrəŋ-pages</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multi-language Support</title>
+      <link>http://localhost:1313/en/docs/language/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/language/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;d like to provide site content in multiple languages, the Docsy theme and&#xA;Hugo make it easy to both add your translated content and for your users to&#xA;navigate between language versions.&lt;/p&gt;&#xA;&lt;h2 id=&#34;content-and-configuration&#34;&gt;Content and configuration&lt;/h2&gt;&#xA;&lt;p&gt;To add content in multiple languages, you first need to define the available&#xA;languages in a &lt;code&gt;languages&lt;/code&gt; section in your site configuration. Each language can&#xA;have its own language-specific configuration. For example, the &lt;a href=&#34;https://example.docsy.dev/&#34;&gt;Docsy example&lt;/a&gt;&#xA;site config specifies that it provides content in English, Norwegian, and&#xA;Persian. The default language is English:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contribution guidelines</title>
+      <link>http://localhost:1313/en/docs/contributing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/docs/contributing/</guid>
+      <description>&lt;p&gt;Docsy is an open source project and we love getting patches and contributions to&#xA;make Docsy and its docs even better.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;[!CAUTION] A note for &lt;strong&gt;students&lt;/strong&gt; and &lt;strong&gt;prospective mentees&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;We welcome your contributions but note that:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;We cannot guarantee &lt;em&gt;when&lt;/em&gt; your &lt;a href=&#34;https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request&#34;&gt;pull requests&lt;/a&gt; (PRs) will be reviewed.&lt;/li&gt;&#xA;&lt;li&gt;Review does not guarantee acceptance or merging.&lt;/li&gt;&#xA;&lt;li&gt;We may reject PRs with content (e.g., AI-generated) that does not meet our&#xA;quality standards.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;[!NB] Maintainers, see &lt;a href=&#34;http://localhost:1313/project/about/contributing/&#34;&gt;Maintainer notes&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

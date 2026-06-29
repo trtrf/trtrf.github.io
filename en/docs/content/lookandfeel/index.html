@@ -1,0 +1,1028 @@
+<!doctype html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="en" class="no-js" data-theme-init>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)"  content="#000000">
+
+<style>
+  html { background: Canvas; color: CanvasText; }
+  @media (prefers-color-scheme: dark) {
+    html { background: #0b0d12; color: #e6e6e6; }
+  }
+  html[data-theme-init] * { transition: none !important; }
+</style>
+
+<script>
+  (function() {
+    const themeKey = 'td-color-theme';
+    const storedTheme = localStorage.getItem(themeKey);
+    let theme = storedTheme || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+
+    if (theme === 'auto') {
+      theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+
+    document.documentElement.setAttribute('data-bs-theme', theme);
+  })();
+</script>
+<meta name="robots" content="noindex, nofollow">
+
+
+<link rel="shortcut icon" href="/favicons/favicon.ico" >
+<link rel="apple-touch-icon" href="/favicons/apple-touch-icon-180x180.png" sizes="180x180">
+<link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicons/android-36x36.png" sizes="36x36">
+<link rel="icon" type="image/png" href="/favicons/android-48x48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="/favicons/android-72x72.png" sizes="72x72">
+<link rel="icon" type="image/png" href="/favicons/android-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
+<link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
+
+<title>Look and Feel | faŋtrəntrəŋ-pages</title>
+<meta name="description" content="Customize colors, fonts, code highlighting, and more for your site.">
+<meta property="og:url" content="http://localhost:1313/en/docs/content/lookandfeel/">
+  <meta property="og:site_name" content="faŋtrəntrəŋ-pages">
+  <meta property="og:title" content="Look and Feel">
+  <meta property="og:description" content="Customize colors, fonts, code highlighting, and more for your site.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="en">
+    <meta property="article:published_time" content="2017-01-05T00:00:00+00:00">
+    <meta property="article:modified_time" content="2017-01-05T00:00:00+00:00">
+
+  <meta itemprop="name" content="Look and Feel">
+  <meta itemprop="description" content="Customize colors, fonts, code highlighting, and more for your site.">
+  <meta itemprop="datePublished" content="2017-01-05T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2017-01-05T00:00:00+00:00">
+  <meta itemprop="wordCount" content="3658">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Look and Feel">
+  <meta name="twitter:description" content="Customize colors, fonts, code highlighting, and more for your site.">
+<link href="/scss/main.css" rel="stylesheet">
+<script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+  crossorigin="anonymous"></script>
+
+  </head>
+  <body class="td-page">
+    <header>
+      <nav class="td-navbar js-navbar-scroll" data-bs-theme="dark">
+<div class="td-navbar-container container-fluid flex-column flex-md-row">
+  <a class="navbar-brand" href="/"><span class="navbar-brand__logo navbar-logo"><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500" style="enable-background:new 0 0 500 500"><g><path style="fill:#fff" d="M116.8525 421.9722c-5.7041.0-10.3442-4.3127-10.3442-9.6129V88.183c0-5.3002 4.6401-9.6117 10.3442-9.6117H320.858c3.0347.0 9.3959.5498 11.7506 2.6302l.3545.3442 58.905 63.2912c2.3101 2.491 2.9202 8.4928 2.9202 11.3184v256.2039c0 5.3002-4.6407 9.6129-10.3436 9.6129H116.8525z"/><g><g><g><path style="fill:#767676" d="M384.4445 423.2066H116.852c-6.3839.0-11.5786-4.8658-11.5786-10.8474V88.1831c0-5.9804 5.1947-10.8461 11.5786-10.8461h204.0062c.377.0 9.2786.0329 12.568 2.9389l.3947.3833 58.9508 63.337c3.2135 3.4652 3.2514 11.7924 3.2514 12.1593v256.2036C396.0231 418.3408 390.8284 423.2066 384.4445 423.2066zM116.5079 411.9189c.0848.0278.1999.0531.3441.0531h267.5925c.1442.0.2581-.0253.3441-.0531V156.1556c-.0076-.9033-.3593-3.7347-.7034-5.0037l-57.6527-61.9416c-1.4651-.3176-4.4533-.6389-5.5742-.6389H116.852c-.143.0-.2594.024-.3441.0531V411.9189zm267.4533-261.149zM327.0321 89.371v.0013V89.371z"/></g></g></g><g><g><path style="fill:#5b7fc0" d="M189.0874 210.1754l.0012-.0012c7.7751.0012 15.0295 4.1862 18.932 10.9234 1.9177 3.3159 2.9305 7.1011 2.9293 10.9378.0 5.8394-2.2733 11.3304-6.4032 15.4604-4.1288 4.1288-9.6186 6.4032-15.458 6.4032s-11.328-2.2733-15.458-6.4032-6.4032-9.6186-6.4056-15.4628c.0012-6.025 2.454-11.4897 6.4116-15.4473C177.5953 212.627 183.0601 210.1742 189.0874 210.1754zm7.993 21.8576c.0012-1.4042-.3687-2.7868-1.063-3.9887-1.4293-2.4684-4.0833-3.9995-6.9299-4.0019-4.4077.0024-7.993 3.5877-7.993 7.993.0 2.1356.832 4.1431 2.3427 5.6539 1.5083 1.5083 3.5159 2.3403 5.6503 2.3415 2.1356.0 4.1443-.8308 5.6539-2.3403S197.0816 234.1722 197.0804 232.033z"/><path style="opacity:.3;fill:#fff" d="M189.0898 210.176c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3136 2.9377 7.0988 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8066-21.8612-21.8613.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 212.6276 183.0612 210.176 189.0898 210.176zm7.9941 21.8612c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 236.239 197.0839 234.2399 197.0839 232.0372z"/><g><defs><path id="SVGID_1_" d="M194.7376 237.6875c-1.4461 1.4461-3.4452 2.3439-5.6479 2.3439-4.4077-.0024-7.9918-3.5865-7.9942-7.9942.0024-4.4125 3.5937-7.999 7.9942-7.9942 2.8443.0 5.497 1.5323 6.924 3.9983.6991 1.2067 1.0702 2.5881 1.0702 3.9959C197.0839 234.2399 196.1861 236.239 194.7376 237.6875z"/></defs><clipPath id="SVGID_2_"><use xlink:href="#SVGID_1_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_2_);fill:#fff" d="M190.0704 225.0237c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9546.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.663-2.8588-6.116.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C193.7885 225.7247 191.9774 225.0237 190.0704 225.0237z"/><path style="opacity:.13;clip-path:url(#SVGID_2_);fill:#020202" d="M190.0704 225.0237c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9546.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.663-2.8588-6.116.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C193.7885 225.7247 191.9774 225.0237 190.0704 225.0237z"/></g><g><defs><path id="SVGID_3_" d="M189.0898 210.176c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3136 2.9377 7.0988 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8066-21.8612-21.8613.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 212.6276 183.0612 210.176 189.0898 210.176zm7.9941 21.8612c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 236.239 197.0839 234.2399 197.0839 232.0372z"/></defs><clipPath id="SVGID_4_"><use xlink:href="#SVGID_3_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_4_);fill:#5b7fc0" d="M172.6595 215.6045c-3.96 3.96-6.4116 9.4235-6.4116 15.452-.0024 12.0547 9.8066 21.8636 21.8613 21.8612 12.0547.0024 21.8636-9.797 21.8613-21.8612.0024-3.8475-1.0151-7.6326-2.9353-10.9462-3.8977-6.7324-11.1497-10.9151-18.926-10.9151C182.0806 209.1953 176.6171 211.647 172.6595 215.6045z"/></g></g><rect x="198.8952" y="225.1043" style="fill:#5b7fc0" width="122.6266" height="13.8671"/></g><g><path style="fill:#d95140" d="M189.0874 155.7611l.0012-.0012c7.7751.0012 15.0295 4.1862 18.932 10.9234 1.9177 3.3159 2.9305 7.1011 2.9293 10.9378.0 5.8394-2.2733 11.3304-6.4032 15.4604-4.1288 4.1288-9.6186 6.4032-15.458 6.4032s-11.328-2.2733-15.458-6.4032-6.4032-9.6186-6.4056-15.4628c.0012-6.0249 2.454-11.4897 6.4116-15.4473C177.5953 158.2128 183.0601 155.7599 189.0874 155.7611zm7.993 21.8577c.0012-1.4042-.3687-2.7868-1.063-3.9887-1.4293-2.4684-4.0833-3.9995-6.9299-4.0019-4.4077.0024-7.993 3.5877-7.993 7.993.0 2.1356.832 4.1431 2.3427 5.6539 1.5083 1.5083 3.5159 2.3403 5.6503 2.3415 2.1356.0 4.1443-.8308 5.6539-2.3403C196.2508 181.7667 197.0816 179.758 197.0804 177.6188z"/><path style="opacity:.3;fill:#fff" d="M189.0898 155.7617c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3135 2.9377 7.0987 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8066-21.8612-21.8613.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 158.2134 183.0612 155.7617 189.0898 155.7617zm7.9941 21.8613c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 181.8248 197.0839 179.8256 197.0839 177.623z"/><g><defs><path id="SVGID_5_" d="M194.7376 183.2733c-1.4461 1.4461-3.4452 2.3439-5.6479 2.3439-4.4077-.0024-7.9918-3.5865-7.9942-7.9942.0024-4.4125 3.5937-7.9989 7.9942-7.9942 2.8443.0 5.497 1.5323 6.924 3.9983.6991 1.2067 1.0702 2.5881 1.0702 3.9959C197.0839 179.8256 196.1861 181.8248 194.7376 183.2733z"/></defs><clipPath id="SVGID_6_"><use xlink:href="#SVGID_5_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_6_);fill:#fff" d="M190.0704 170.6095c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9546.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.663-2.8588-6.116.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C193.7885 171.3104 191.9774 170.6095 190.0704 170.6095z"/><path style="opacity:.13;clip-path:url(#SVGID_6_);fill:#020202" d="M190.0704 170.6095c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9546.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.663-2.8588-6.116.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C193.7885 171.3104 191.9774 170.6095 190.0704 170.6095z"/></g><g><defs><path id="SVGID_7_" d="M189.0898 155.7617c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3135 2.9377 7.0987 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8066-21.8612-21.8613.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 158.2134 183.0612 155.7617 189.0898 155.7617zm7.9941 21.8613c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 181.8248 197.0839 179.8256 197.0839 177.623z"/></defs><clipPath id="SVGID_8_"><use xlink:href="#SVGID_7_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_8_);fill:#d95140" d="M172.6595 161.1903c-3.96 3.96-6.4116 9.4235-6.4116 15.452-.0024 12.0547 9.8066 21.8636 21.8613 21.8613 12.0547.0024 21.8636-9.797 21.8613-21.8613.0024-3.8474-1.0151-7.6326-2.9353-10.9462-3.8977-6.7324-11.1497-10.9151-18.926-10.9151C182.0806 154.7811 176.6171 157.2327 172.6595 161.1903z"/></g><rect x="198.8952" y="170.69" style="fill:#d95140" width="122.6266" height="13.8671"/></g><g><g><path style="fill:#56a55c" d="M189.5379 264.6147l.0012-.0012c7.7751.0012 15.0294 4.1862 18.932 10.9235 1.9177 3.3159 2.9305 7.1011 2.9293 10.9378.0 5.8394-2.2733 11.3304-6.4032 15.4604-4.1288 4.1288-9.6186 6.4032-15.458 6.4032-5.8394.0-11.3281-2.2733-15.458-6.4032-4.13-4.13-6.4032-9.6186-6.4056-15.4628.0012-6.0249 2.454-11.4897 6.4116-15.4472C178.0458 267.0663 183.5105 264.6135 189.5379 264.6147zm7.993 21.8576c.0012-1.4042-.3687-2.7868-1.063-3.9887-1.4293-2.4684-4.0833-3.9995-6.9299-4.0019-4.4077.0024-7.993 3.5877-7.993 7.993.0 2.1356.832 4.1431 2.3427 5.6538 1.5083 1.5083 3.5159 2.3403 5.6503 2.3415 2.1356.0 4.1443-.8308 5.6539-2.3403C196.7013 290.6202 197.5321 288.6115 197.5309 286.4723z"/><path style="opacity:.3;fill:#fff" d="M189.5403 264.6153c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3135 2.9377 7.0987 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8065-21.8612-21.8613.0-6.0285 2.4516-11.492 6.4116-15.452C178.0482 267.0669 183.5117 264.6153 189.5403 264.6153zm7.9941 21.8612c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9941.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.6366 290.6783 197.5344 288.6792 197.5344 286.4765z"/><g><defs><path id="SVGID_9_" d="M195.1881 292.1268c-1.4461 1.4461-3.4452 2.3439-5.6479 2.3439-4.4077-.0024-7.9918-3.5865-7.9942-7.9942.0024-4.4125 3.5937-7.9989 7.9942-7.9941 2.8443.0 5.497 1.5323 6.924 3.9983.6991 1.2067 1.0702 2.5881 1.0702 3.9959C197.5344 288.6792 196.6366 290.6783 195.1881 292.1268z"/></defs><clipPath id="SVGID_10_"><use xlink:href="#SVGID_9_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_10_);fill:#fff" d="M190.5209 279.463c-4.4005-.0048-7.9918 3.5817-7.9942 7.9941.0011 1.9547.7088 3.7452 1.8782 5.1354-1.7446-1.4674-2.8575-3.6631-2.8588-6.1161.0024-4.4125 3.5936-7.999 7.9942-7.9941 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C194.239 280.164 192.4279 279.463 190.5209 279.463z"/><path style="opacity:.13;clip-path:url(#SVGID_10_);fill:#020202" d="M190.5209 279.463c-4.4005-.0048-7.9918 3.5817-7.9942 7.9941.0011 1.9547.7088 3.7452 1.8782 5.1354-1.7446-1.4674-2.8575-3.6631-2.8588-6.1161.0024-4.4125 3.5936-7.999 7.9942-7.9941 2.3802-1e-4 4.616 1.0833 6.1218 2.8788C194.239 280.164 192.4279 279.463 190.5209 279.463z"/></g><g><defs><path id="SVGID_11_" d="M189.5403 264.6153c7.7763.0 15.0283 4.1826 18.926 10.9151 1.9201 3.3135 2.9377 7.0987 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8613-12.0547.0024-21.8636-9.8065-21.8612-21.8613.0-6.0285 2.4516-11.492 6.4116-15.452C178.0482 267.0669 183.5117 264.6153 189.5403 264.6153zm7.9941 21.8612c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9941.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.6366 290.6783 197.5344 288.6792 197.5344 286.4765z"/></defs><clipPath id="SVGID_12_"><use xlink:href="#SVGID_11_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_12_);fill:#56a55c" d="M173.11 270.0439c-3.96 3.96-6.4116 9.4235-6.4116 15.452-.0024 12.0547 9.8066 21.8636 21.8613 21.8613 12.0547.0024 21.8636-9.797 21.8613-21.8613.0024-3.8474-1.0151-7.6326-2.9353-10.9462-3.8977-6.7325-11.1497-10.9151-18.926-10.9151C182.5311 263.6346 177.0676 266.0863 173.11 270.0439z"/></g></g><rect x="199.3456" y="279.5436" style="fill:#56a55c" width="122.6266" height="13.8671"/></g><g><g><path style="fill:#f1bc42" d="M189.0874 318.7208l.0012-.0012c7.7751.0012 15.0295 4.1862 18.932 10.9234 1.9177 3.3159 2.9305 7.1011 2.9293 10.9378.0 5.8394-2.2733 11.3305-6.4032 15.4604-4.1288 4.1288-9.6186 6.4032-15.458 6.4032s-11.328-2.2733-15.458-6.4032-6.4032-9.6186-6.4056-15.4628c.0012-6.025 2.454-11.4897 6.4116-15.4472C177.5953 321.1724 183.0601 318.7196 189.0874 318.7208zm7.993 21.8576c.0012-1.4042-.3687-2.7868-1.063-3.9887-1.4293-2.4684-4.0833-3.9995-6.9299-4.0019-4.4077.0024-7.993 3.5877-7.993 7.993.0 2.1356.832 4.1431 2.3427 5.6539 1.5083 1.5083 3.5159 2.3403 5.6503 2.3415 2.1356.0 4.1443-.8308 5.6539-2.3403S197.0816 342.7176 197.0804 340.5784z"/><path style="opacity:.3;fill:#fff" d="M189.0898 318.7214c7.7763.0 15.0283 4.1826 18.926 10.915 1.9201 3.3136 2.9377 7.0988 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8612-12.0547.0024-21.8636-9.8065-21.8612-21.8612.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 321.173 183.0612 318.7214 189.0898 318.7214zm7.9941 21.8612c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 344.7844 197.0839 342.7853 197.0839 340.5826z"/><g><defs><path id="SVGID_13_" d="M194.7376 346.2329c-1.4461 1.4461-3.4452 2.3439-5.6479 2.3439-4.4077-.0024-7.9918-3.5865-7.9942-7.9942.0024-4.4125 3.5937-7.999 7.9942-7.9942 2.8443.0 5.497 1.5323 6.924 3.9983.6991 1.2067 1.0702 2.5881 1.0702 3.9959C197.0839 342.7853 196.1861 344.7844 194.7376 346.2329z"/></defs><clipPath id="SVGID_14_"><use xlink:href="#SVGID_13_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_14_);fill:#fff" d="M190.0704 333.5691c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9547.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.6631-2.8588-6.1161.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0834 6.1218 2.8788C193.7885 334.2701 191.9774 333.5691 190.0704 333.5691z"/><path style="opacity:.13;clip-path:url(#SVGID_14_);fill:#020202" d="M190.0704 333.5691c-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0011 1.9547.7088 3.7452 1.8782 5.1354-1.7447-1.4674-2.8575-3.6631-2.8588-6.1161.0024-4.4125 3.5936-7.999 7.9942-7.9942 2.3802-1e-4 4.616 1.0834 6.1218 2.8788C193.7885 334.2701 191.9774 333.5691 190.0704 333.5691z"/></g><g><defs><path id="SVGID_15_" d="M189.0898 318.7214c7.7763.0 15.0283 4.1826 18.926 10.915 1.9201 3.3136 2.9377 7.0988 2.9353 10.9462.0024 12.0643-9.8065 21.8636-21.8613 21.8612-12.0547.0024-21.8636-9.8065-21.8612-21.8612.0-6.0285 2.4516-11.4921 6.4116-15.452C177.5977 321.173 183.0612 318.7214 189.0898 318.7214zm7.9941 21.8612c0-1.4078-.3711-2.7892-1.0702-3.9959-1.4269-2.466-4.0797-3.9983-6.924-3.9983-4.4005-.0048-7.9918 3.5817-7.9942 7.9942.0024 4.4077 3.5865 7.9918 7.9942 7.9942 2.2027.0 4.2018-.8978 5.6479-2.3439C196.1861 344.7844 197.0839 342.7853 197.0839 340.5826z"/></defs><clipPath id="SVGID_16_"><use xlink:href="#SVGID_15_" style="overflow:visible"/></clipPath><path style="clip-path:url(#SVGID_16_);fill:#f1bc42" d="M172.6595 324.15c-3.96 3.96-6.4116 9.4235-6.4116 15.452-.0024 12.0547 9.8066 21.8636 21.8613 21.8612 12.0547.0024 21.8636-9.797 21.8613-21.8612.0024-3.8474-1.0151-7.6327-2.9353-10.9462-3.8977-6.7324-11.1497-10.9151-18.926-10.9151C182.0806 317.7407 176.6171 320.1924 172.6595 324.15z"/></g></g><rect x="198.8952" y="333.6497" style="fill:#f1bc42" width="122.6266" height="13.8671"/></g></g></svg></span><span class="navbar-brand__name">faŋtrəntrəŋ-pages</span></a>
+  <div class="td-navbar-nav-scroll td-navbar-nav-scroll--indicator" id="main_navbar">
+    <div class="scroll-indicator scroll-left"></div>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="/en/about/"><span>About</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="/en/docs/"><span>Docs</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/en/examples/"><span>Examples</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/en/community/"><span>Community</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/en/blog/"><span>Blog</span></a>
+      </li>
+      <li class="nav-item td-navbar__light-dark-menu">
+        <div class="td-light-dark-menu dropdown"><svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="check2" viewBox="0 0 16 16">
+    <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+  </symbol>
+  <symbol id="circle-half" viewBox="0 0 16 16">
+    <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+  </symbol>
+  <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+    <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+    <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+  </symbol>
+  <symbol id="sun-fill" viewBox="0 0 16 16">
+    <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+  </symbol>
+</svg>
+<button class="btn btn-link nav-link dropdown-toggle d-flex align-items-center"
+        id="bd-theme"
+        type="button"
+        aria-expanded="false"
+        data-bs-toggle="dropdown"
+        aria-label="Toggle theme (auto)">
+  <svg class="bi my-1 theme-icon-active"><use href="#circle-half"></use></svg>
+</button>
+<ul class="dropdown-menu" aria-labelledby="bd-theme">
+  <li>
+    <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+      <svg class="bi me-2 opacity-50"><use href="#sun-fill"></use></svg>
+      Light
+      <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+    </button>
+  </li>
+  <li>
+    <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+      <svg class="bi me-2 opacity-50"><use href="#moon-stars-fill"></use></svg>
+      Dark
+      <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+    </button>
+  </li>
+  <li>
+    <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
+      <svg class="bi me-2 opacity-50"><use href="#circle-half"></use></svg>
+      Auto
+      <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+    </button>
+  </li>
+</ul>
+</div>
+
+      </li>
+      </ul>
+    <div class="scroll-indicator scroll-right"></div>
+  </div>
+  <div class="d-none d-lg-block td-navbar__search">
+    <div class="td-search">
+  <div class="td-search__icon"></div>
+  <input type="search" class="td-search__input form-control td-search-input" placeholder="Search this site…" aria-label="Search this site…" autocomplete="off">
+</div>
+  </div>
+</div>
+</nav>
+    </header>
+    <div class="container-fluid td-default td-outer">
+      <main role="main" class="td-main">
+        <p>By default, a site using Docsy has the theme&rsquo;s default fonts, colors, and
+general look and feel. However, if you want your own color scheme (and you
+probably will!) you can very easily override the theme defaults with your own
+project-specific values - Hugo will look in your project files first when
+looking for information to build your site. And because <a href="/blog/2023/bootstrap-5-migration/">Docsy uses Bootstrap 5</a>
+and SCSS for styling, you can override just single values (such as project
+colors and fonts) in its special SCSS project variables file, or do more serious
+customization by creating your own styles.</p>
+<p>Docsy also provides options for styling your code blocks, using either Chroma or
+Prism for highlighting.</p>
+<h2 id="project-styles">Project styles</h2>
+<h3 id="project-style-files">Project style files</h3>
+<p>To customize your project&rsquo;s look and feel, create your own version of the
+following Docsy placeholder files (note the <strong><code>_project*.scss</code></strong> suffixes) and
+place them inside your project&rsquo;s <code>assets/scss/</code> folder:</p>
+<ul>
+<li>
+<p><strong><a href="https://github.com/google/docsy/blob/main/assets/scss/_variables_project.scss"><code>_variables_project.scss</code></a></strong> and<br>
+<strong><a href="https://github.com/google/docsy/blob/main/assets/scss/_variables_project_after_bs.scss"><code>_variables_project_after_bs.scss</code></a></strong> :</p>
+<p>Use these files to add project-specific definitions of theme variables as well
+as any additional Bootstrap variables you want to set or override. For
+details, including an explanation of which file to use, see
+<a href="#site-colors">Site colors</a>.</p>
+<p>For a list of Docsy&rsquo;s theme variables and their default values, see
+<a href="https://github.com/google/docsy/blob/main/assets/scss/td/_variables.scss"><code>_variables.scss</code></a>. For information about other Bootstrap 5 variables, see
+<a href="https://getbootstrap.com/docs/5.3/customize/sass/#variable-defaults">Variable defaults</a> and <a href="https://github.com/twbs/bootstrap/blob/v5.3.3/scss/_variables.scss">Bootstrap&rsquo;s <code>_variables.scss</code></a> file.</p>
+</li>
+<li>
+<p><strong><a href="https://github.com/google/docsy/blob/main/assets/scss/_styles_project.scss"><code>_styles_project.scss</code></a></strong> is where you can add your own custom SCSS styles,
+including overriding any of the styles in Docsy&rsquo;s theme SCSS files.</p>
+</li>
+</ul>
+<blockquote>
+<p>[!SUCCESS] Files you can customize (the rest are internal)</p>
+<p>The files listed above, and only these files, are supported for project
+customization. All other SCSS files under <code>assets/scss/</code> are internal to
+Docsy.</p>
+</blockquote>
+<h3 id="advanced-style-customization">Advanced style customization</h3>
+<p>The recommended way to define project-specific styles that override Docsy
+defaults is via the <code>_styles_project.scss</code> file. This file is part of Docsy’s
+public customization surface. For the complete list of files, see
+<a href="#project-style-files">Project style files</a>.</p>
+<p>However, some projects require visual designs that differ substantially from
+Docsy’s base styling. In such cases, selectively overriding individual CSS rules
+can become complex and brittle.</p>
+<h4 id="resetting-internal-styles">:warning: Resetting internal styles</h4>
+<p>Docsy’s internal SCSS files (in <a href="https://github.com/google/docsy/tree/main/assets/scss/td"><code>assets/scss/td/</code></a>) are
+organized by feature or function. For example, <code>_alerts.scss</code> contains the
+styles for <a href="/docs/content/adding-content/#alerts">Alerts</a>, while <code>_code.scss</code> and <code>_code-dark.scss</code> style
+<a href="#code-blocks">code blocks</a>.</p>
+<p>That said, if your project’s design diverges significantly from Docsy’s base
+styles, you may choose to <em>intentionally reset</em> some of these defaults by
+shadowing selected internal SCSS files with empty files. That is, create an
+empty SCSS file in your project with the same relative path (<code>assets/scss/td/</code>)
+and filename as the Docsy file you want to reset.</p>
+<blockquote>
+<p>[!CAUTION]</p>
+<p>This technique relies on Docsy internals and is therefore not covered by
+semantic versioning stability expectations. Internal SCSS files may change in
+<em>any</em> release, which may require reviewing and adjusting your project
+overrides when upgrading the theme. Use only if you accept the added
+maintenance cost.</p>
+</blockquote>
+<p>After resetting selected internal SCSS files, define your project’s actual
+styles in <code>_styles_project.scss</code>, as usual.</p>
+<h4 id="extra-styles">Extra styles</h4>
+<p>Docsy includes an optional <a href="https://github.com/google/docsy/tree/main/assets/scss/td/extra">td/extra</a> styles folder with <a href="/project/about/changelog/#experimental">experimental</a> styles
+that projects can test. These styles may eventually be merged into the core
+theme or change without notice.</p>
+<p>To enable them, add the following to your project&rsquo;s <code>_styles_project.scss</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="k">@import</span> <span class="s1">&#39;td/extra&#39;</span><span class="p">;</span>
+</span></span></code></pre></div><p>If your project uses Bootstrap&rsquo;s default color theme (that is, you do not
+override <code>$primary</code>, <code>$secondary</code>, etc.) then you can opt in to the extra
+dark-mode style adjustments as follows:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="k">@import</span> <span class="s1">&#39;td/extra/bs-defaults&#39;</span><span class="p">;</span>
+</span></span></code></pre></div><h2 id="colors-and-color-themes">Colors and color themes</h2>
+<p>Docsy defaults to Bootstrap&rsquo;s <a href="https://getbootstrap.com/docs/5.3/customize/color/">standard color scheme</a>. This section explains
+how to customize your site&rsquo;s colors and how to enable light/dark color themes.</p>
+<h3 id="site-colors">Site colors</h3>
+<p>To customize your site&rsquo;s colors, add SCSS variable overrides to
+<strong><code>assets/scss/_variables_project.scss</code></strong>. For example, you can set the primary
+and secondary site colors as follows:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="nv">$primary</span><span class="o">:</span> <span class="mh">#390040</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$secondary</span><span class="o">:</span> <span class="mh">#a23b72</span><span class="p">;</span>
+</span></span></code></pre></div><p>Docsy has <a href="https://getbootstrap.com/docs/">Bootstrap</a> features such as gradient backgrounds
+(<code>$enable-gradients</code>) and shadows (<code>$enable-shadows</code>) enabled by default. These
+can also be toggled in your project variables file by setting the variables to
+<code>false</code>.</p>
+<p>To add colors to or modify Bootstrap&rsquo;s <a href="https://getbootstrap.com/docs/5.3/customize/color/#color-sass-maps">color maps</a>, use
+<strong><code>assets/scss/_variables_project_after_bs.scss</code></strong>. For example:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="nv">$custom-colors</span><span class="o">:</span> <span class="p">(</span>
+</span></span><span class="line"><span class="cl">  <span class="na">&#39;my-favorite-color&#39;</span><span class="o">:</span> <span class="no">purple</span><span class="o">,</span>
+</span></span><span class="line"><span class="cl">  <span class="na">&#39;my-other-color&#39;</span><span class="o">:</span> <span class="no">pink</span><span class="o">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nv">$theme-colors</span><span class="o">:</span> <span class="nf">map-merge</span><span class="p">(</span><span class="nv">$theme-colors</span><span class="o">,</span> <span class="nv">$custom-colors</span><span class="p">);</span>
+</span></span></code></pre></div><p>To learn how to modify maps, see <a href="https://getbootstrap.com/docs/5.3/customize/sass/#maps-and-loops">Maps and loops</a> and <a href="https://getbootstrap.com/docs/5.3/customize/color-modes/#adding-theme-colors">Adding theme colors</a>.</p>
+<h3 id="lightdark-color-feature">Light/dark color theme and mode support</h3>
+<p>Docsy supports light and dark color <em>themes</em> and color mode selection through
+Bootstrap&rsquo;s <a href="https://getbootstrap.com/docs/5.3/customize/color-modes/">color modes</a> feature.</p>
+<p>What is the difference between a color theme and a color mode as used in Docsy?</p>
+<ul>
+<li>A color <em>theme</em> is a semantic color palette (primary, secondary, success,
+etc.) defined in SCSS and used by components and utilities.</li>
+<li>A color <em>mode</em> is a switchable presentation of the site (light or dark) from
+the user&rsquo;s point of view, implemented through CSS variable overrides
+(activated via <code>data-bs-theme</code>).</li>
+</ul>
+<p>The next section explains how to enable light/dark color themes and color mode
+selection.</p>
+<h2 id="lightdark-color-modes">Light/dark color modes</h2>
+<p>Docsy enables <strong>light and dark</strong> color mode selection, and the underlying color
+theme support, through Bootstrap&rsquo;s <a href="https://getbootstrap.com/docs/5.3/customize/color-modes/">color modes</a> feature. All sites are in
+light mode by default, whether or not you choose to enable dark mode for your
+project.</p>
+<p>Docsy ships with dark mode support, offering a good user experience (UX) for
+site visitors through the following features:</p>
+<ul>
+<li>
+<p><strong>Complete CSS</strong> styles for both light and dark themes <em>by default</em>, so your
+site can automatically switch between light and dark modes based on system
+settings or user preference.</p>
+</li>
+<li>
+<p>But, if you prefer, you can <strong>disable</strong> dark mode entirely, see
+<a href="#how-to-disable-dark-mode">How to disable dark mode</a>.</p>
+</li>
+<li>
+<p><strong>No dark-mode flashes</strong>: By default, Docsy adds page header content (like
+meta tags, inline styles, and an early-loading script) to avoid or generally
+prevent <em>Flashes Of Unstyled Content</em> (<a href="https://en.wikipedia.org/wiki/Flash_of_unstyled_content">FOUC</a>) when pages load.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+</li>
+<li>
+<p><strong>Light/dark-mode menu</strong>: Enable Docsy&rsquo;s
+<a href="#lightdark-mode-menu">light/dark-mode menu</a> in the <a href="#navbar">navbar</a> to allow
+your site users to switch between light and dark modes. Or create your own
+custom menu.</p>
+</li>
+<li>
+<p><strong>Dark-mode theme customization</strong>: Docsy provides extra dark-mode styling that
+you can selectively include, such as:</p>
+<ul>
+<li>
+<p><strong>Code syntax highlighting</strong>: if your site uses <a href="#code-highlighting-with-chroma">Chroma for code
+highlighting</a>, see <a href="#lightdark-code-styles">Light/dark code styles</a> to learn how to support
+<a href="https://gohugo.io/content-management/syntax-highlighting/">syntax highlighting</a> in dark mode for your favorite code highlighting
+themes.</p>
+</li>
+<li>
+<p><strong>Color-contrast adjustments</strong>: if your site has custom theme colors, you
+will probably need to selectively tune your dark-mode theme colors to ensure
+that they have good color-contrast. Learn
+<a href="#pick-good-color-contrast">how to pick colors with good color-contrast</a>.</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="choosing-themes-or-color-modes-for-your-site">Choosing themes or color modes for your site</h3>
+<p>To help you decide whether to support light, dark, or both themes on your site,
+see:</p>
+<ul>
+<li><a href="https://www.accessibilitychecker.org/blog/dark-mode-accessibility/">The Designer’s Guide to Dark Mode Accessibility</a>, January 2026</li>
+<li><a href="https://altersquare.io/dark-mode-vs-light-mode-the-complete-ux-guide-for-2025/">Dark Mode vs Light Mode: The Complete UX Guide for 2025</a>, August 2025</li>
+<li><a href="https://www.accessibilityfirst.at/posts/dark-and-light-mode-a-simple-guide-for-web-design-and-development">Dark and Light Mode: A Simple Guide for Web Design and Development</a>, May
+2025</li>
+</ul>
+<h3 id="how-to-disable-dark-mode">How to disable dark mode</h3>
+<p>Docsy, like Bootstrap, ships with CSS support for light and dark <a href="https://getbootstrap.com/docs/5.3/customize/color-modes/">color modes</a>
+by default.</p>
+<p>To <a href="https://getbootstrap.com/docs/5.3/customize/color-modes/#building-with-sass">disable dark mode</a> entirely:</p>
+<ul>
+<li>
+<p>Set <code>params.ui.showLightDarkModeMenu</code> to <code>false</code> in your <a href="https://gohugo.io/configuration/introduction/">site
+configuration</a>.</p>
+</li>
+<li>
+<p>Add the following variable in your project&rsquo;s <a href="https://github.com/google/docsy/blob/main/assets/scss/_variables_project.scss"><code>_variables_project.scss</code></a>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="nv">$enable-dark-mode</span><span class="o">:</span> <span class="n">false</span><span class="p">;</span>
+</span></span></code></pre></div></li>
+</ul>
+<h3 id="pick-good-color-contrast">How to pick colors with good color-contrast</h3>
+<blockquote>
+<p>[!CAUTION]</p>
+<p>This feature is <a href="/project/about/changelog/#experimental">experimental</a>. We invite projects to try it and share
+feedback.</p>
+</blockquote>
+<p>Getting dark-mode theme colors to have proper contrast can be tricky. Docsy
+provides <a href="https://github.com/google/docsy/blob/main/assets/scss/td/_color-adjustments-dark.scss">_color-adjustments-dark.scss</a> as an example of theme color
+customization by illustrating color-contrast adjustments for Bootstrap&rsquo;s default
+<a href="https://getbootstrap.com/docs/5.3/customize/color/#theme-colors">primary color</a></p>
+<p>To use this file, import it in your project&rsquo;s <a href="https://github.com/google/docsy/blob/main/assets/scss/_styles_project.scss"><code>_styles_project.scss</code></a> file:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="k">@import</span> <span class="s1">&#39;td/color-adjustments-dark&#39;</span><span class="p">;</span>
+</span></span></code></pre></div><p>We use <code>$lighten-amount-for-dark-color-variant</code> in that file to control how much
+lighter the primary color should be in dark mode as a percentage of the original
+primary color. To adjust this value for your project&rsquo;s <code>$primary</code> color, set
+this SCSS variable in your project&rsquo;s <a href="https://github.com/google/docsy/blob/main/assets/scss/_variables_project.scss"><code>_variables_project.scss</code></a> file, for
+example:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="nv">$lighten-amount-for-dark-color-variant</span><span class="o">:</span> <span class="mi">28</span><span class="kt">%</span> <span class="k">!default</span><span class="p">;</span>
+</span></span></code></pre></div><p>If the file settings are not working for your project, you can create your own
+dark mode theme customization file and import it in your project&rsquo;s
+<a href="https://github.com/google/docsy/blob/main/assets/scss/_styles_project.scss"><code>_styles_project.scss</code></a>.</p>
+<blockquote>
+<p>[!NOTE]</p>
+<p>Light/dark color themes only affect documentation pages and white <a href="shortcodes/#blocks"><code>blocks/*</code>
+shortcodes</a>. Other block shortcodes with fixed text and background
+colors are not affected by light/dark color mode changes.</p>
+</blockquote>
+<h2 id="fonts">Fonts</h2>
+<p>By default, Docsy uses Bootstrap&rsquo;s <a href="https://getbootstrap.com/docs/5.3/content/reboot/#native-font-stack">native font stack</a> for its typography.
+However, Docsy also supports Google Fonts. To enable Google Fonts and use <a href="https://fonts.google.com/specimen/Open+Sans">Open
+Sans</a> as your project&rsquo;s primary font, add the following variable to
+<code>assets/scss/_variables_project.scss</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="nv">$td-enable-google-fonts</span><span class="o">:</span> <span class="n">true</span><span class="p">;</span>
+</span></span></code></pre></div><p>To configure another Google Font:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="nv">$td-google-font-name</span><span class="o">:</span> <span class="s1">&#39;Roboto&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">$td-google-font-family</span><span class="o">:</span> <span class="s1">&#39;Roboto:300,300i,400,400i,700,700i&#39;</span><span class="p">;</span>
+</span></span></code></pre></div><h2 id="css-utilities">CSS utilities</h2>
+<p>For documentation of available CSS utility classes, see the <a href="https://getbootstrap.com/docs/">Bootstrap
+documentation</a>. This theme adds very little on its own in this area.
+However, we have added some color state CSS classes that can be useful in a
+dynamic context:</p>
+<ul>
+<li><code>.-bg-&lt;color&gt;</code></li>
+<li><code>.-text-&lt;color&gt;</code></li>
+</ul>
+<p>You can use these classes, for example, to style your text in an appropriate
+color when you don&rsquo;t know if the <code>primary</code> color is dark or light, to ensure
+proper color contrast. They are also useful when you receive the color code as a
+<a href="/docs/content/shortcodes/">shortcode</a> parameter.</p>
+<p>The value of <code>&lt;color&gt;</code> can be any of the color names, <code>primary</code>, <code>white</code>,
+<code>dark</code>, <code>warning</code>, <code>light</code>, <code>success</code>, <code>300</code>, <code>blue</code>, <code>orange</code> etc.</p>
+<p>When you use <code>.-bg-&lt;color&gt;</code>, the text colors will be adjusted to get proper
+contrast:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;-bg-primary p-3 display-6&#34;</span><span class="p">&gt;</span>Background: Primary<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;-bg-200 p-3 display-6&#34;</span><span class="p">&gt;</span>Background: Gray 200<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span></code></pre></div><div class="-bg-primary p-3 display-6 w-75">Background: Primary</div>
+<div class="-bg-200 p-3 display-6 mb-5 w-50 w-75">Background: Gray 200</div>
+<p>To only set the text color use <code>.-text-&lt;color&gt;</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;-text-blue pt-3 display-6&#34;</span><span class="p">&gt;</span>Text: Blue<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span></code></pre></div><div class="-text-blue pt-3 display-6">Text: Blue</div>
+<h2 id="code-blocks">Code blocks</h2>
+<p>Docsy supports syntax highlighting of code blocks and other styling options
+through two syntax highlighters, <a href="#code-highlighting-with-chroma">Chroma</a> and
+<a href="#code-highlighting-with-prism">Prism</a>.</p>
+<h3 id="code-highlighting-with-chroma">Code highlighting with Chroma</h3>
+<p>Hugo uses <a href="https://github.com/alecthomas/chroma">Chroma</a> for syntax
+highlighting, which provides highlight and color styles for fenced code blocks.
+For details, see the <a href="https://gohugo.io/content-management/syntax-highlighting/">Syntax highlighting</a>.</p>
+<h4 id="chroma-style-configuration">Basic Chroma style configuration</h4>
+<blockquote>
+<p>[!NOTE]</p>
+<p>If your project uses <a href="#lightdark-color-modes">light/dark color modes</a>, then
+skip to <a href="#lightdark-code-styles">Light/dark code styles</a>.</p>
+</blockquote>
+<p>Hugo&rsquo;s default Chroma style is <a href="https://xyproto.github.io/splash/docs/monokai.html">monokai</a>. To use another style, such as
+<a href="https://xyproto.github.io/splash/docs/tango.html">tango</a>, add the following to your project configuration.</p>
+<!-- prettier-ignore-start -->
+
+
+
+
+
+<ul class="nav nav-tabs" id="tabs-1" role="tablist">
+  <li class="nav-item">
+      <button class="nav-link disabled"
+          id="tabs-01-00-tab" data-bs-toggle="tab" data-bs-target="#tabs-01-00" role="tab"
+          aria-controls="tabs-01-00" aria-selected="false">
+        Configuration file:
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link active"
+          id="tabs-01-01-tab" data-bs-toggle="tab" data-bs-target="#tabs-01-01" role="tab"
+          data-td-tp-persist="toml" aria-controls="tabs-01-01" aria-selected="true">
+        hugo.toml
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link"
+          id="tabs-01-02-tab" data-bs-toggle="tab" data-bs-target="#tabs-01-02" role="tab"
+          data-td-tp-persist="yaml" aria-controls="tabs-01-02" aria-selected="false">
+        hugo.yaml
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link"
+          id="tabs-01-03-tab" data-bs-toggle="tab" data-bs-target="#tabs-01-03" role="tab"
+          data-td-tp-persist="json" aria-controls="tabs-01-03" aria-selected="false">
+        hugo.json
+      </button>
+    </li>
+</ul>
+
+<div class="tab-content" id="tabs-1-content">
+    <div class="tab-pane fade"
+        id="tabs-01-00" role="tabpanel" aria-labelled-by="tabs-01-00-tab" tabindex="1">
+        <pre tabindex="0"><code></code></pre>
+    </div>
+    <div class="tab-pane fade show active"
+        id="tabs-01-01" role="tabpanel" aria-labelled-by="tabs-01-01-tab" tabindex="1">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">markup</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">markup</span><span class="p">.</span><span class="nx">highlight</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">style</span> <span class="p">=</span> <span class="s2">&#34;tango&#34;</span></span></span></code></pre></div>
+    </div>
+    <div class="tab-pane fade"
+        id="tabs-01-02" role="tabpanel" aria-labelled-by="tabs-01-02-tab" tabindex="1">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">markup</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">highlight</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">style</span><span class="p">:</span><span class="w"> </span><span class="l">tango</span></span></span></code></pre></div>
+    </div>
+    <div class="tab-pane fade"
+        id="tabs-01-03" role="tabpanel" aria-labelled-by="tabs-01-03-tab" tabindex="1">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;markup&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;highlight&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;style&#34;</span><span class="p">:</span> <span class="s2">&#34;tango&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></div>
+    </div>
+</div>
+
+<!-- prettier-ignore-end -->
+<p>For the complete list of available styles, see <a href="https://xyproto.github.io/splash/docs/">Chroma Style Gallery</a>.</p>
+<h4 id="lightdark-code-styles">Light/dark code styles and more</h4>
+<p>To enable code styles that are compatible with light/dark color modes, you need
+to complete the following setup steps:</p>
+<ol>
+<li>
+<p>Ensure that <code>markup.highlight.noClasses</code> is <code>false</code> in your project config.
+For details about this option, see <a href="https://gohugo.io/content-management/syntax-highlighting/#noclasses">noClasses</a>.</p>
+</li>
+<li>
+<p>Add the following import to your project&rsquo;s <a href="https://github.com/google/docsy/blob/main/assets/scss/_styles_project.scss"><code>_styles_project.scss</code></a> file:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="k">@import</span> <span class="s1">&#39;td/code-dark&#39;</span><span class="p">;</span>
+</span></span></code></pre></div></li>
+</ol>
+<p>Docsy&rsquo;s default Chroma styles for <a href="#lightdark-color-modes">light/dark modes</a> are:</p>
+<ul>
+<li><a href="https://xyproto.github.io/splash/docs/friendly.html">friendly</a> for light mode</li>
+<li><a href="https://xyproto.github.io/splash/docs/native.html">native</a> for dark mode</li>
+</ul>
+<p>If you would like to use other styles, save the <a href="https://gohugo.io/commands/hugo_gen_chromastyles/">Hugo generated Chroma styles</a>
+to the appropriate file:</p>
+<ul>
+<li><a href="https://github.com/google/docsy/blob/main/assets/scss/td/chroma/_light.scss">assets/scss/td/chroma/_light.scss</a></li>
+<li><a href="https://github.com/google/docsy/blob/main/assets/scss/td/chroma/_dark.scss">assets/scss/td/chroma/_dark.scss</a></li>
+</ul>
+<p>Note that we tweak the <a href="https://xyproto.github.io/splash/docs/native.html">native</a> style (in dark mode) so that the Generic
+Output color looks less prominent, offering better contrasts with the
+command-text color. For details, see <a href="https://github.com/google/docsy/blob/main/assets/scss/td/_code-dark.scss">_code-dark.scss</a>.</p>
+<h5 id="selecting-console-block-content">Selecting console block content</h5>
+<p>In <code>console</code> code blocks that contain commands and command output, the command
+prompt and command output are unselectable. This is useful when copying commands
+to the clipboard. Give it a try:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> <span class="nb">echo</span> <span class="s2">&#34;Hello, world!&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="go">Hello, world!
+</span></span></span><span class="line"><span class="cl"><span class="gp">$</span> <span class="nb">echo</span> <span class="s2">&#34;Nice to meet you!&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="go">Nice to meet you!
+</span></span></span></code></pre></div><p>Clicking copy-code leaves this code in your clipboard:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;Hello, world!&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;Nice to meet you!&#34;</span>
+</span></span></code></pre></div><p>For details, see <a href="https://github.com/google/docsy/blob/main/assets/scss/td/_code.scss">_code.scss</a>.</p>
+<p>If you want the entire content of a console block to be selectable, use a
+<code>console</code> language alias instead, such as <code>bash-session</code> or <code>shell-session</code>.
+Give it a try:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell-session" data-lang="shell-session"><span class="line"><span class="cl"><span class="gp">$</span> <span class="nb">echo</span> <span class="s2">&#34;Hello, world!&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="go">Hello, world!
+</span></span></span><span class="line"><span class="cl"><span class="gp">$</span> <span class="nb">echo</span> <span class="s2">&#34;Nice to meet you!&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="go">Nice to meet you!
+</span></span></span></code></pre></div><h4 id="code-blocks-without-a-specified-language">Code blocks without a specified language</h4>
+<p>By default, highlighting is not applied to code blocks without a specified
+language. If you would like code highlighting to apply to <em>all</em> code blocks,
+even without a language, set <code>markup.highlight.guessSyntax</code> to <code>true</code> in your
+project&rsquo;s configuration file.</p>
+<h4 id="copy-to-clipboard">Copy to clipboard</h4>
+<p>If you are using a Docsy 0.6.0 or later, code blocks show a &ldquo;Copy to clipboard&rdquo;
+button in the top right-hand corner. To disable this functionality, set
+<code>disable_click2copy_chroma</code> to <code>true</code> in your configuration file.</p>
+<h3 id="code-highlighting-with-prism">Code highlighting with Prism</h3>
+<p>Optionally, you can enable Prism syntax highlighting in your
+<code>hugo.toml</code>/<code>hugo.yaml</code>/<code>hugo.json</code>:</p>
+<!-- prettier-ignore-start -->
+
+
+
+
+
+<ul class="nav nav-tabs" id="tabs-2" role="tablist">
+  <li class="nav-item">
+      <button class="nav-link disabled"
+          id="tabs-02-00-tab" data-bs-toggle="tab" data-bs-target="#tabs-02-00" role="tab"
+          aria-controls="tabs-02-00" aria-selected="false">
+        Configuration file:
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link active"
+          id="tabs-02-01-tab" data-bs-toggle="tab" data-bs-target="#tabs-02-01" role="tab"
+          data-td-tp-persist="toml" aria-controls="tabs-02-01" aria-selected="true">
+        hugo.toml
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link"
+          id="tabs-02-02-tab" data-bs-toggle="tab" data-bs-target="#tabs-02-02" role="tab"
+          data-td-tp-persist="yaml" aria-controls="tabs-02-02" aria-selected="false">
+        hugo.yaml
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link"
+          id="tabs-02-03-tab" data-bs-toggle="tab" data-bs-target="#tabs-02-03" role="tab"
+          data-td-tp-persist="json" aria-controls="tabs-02-03" aria-selected="false">
+        hugo.json
+      </button>
+    </li>
+</ul>
+
+<div class="tab-content" id="tabs-2-content">
+    <div class="tab-pane fade"
+        id="tabs-02-00" role="tabpanel" aria-labelled-by="tabs-02-00-tab" tabindex="2">
+        <pre tabindex="0"><code></code></pre>
+    </div>
+    <div class="tab-pane fade show active"
+        id="tabs-02-01" role="tabpanel" aria-labelled-by="tabs-02-01-tab" tabindex="2">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">params</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">prism_syntax_highlighting</span> <span class="p">=</span> <span class="kc">true</span></span></span></code></pre></div>
+    </div>
+    <div class="tab-pane fade"
+        id="tabs-02-02" role="tabpanel" aria-labelled-by="tabs-02-02-tab" tabindex="2">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">params</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">prism_syntax_highlighting</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span></span></span></code></pre></div>
+    </div>
+    <div class="tab-pane fade"
+        id="tabs-02-03" role="tabpanel" aria-labelled-by="tabs-02-03-tab" tabindex="2">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;params&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;prism_syntax_highlighting&#34;</span><span class="p">:</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></div>
+    </div>
+</div>
+
+<!-- prettier-ignore-end -->
+<p>When this option is enabled your site uses
+<a href="https://prismjs.com/index.html">Prism</a> instead of Chroma for code block
+highlighting.</p>
+<p>Prism is a popular open source syntax highlighter which supports over 200
+<a href="https://prismjs.com/index.html#supported-languages">languages</a> and various
+<a href="https://prismjs.com/index.html#plugins">plugins</a>.</p>
+<p>Docsy includes JavaScript and CSS files for a basic Prism configuration, which
+supports:</p>
+<ul>
+<li>Code blocks styled with the Prism <code>Default</code> theme</li>
+<li>Copy to clipboard buttons on code blocks</li>
+<li>Syntax highlighting for a number of common languages, as specified in the
+following Prism download link, <a href="https://prismjs.com/download.html#themes=prism&amp;languages=markup+css+clike+javascript+bash+c+csharp+cpp+go+java+markdown+python+scss+sql+toml+yaml&amp;plugins=toolbar+copy-to-clipboard">Customize your download</a>.</li>
+</ul>
+<h4 id="code-blocks-with-no-language">Code blocks with no language</h4>
+<p>By default, Prism code highlighting styles are not applied to code blocks
+without a specified language, instead you get Docsy&rsquo;s default style of grey with
+black text. To apply Prism styling to code blocks with no language or a language
+not supported by Prism, specify <code>none</code> as the language after your triple
+backticks.</p>
+<h4 id="extending-prism-for-additional-languages-or-plugins">Extending Prism for additional languages or plugins</h4>
+<p>If the included Prism configuration is not sufficient for your requirements, and
+you want to use additional languages or plugins you can replace the included
+files with your own.</p>
+<ol>
+<li>Download your own Prism JS and CSS files from
+<a href="https://prismjs.com/download.html">https://prismjs.com/download.html</a></li>
+<li>Replace the included Prism JS and CSS with the files you downloaded:
+<ul>
+<li>Copy the Javascript file to <code>static/js/prism.js</code></li>
+<li>Copy the CSS file to <code>static/css/prism.css</code></li>
+</ul>
+</li>
+</ol>
+<h2 id="navbar">Navbar</h2>
+<p>By default, a Docsy site has a navbar that appears at the top of every page.</p>
+<h3 id="default-look-and-feel">Default look and feel</h3>
+<p>Docsy’s navbar styles are designed mobile-first.</p>
+<h4 id="on-mobile">On mobile</h4>
+<p>On <strong>mobile</strong>, the default navbar:</p>
+<ul>
+<li>Uses the page’s (light/dark) body text and background colors to ensure that
+navbar elements (like links, menus, and the search box) render correctly
+across <a href="#lightdark-color-modes">light/dark color modes</a>.</li>
+<li>Has an opaque background color.</li>
+<li>Scrolls with the page content.</li>
+</ul>
+<h4 id="on-desktop">On desktop</h4>
+<p>On <strong>desktop</strong> (<code>md</code> breakpoint and up), the default appearance is the same,
+except that the navbar is fixed to the top of the viewport.</p>
+<h5 id="default-over-cover">Translucent over cover images</h5>
+<p>In addition, on desktop, when a page contains a <a href="/docs/content/shortcodes/#blocks-cover">blocks/cover</a> (typically used
+for hero images on the home page), Docsy makes the navbar translucent while the
+cover is visible by adding the classes <code>td-navbar-cover td-navbar-transparent</code>
+to the navbar. For an example, see the <a href="/about/">About Docsy</a> page. This initial
+translucent setting ensures that the hero image is maximally visible. Once the
+user has scrolled past the cover (hero image), the navbar reverts to its default
+(opaque) style.</p>
+<h3 id="navbar-customization">Customizing the navbar</h3>
+<h4 id="navbar-height">Navbar height</h4>
+<p>To adjust the navbar height, override one or both of the <a href="/project/about/changelog/#experimental">experimental</a> SCSS
+variables <code>$td-navbar-min-height</code> and <code>$td-navbar__main-min-height-mobile</code> in
+your <a href="#project-style-files">project&rsquo;s variables file</a>.</p>
+<p>The min height on mobile is the sum of <code>$td-navbar-min-height</code> and
+<code>$td-navbar__main-min-height-mobile</code>, on desktop it is just
+<code>$td-navbar-min-height</code>.</p>
+<h4 id="navbar-background">Background color/opacity</h4>
+<p>To change the navbar background color/opacity across your site, override the
+SCSS variable <code>$td-navbar-bg-color</code> in your <a href="#project-style-files">project’s variables file</a>.</p>
+<p>For example, to set the navbar background color to the primary color:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="nv">$td-navbar-bg-color</span><span class="o">:</span> <span class="nv">$primary</span><span class="p">;</span>
+</span></span></code></pre></div><blockquote>
+<p>[!NOTE]- CSS variable implementation details</p>
+<p>Docsy uses the following CSS custom properties <strong>internally</strong> to style the
+navbar: <code>--td-navbar-bg-color</code>, <code>--td-navbar-backdrop-filter</code>, and
+<code>--td-navbar-border-bottom</code>. These can be overridden for advanced
+customization. For an example, see the User Guide&rsquo;s <a href="https://github.com/google/docsy/blob/main/docsy.dev/assets/scss/_styles_project.scss">project
+styles</a>. For the base styles, see <a href="https://github.com/google/docsy/blob/main/assets/scss/td/_nav.scss">_nav.scss</a>.</p>
+</blockquote>
+<p>To set the navbar background color to a slightly translucent primary color use:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="nv">$td-navbar-bg-color</span><span class="o">:</span> <span class="nf">rgba</span><span class="p">(</span><span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">bs-body-bg-rgb</span><span class="p">)</span><span class="o">,</span> <span class="mi">0</span><span class="mf">.85</span><span class="p">);</span>
+</span></span></code></pre></div><p>To also blur the background requires this more advanced styling:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="nc">.td-navbar</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="na">--td-navbar-bg-color</span><span class="o">:</span> <span class="si">#{</span><span class="nv">$td-navbar-bg-color</span><span class="si">}</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="na">--td-navbar-backdrop-filter</span><span class="o">:</span> <span class="nf">blur</span><span class="p">(</span><span class="mi">8</span><span class="kt">px</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>For more examples, see the User Guide&rsquo;s <a href="https://github.com/google/docsy/blob/main/docsy.dev/assets/scss/_styles_project.scss">project styles</a>.</p>
+<h4 id="navbar-lightdark-theme">Setting the navbar light/dark color theme</h4>
+<p>Whether it is your chosen site design, or you want more contrast between the
+navbar and the page background (especially over a cover image), you can set the
+navbar theme to <code>dark</code> by adding <code>params.ui.navbar_theme: dark</code> to:</p>
+<ul>
+<li>Your site config to apply this <strong>site-wide</strong></li>
+<li>Page <a href="https://gohugo.io/content-management/front-matter/#front-matter-parameters">front matter <code>params</code></a> to apply this <strong>per page</strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">params</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">ui</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">navbar_theme</span><span class="p">:</span><span class="w"> </span><span class="l">dark</span><span class="w">
+</span></span></span></code></pre></div><p>Internally, this adds <code>data-bs-theme=&quot;dark&quot;</code> to the navbar, triggering
+Bootstrap&rsquo;s dark theme. This affects the default colors of navbar and all its
+child elements such as links, menus, and the search box.</p>
+<h4 id="customize-over-cover">Translucent over cover images</h4>
+<p>When a page contains a <a href="/docs/content/shortcodes/#blocks-cover">blocks/cover</a>, the navbar is styled with
+<code>td-navbar-cover</code>. While the navbar is over the cover, it is styled with
+<code>td-navbar-transparent</code> as well, which sets the background color to transparent
+and applies a blur effect (once the user has scrolled past the cover, the
+<code>td-navbar-transparent</code> class is removed).</p>
+<p>This translucent effect can sometimes make the text of navbar items difficult to
+read due to the lack of contrast. Adjusting the navbar background color/opacity
+or blur can help. For an example, see the User Guide&rsquo;s <a href="https://github.com/google/docsy/blob/main/docsy.dev/assets/scss/_styles_project.scss">project
+styles</a>.</p>
+<p>Alternatively, you can disable the “translucent over cover” behavior globally by
+setting <code>params.ui.navbar_translucent_over_cover_disable</code> to <code>true</code> in your
+<a href="https://gohugo.io/configuration/introduction/">site configuration</a>.</p>
+<h3 id="styling-your-project-logo-and-name">Styling your project logo and name</h3>
+<p>The default Docsy navbar (<code>.td-navbar</code>) displays your site identity, consisting
+of the following:</p>
+<ol>
+<li>
+<p><a href="/docs/content/iconsimages/#add-your-logo">Your logo</a>, which is included in the navbar as an inline SVG, styled by
+<code>.td-navbar .navbar-brand svg</code>. For the style details, see <a href="https://github.com/google/docsy/blob/main/assets/scss/td/_nav.scss">_nav.scss</a>.</p>
+<p>To ensure your logo displays correctly, you may want to resize it and ensure
+that it doesn&rsquo;t have height and width attributes so that its size is fully
+responsive. <a href="/docs/content/lookandfeel/#project-style-files">Override the default styling</a> of
+<code>.td-navbar .navbar-brand svg</code> or (equivalently)
+<code>.td-navbar .navbar-brand__logo</code> as needed.</p>
+</li>
+<li>
+<p>Your project name, which is the site <code>title</code>. If you don&rsquo;t want your project
+name to appear (for example, because your logo is or contains a
+<a href="https://en.wikipedia.org/wiki/Wordmark">wordmark</a>), then add the following custom styling to your <a href="/docs/content/lookandfeel/#project-style-files">project&rsquo;s
+styles</a>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="p">.</span><span class="nc">td-navbar</span> <span class="p">.</span><span class="nc">navbar-brand__name</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">display</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div></li>
+</ol>
+<h3 id="lightdark-mode-menu">Light/dark-mode menu</h3>
+<p>If you enable this feature, Docsy adds a menu to your navbar that lets users
+switch your site&rsquo;s documentation page display between a default &ldquo;light&rdquo; mode,
+and a &ldquo;dark&rdquo; mode where the text is displayed in a light color on a dark
+background. The menu also includes an &ldquo;auto&rdquo; option that follows the user&rsquo;s
+system preference.</p>
+<p>To enable the display of a light/<a href="https://getbootstrap.com/docs/5.3/customize/color-modes/#dark-mode">dark mode</a> menu in the navbar, set
+<code>params.ui.showLightDarkModeMenu</code> to <code>true</code> in your <a href="https://gohugo.io/configuration/introduction/">site configuration</a>. The
+dropdown menu appears at the right, immediately before the <a href="/docs/content/search/">search box</a>, if
+present.</p>
+
+
+   <ul class="nav nav-tabs" id="tabs-4" role="tablist">
+  <li class="nav-item">
+      <button class="nav-link disabled"
+          id="tabs-04-00-tab" data-bs-toggle="tab" data-bs-target="#tabs-04-00" role="tab"
+          aria-controls="tabs-04-00" aria-selected="false">
+        Configuration file:
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link active"
+          id="tabs-04-01-tab" data-bs-toggle="tab" data-bs-target="#tabs-04-01" role="tab"
+          data-td-tp-persist="toml" aria-controls="tabs-04-01" aria-selected="true">
+        hugo.toml
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link"
+          id="tabs-04-02-tab" data-bs-toggle="tab" data-bs-target="#tabs-04-02" role="tab"
+          data-td-tp-persist="yaml" aria-controls="tabs-04-02" aria-selected="false">
+        hugo.yaml
+      </button>
+    </li><li class="nav-item">
+      <button class="nav-link"
+          id="tabs-04-03-tab" data-bs-toggle="tab" data-bs-target="#tabs-04-03" role="tab"
+          data-td-tp-persist="json" aria-controls="tabs-04-03" aria-selected="false">
+        hugo.json
+      </button>
+    </li>
+</ul>
+
+<div class="tab-content" id="tabs-4-content">
+    <div class="tab-body tab-pane fade"
+        id="tabs-04-00" role="tabpanel" aria-labelled-by="tabs-04-00-tab" tabindex="4">
+        
+    </div>
+    <div class="tab-body tab-pane fade show active"
+        id="tabs-04-01" role="tabpanel" aria-labelled-by="tabs-04-01-tab" tabindex="4">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">params</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">ui</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">showLightDarkModeMenu</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span></code></pre></div>
+    </div>
+    <div class="tab-body tab-pane fade"
+        id="tabs-04-02" role="tabpanel" aria-labelled-by="tabs-04-02-tab" tabindex="4">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">params</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">ui</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">showLightDarkModeMenu</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span></code></pre></div>
+    </div>
+    <div class="tab-body tab-pane fade"
+        id="tabs-04-03" role="tabpanel" aria-labelled-by="tabs-04-03-tab" tabindex="4">
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;params&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;ui&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;showLightDarkModeMenu&#34;</span><span class="p">:</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>
+    </div>
+</div>
+
+<blockquote>
+<p>[!CAUTION] <i class='fa-solid fa-exclamation-triangle pe-1'></i> Bring your own light/dark mode menu <span class='badge text-bg-warning fs-6 float-end'>EXPERIMENTAL</span></p>
+<p>If you would like to use your own light/dark mode menu implementation instead
+of Docsy&rsquo;s default implementation:</p>
+<ol>
+<li>Set <code>params.ui.showLightDarkModeMenu</code> to <code>&quot;enable-only (experimental)&quot;</code>.
+This will enable base dark-mode functionality (such as full CSS, no-flash
+support) without Docsy&rsquo;s menu.</li>
+<li>Add your menu code to in the <a href="https://github.com/google/docsy/blob/main/layouts/_partials/theme-toggler.html">layouts/_partials/theme-toggler.html</a> partial
+file, thus overriding Docsy&rsquo;s default implementation.</li>
+</ol>
+<p>This feature is experimental. It may be removed and/or changed in
+backwards-incompatible ways in a future release.</p>
+</blockquote>
+<h2 id="alerts">Alerts</h2>
+<blockquote>
+<p>[!NOTE] Coming soon: how to customize alerts</p>
+<ul>
+<li><code>alert-primary</code> is the default</li>
+<li><code>alert-&lt;AlertType&gt;</code> is used</li>
+</ul>
+</blockquote>
+<p>To change the styling of an alert of type <code>abc</code>, override the CSS class
+<code>.alert-abc</code> like so:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="nc">.alert-abc</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">@extend</span> <span class="nc">.alert-primary</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>For example, to make alert headings <code>h3</code> (the default is <code>h4</code>), use:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="nc">.td-alert-heading</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">@extend</span> <span class="nc">.h3</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h2 id="tables">Tables</h2>
+<p>Docsy applies the following styles to all tables, through the class <code>.td-table</code>:</p>
+<ul>
+<li><a href="https://getbootstrap.com/docs/5.3/content/tables/">Bootstrap table</a> styles:
+<ul>
+<li><code>.table</code></li>
+<li><code>.table-striped</code></li>
+<li><code>.table-responsive</code></li>
+</ul>
+</li>
+<li><code>display: block</code>, which is necessary for tables to be responsive.</li>
+</ul>
+<p>This styling configuration gives you responsive tables using Markdown only,
+without the need to wrap the table in a <code>&lt;div&gt;</code>. It does, however, mean that all
+your tables have <code>display</code> set to <code>block</code>. If you don&rsquo;t want this, you can
+create your own custom styles for tables.</p>
+<blockquote>
+<p>[!NOTE]</p>
+<p>Our table styling goes against the <a href="https://getbootstrap.com/docs/5.3/content/tables/#responsive-tables">Bootstrap recommendation to <em>wrap</em>
+tables</a> with <code>.table-responsive</code> — however, we think
+letting users create responsive tables with just Markdown table syntax is more
+convenient.</p>
+</blockquote>
+<p>To render a table without Docsy styling, apply the <code>.td-initial</code> class to the
+table. From the resulting <code>&lt;table&gt;</code> style base, it is easier to apply your own
+custom styles (rather than trying to undo Docsy table styling), as is
+illustrated in the following example:</p>
+<!-- prettier-ignore -->
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">| Shape    | Number of sides |
+</span></span><span class="line"><span class="cl">| -------- | --------------- |
+</span></span><span class="line"><span class="cl">| Triangle | 3               |
+</span></span><span class="line"><span class="cl">| Square   | 4               |
+</span></span><span class="line"><span class="cl">{.td-initial .my-dark-table-style}
+</span></span></code></pre></div><p>The example above uses <a href="https://discourse.gohugo.io/t/markdown-attributes/41783">Markdown attribute</a> syntax, and might render like
+this:</p>
+<!-- markdownlint-disable table-pipe-style table-column-count -->
+<!-- prettier-ignore-start -->
+<table class="td-initial table table-dark">
+  <thead>
+      <tr>
+          <th>Shape</th>
+          <th>Number of sides</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Triangle</td>
+          <td>3</td>
+      </tr>
+      <tr>
+          <td>Square</td>
+          <td>4</td>
+      </tr>
+  </tbody>
+</table>
+<!-- prettier-ignore-end -->
+<h2 id="customizing-templates">Customizing templates</h2>
+<h3 id="add-code-to-head-or-before-body-end">Add code to head or before body end</h3>
+<p>If you need to add some code (CSS import, cookie consent, or similar) to the
+<code>head</code> section on every page, add a <a href="https://github.com/google/docsy/blob/main/layouts/_partials/hooks/head-end.html">hooks/head-end.html</a> partial to your
+project (the theme version is an empty placeholder). The content of this partial
+is automatically included just before the end of the theme partial <a href="https://github.com/google/docsy/blob/main/layouts/_partials/head.html">head.html</a>.</p>
+<p>Similarly, if you want to add some code right before the <code>body</code> end, create your
+own version of <a href="https://github.com/google/docsy/blob/main/layouts/_partials/hooks/body-end.html">hooks/body-end.html</a>. This partial is included automatically at
+the end of the theme partial <a href="https://github.com/google/docsy/blob/main/layouts/_partials/head.html">scripts.html</a>.</p>
+<p>Both <a href="https://github.com/google/docsy/blob/main/layouts/_partials/head.html">head.html</a> and <a href="https://github.com/google/docsy/blob/main/layouts/_partials/head.html">scripts.html</a> are included from <a href="https://github.com/google/docsy/blob/main/layouts/baseof.html">baseof.html</a>, Docsy&rsquo;s
+<a href="https://gohugo.io/templates/base/">base template</a>.</p>
+<h3 id="before-page-content">Adding a banner before page content</h3>
+<p>To have a banner or other similar content appear at the top of the pages in a
+section, add the relevant HTML to a <a href="https://github.com/google/docsy/blob/main/layouts/_td-content-after-header.html">_td-content-after-header.html</a> file in the
+section&rsquo;s page path under <code>layouts</code> &ndash; such as
+<code>layouts/blog/_td-content-after-header.html</code>. Add the file directly under
+<code>layouts</code> to have the file processed for all docs, blog, and swagger pages. The
+file&rsquo;s content will be included inside the <code>div.td-content</code> after <code>&lt;/header&gt;</code>,
+just before <code>.Content</code> is rendered.</p>
+<h2 id="adding-custom-class-to-the-body-element">Adding custom class to the body element</h2>
+<p>By default, Docsy adds the <code>td-{{ .Kind }}</code> class, where the kind is the kind of
+the page, like section, blog, and so on. For example:</p>
+<!-- prettier-ignore -->
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">body</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;td-section&#34;</span><span class="p">&gt;</span>
+</span></span></code></pre></div><p>Sometimes it&rsquo;s useful to assign custom classes to a page, or to an entire
+section, for example, to apply custom styling. To do so, add the <code>body_class</code>
+parameter to the front matter of your page. The value of the parameter will then
+be added to the class attribute of your page&rsquo;s body element.</p>
+<p>To add the classes <code>myclass</code> and <code>anotherclass</code>, add the following line to the
+front matter of the page:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">body_class</span><span class="p">:</span><span class="w"> </span><span class="l">myclass anotherclass</span><span class="w">
+</span></span></span></code></pre></div><p>The page&rsquo;s opening body tag will look like this (assuming it is a section page):</p>
+<!-- prettier-ignore -->
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">body</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;td-section myclass anotherclass&#34;</span><span class="p">&gt;</span>
+</span></span></code></pre></div><p>To apply the custom class to every page of a section or a directory, use the
+<a href="https://gohugo.io/content-management/front-matter/#front-matter-cascade">Front Matter Cascade</a>
+feature of Hugo in your configuration file, or in the front matter of the
+highest-level page you want to modify.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Also referred to as &ldquo;Flash of incorrect theme&rdquo; and, humorously, <a href="https://css-tricks.com/flash-of-inaccurate-color-theme-fart/"><em>Flash of
+inAccurate coloR Theme</em></a> (FART).&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+      </main>
+      <footer class="td-footer row d-print-none">
+  <div class="container-fluid">
+    <div class="row mx-md-2">
+      <div class="td-footer__left col-6 col-sm-4 order-sm-1">
+        <ul class="td-footer__links-list">
+  
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="GitHub Discussions" aria-label="GitHub Discussions">
+    <a target="_blank" rel="noopener" href="https://github.com/google/docsy/discussions" aria-label="GitHub Discussions">
+      <i class="fa-brands fa-github"></i>
+    </a>
+  </li>
+  
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="User mailing list" aria-label="User mailing list">
+    <a target="_blank" rel="noopener" href="https://groups.google.com/g/docsy-users" aria-label="User mailing list">
+      <i class="fa-solid fa-envelope"></i>
+    </a>
+  </li>
+  
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="Twitter" aria-label="Twitter">
+    <a target="_blank" rel="noopener" href="https://twitter.com/docsydocs" aria-label="Twitter">
+      <i class="fa-brands fa-x-twitter"></i>
+    </a>
+  </li>
+  
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="Stack Overflow" aria-label="Stack Overflow">
+    <a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/tagged/docsy" aria-label="Stack Overflow">
+      <i class="fa-brands fa-stack-overflow"></i>
+    </a>
+  </li>
+  
+</ul>
+
+      </div><div class="td-footer__right col-6 col-sm-4 order-sm-3">
+        <ul class="td-footer__links-list">
+  
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="Project docs and site info" aria-label="Project docs and site info">
+    <a target="_blank" rel="noopener" href="/site/" aria-label="Project docs and site info">
+      <i class="fa fa-book"></i>
+    </a>
+  </li>
+  
+  <li class="td-footer__links-item" data-bs-toggle="tooltip" title="GitHub" aria-label="GitHub">
+    <a target="_blank" rel="noopener" href="https://github.com/google/docsy" aria-label="GitHub">
+      <i class="fa-brands fa-github"></i>
+    </a>
+  </li>
+  
+</ul>
+
+      </div><div class="td-footer__center col-12 col-sm-4 py-2 order-sm-2">
+        <span class="td-footer__copyright">&copy;
+    2018&ndash;present
+    <span class="td-footer__authors">Docsy Authors | <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a> |</span></span><span class="td-footer__all_rights_reserved">All Rights Reserved</span><span class="ms-2"><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a></span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <style>
+.markmap > svg {
+  width: 100%;
+  height: 300px;
+}
+</style>
+<script>
+window.markmap = {
+  autoLoader: {
+      manual: true,
+      onReady() {
+        const { autoLoader, builtInPlugins } = window.markmap;
+        autoLoader.transformPlugins = builtInPlugins.filter(plugin => plugin.name !== 'prism');
+      },
+  },
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/markmap-autoloader"></script>
+<script src='/js/deflate.js'></script>
+<script src="/js/main.js"></script>
+<script defer src="/js/click-to-copy.js" crossorigin="anonymous"></script>
+<script src='/js/tabpane-persist.js'></script>
+
+  </body>
+</html>

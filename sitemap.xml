@@ -5,35 +5,43 @@
     <loc>https://trtrf.github.io/tense/present-in-the-future/</loc>
     <lastmod>2026-04-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://trtrf.github.io/grammar/functional-sentence/</loc>
+    <loc>https://trtrf.github.io/composition/functional-sentence/</loc>
   </url><url>
-    <loc>https://trtrf.github.io/vocabulary/life/</loc>
+    <loc>https://trtrf.github.io/realization/life/</loc>
   </url><url>
     <loc>https://trtrf.github.io/tense/present/</loc>
     <lastmod>2026-04-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://trtrf.github.io/grammar/simple-sentence/</loc>
+    <loc>https://trtrf.github.io/composition/simple-sentence/</loc>
   </url><url>
     <loc>https://trtrf.github.io/tense/past-in-the-future/</loc>
     <lastmod>2026-04-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://trtrf.github.io/grammar/complex-sentence/</loc>
+    <loc>https://trtrf.github.io/composition/complex-sentence/</loc>
   </url><url>
     <loc>https://trtrf.github.io/tense/past/</loc>
     <lastmod>2026-04-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://trtrf.github.io/grammar/compound-sentence-/</loc>
-  </url><url>
     <loc>https://trtrf.github.io/tense/verb/</loc>
     <lastmod>2026-04-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://trtrf.github.io/grammar/base-part-of-speech/</loc>
+    <loc>https://trtrf.github.io/composition/_base_part_of_speech/</loc>
   </url><url>
-    <loc>https://trtrf.github.io/vocabulary/subject/</loc>
+    <loc>https://trtrf.github.io/realization/subject/</loc>
   </url><url>
-    <loc>https://trtrf.github.io/vocabulary/major/</loc>
+    <loc>https://trtrf.github.io/realization/major/</loc>
   </url><url>
-    <loc>https://trtrf.github.io/vocabulary/alphabet/</loc>
+    <loc>https://trtrf.github.io/realization/alphabet/</loc>
+  </url><url>
+    <loc>https://trtrf.github.io/composition/conjunction/</loc>
+  </url><url>
+    <loc>https://trtrf.github.io/realization/noun/</loc>
+  </url><url>
+    <loc>https://trtrf.github.io/realization/pronoun/</loc>
+  </url><url>
+    <loc>https://trtrf.github.io/composition/compound/</loc>
+  </url><url>
+    <loc>https://trtrf.github.io/composition/complex/</loc>
   </url><url>
     <loc>https://trtrf.github.io/</loc>
     <lastmod>2026-04-24T00:00:00+00:00</lastmod>
@@ -45,14 +53,14 @@
   </url><url>
     <loc>https://trtrf.github.io/categories/</loc>
   </url><url>
-    <loc>https://trtrf.github.io/grammar/</loc>
+    <loc>https://trtrf.github.io/composition/</loc>
+  </url><url>
+    <loc>https://trtrf.github.io/group/</loc>
+  </url><url>
+    <loc>https://trtrf.github.io/realization/</loc>
   </url><url>
     <loc>https://trtrf.github.io/search/</loc>
   </url><url>
-    <loc>https://trtrf.github.io/sentence/</loc>
-  </url><url>
     <loc>https://trtrf.github.io/tags/</loc>
-  </url><url>
-    <loc>https://trtrf.github.io/vocabulary/</loc>
   </url>
 </urlset>
